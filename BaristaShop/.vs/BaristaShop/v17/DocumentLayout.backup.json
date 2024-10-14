@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\baristashop.catalog\\baristashop.catalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:baristashop.catalog\\baristashop.catalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\baristashop.catalog\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:baristashop.catalog\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\baristashop.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:baristashop.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 159,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaristaShop.Catalog.csproj",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
+              "RelativeDocumentMoniker": "BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
+              "RelativeToolTip": "BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-14T08:56:16.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "BaristaShop.Catalog\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\Category.cs",
+              "RelativeToolTip": "BaristaShop.Catalog\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:56:12.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Program.cs",
+              "RelativeDocumentMoniker": "BaristaShop.Catalog\\Program.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Program.cs",
+              "RelativeToolTip": "BaristaShop.Catalog\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:55:00.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
