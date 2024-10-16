@@ -10,8 +10,9 @@ namespace BaristaShop.Catalog.Entities
         public string ProductId { get; set; }
         public string ProductName { get; set; }
 
-        [BsonIgnore]
         public string CategoryId { get; set; }
+
+        [BsonIgnore]
         public Category Category { get; set; }
     }
 }

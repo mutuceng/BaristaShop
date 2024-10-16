@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.Catalog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d04c4136f32aace59ae9c79e6c3e6674632be68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1509ca219a2882cc91fec98c1bd28d4b88f19f9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.Catalog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.Catalog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
