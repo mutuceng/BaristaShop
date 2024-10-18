@@ -3,120 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\baristashop.catalog\\entities\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:baristashop.catalog\\entities\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\baristashop.catalog\\entities\\productimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:baristashop.catalog\\entities\\productimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\services\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\services\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\baristashop.catalog\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:baristashop.catalog\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\baristashop.catalog\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:baristashop.catalog\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\controllers\\discountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\controllers\\discountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\baristashop.catalog\\baristashop.catalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:baristashop.catalog\\baristashop.catalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\baristashop.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5B4403E-1F9E-4E96-9963-D9FF54F150CD}|BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:baristashop.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 159,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductImages.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\ProductImages.cs",
-              "RelativeDocumentMoniker": "BaristaShop.Catalog\\Entities\\ProductImages.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\ProductImages.cs",
-              "RelativeToolTip": "BaristaShop.Catalog\\Entities\\ProductImages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:35:09.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\ProductDetail.cs",
-              "RelativeDocumentMoniker": "BaristaShop.Catalog\\Entities\\ProductDetail.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\ProductDetail.cs",
-              "RelativeToolTip": "BaristaShop.Catalog\\Entities\\ProductDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:15:59.66Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "BaristaShop.Catalog\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\Product.cs",
-              "RelativeToolTip": "BaristaShop.Catalog\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Context\\DapperContext.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Context\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Context\\DapperContext.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Context\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T13:50:49.372Z",
+              "WhenOpened": "2024-10-18T08:48:46.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BaristaShop.Catalog.csproj",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
-              "RelativeDocumentMoniker": "BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
-              "RelativeToolTip": "BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T08:56:16.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "BaristaShop.Catalog\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Entities\\Category.cs",
-              "RelativeToolTip": "BaristaShop.Catalog\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:56:12.065Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\appsettings.json",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\appsettings.json",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T08:48:12.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Program.cs",
-              "RelativeDocumentMoniker": "BaristaShop.Catalog\\Program.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\BaristaShop.Catalog\\Program.cs",
-              "RelativeToolTip": "BaristaShop.Catalog\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Program.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Program.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:55:00.095Z",
+              "WhenOpened": "2024-10-18T08:42:51.588Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiscountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Controllers\\DiscountsController.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Controllers\\DiscountsController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Controllers\\DiscountsController.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Controllers\\DiscountsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:28:26.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Services\\IDiscountService.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Services\\IDiscountService.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Services\\IDiscountService.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Services\\IDiscountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:09:52.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Services\\DiscountService.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Services\\DiscountService.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Services\\DiscountService.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Services\\DiscountService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:09:39.464Z",
+              "EditorCaption": ""
             }
           ]
         }

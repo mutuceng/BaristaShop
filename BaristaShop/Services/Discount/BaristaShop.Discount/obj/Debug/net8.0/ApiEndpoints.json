@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "BaristaShop.Discount.Controllers.DiscountsController",
+    "Method": "CouponList",
+    "RelativePath": "api/Discounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Discount.Controllers.DiscountsController",
+    "Method": "CreateCoupon",
+    "RelativePath": "api/Discounts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCouponDto",
+        "Type": "BaristaShop.Discount.Dtos.CouponDtos.CreateCouponDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Discount.Controllers.DiscountsController",
+    "Method": "UpdateCoupon",
+    "RelativePath": "api/Discounts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCouponDto",
+        "Type": "BaristaShop.Discount.Dtos.CouponDtos.UpdateCouponDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Discount.Controllers.DiscountsController",
+    "Method": "DeleteCoupon",
+    "RelativePath": "api/Discounts",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Discount.Controllers.DiscountsController",
+    "Method": "GetCouponById",
+    "RelativePath": "api/Discounts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
