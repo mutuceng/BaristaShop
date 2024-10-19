@@ -1,0 +1,6 @@
+@BaristaShop.Order.WebApi_HostAddress = http://localhost:5111
+
+GET {{BaristaShop.Order.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

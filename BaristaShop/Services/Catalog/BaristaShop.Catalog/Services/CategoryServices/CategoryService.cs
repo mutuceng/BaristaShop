@@ -38,16 +38,7 @@ namespace BaristaShop.Catalog.Services.CategoryServices
         public async Task<GetByIdCategoryDto> GetByIdCategoryAsync(string id)
         {
             var values = await _categoryCollection.Find<Category>(x => x.CategoryId == id).FirstOrDefaultAsync();
-            try
-            {
-                return _mapper.Map<GetByIdCategoryDto>(values);
-            }
-            catch (Exception ex)
-            {
-                // Hata mesajını daha detaylı inceleyin
-                Console.WriteLine(ex);
-                throw;
-            }
+            return _mapper.Map<GetByIdCategoryDto>(values);        
         }
 
         public async Task UpdateCategoryAsync(UpdateCategoryDto updateCategoryDto)
