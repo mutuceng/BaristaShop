@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\core\\baristashop.order.application\\features\\cqrs\\commands\\orderdetailcommands\\createorderdetailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|solutionrelative:services\\order\\core\\baristashop.order.application\\features\\cqrs\\commands\\orderdetailcommands\\createorderdetailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\presentation\\baristashop.order.webapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|solutionrelative:services\\order\\presentation\\baristashop.order.webapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\core\\baristashop.order.application\\features\\cqrs\\handlers\\addresshandlers\\getaddressqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|solutionrelative:services\\order\\core\\baristashop.order.application\\features\\cqrs\\handlers\\addresshandlers\\getaddressqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\presentation\\baristashop.order.webapi\\controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|solutionrelative:services\\order\\presentation\\baristashop.order.webapi\\controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\core\\baristashop.order.application\\features\\cqrs\\handlers\\orderdetailhandlers\\getorderdetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|solutionrelative:services\\order\\core\\baristashop.order.application\\features\\cqrs\\handlers\\orderdetailhandlers\\getorderdetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\presentation\\baristashop.order.webapi\\baristashop.order.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|solutionrelative:services\\order\\presentation\\baristashop.order.webapi\\baristashop.order.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\core\\baristashop.order.application\\features\\cqrs\\results\\orderdetailresults\\getorderdetailqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|solutionrelative:services\\order\\core\\baristashop.order.application\\features\\cqrs\\results\\orderdetailresults\\getorderdetailqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23F69B2E-1DDC-4857-A475-FEDE23B9CBFD}|Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\BaristaShop.Order.Persistence.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\infrastructure\\baristashop.order.persistence\\context\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F69B2E-1DDC-4857-A475-FEDE23B9CBFD}|Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\BaristaShop.Order.Persistence.csproj|solutionrelative:services\\order\\infrastructure\\baristashop.order.persistence\\context\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\core\\baristashop.order.application\\features\\cqrs\\commands\\orderdetailcommands\\updateorderdetailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|solutionrelative:services\\order\\core\\baristashop.order.application\\features\\cqrs\\commands\\orderdetailcommands\\updateorderdetailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\core\\baristashop.order.application\\features\\cqrs\\handlers\\orderdetailhandlers\\updateorderdetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C53D8E79-6CEF-4D28-B430-A827452DE05C}|Services\\Order\\Core\\BaristaShop.Order.Application\\BaristaShop.Order.Application.csproj|solutionrelative:services\\order\\core\\baristashop.order.application\\features\\cqrs\\handlers\\orderdetailhandlers\\updateorderdetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31DADB53-4AF5-4624-8BFA-C04523E9249D}|Services\\Order\\Core\\BaristaShop.Order.Domain\\BaristaShop.Order.Domain.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\core\\baristashop.order.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DADB53-4AF5-4624-8BFA-C04523E9249D}|Services\\Order\\Core\\BaristaShop.Order.Domain\\BaristaShop.Order.Domain.csproj|solutionrelative:services\\order\\core\\baristashop.order.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23F69B2E-1DDC-4857-A475-FEDE23B9CBFD}|Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\BaristaShop.Order.Persistence.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\infrastructure\\baristashop.order.persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F69B2E-1DDC-4857-A475-FEDE23B9CBFD}|Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\BaristaShop.Order.Persistence.csproj|solutionrelative:services\\order\\infrastructure\\baristashop.order.persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetOrderDetailQueryResult.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Results\\OrderDetailResults\\GetOrderDetailQueryResult.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Results\\OrderDetailResults\\GetOrderDetailQueryResult.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Results\\OrderDetailResults\\GetOrderDetailQueryResult.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Results\\OrderDetailResults\\GetOrderDetailQueryResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:15:03.929Z",
+              "WhenOpened": "2024-10-21T09:52:11.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetAddressQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\AddressHandlers\\GetAddressQueryHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\AddressHandlers\\GetAddressQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\AddressHandlers\\GetAddressQueryHandler.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\AddressHandlers\\GetAddressQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABOAAAAAAAAAA==",
+              "Title": "AddressesController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\AddressesController.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\AddressesController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\AddressesController.cs",
+              "RelativeToolTip": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\AddressesController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:14:20.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T09:39:46.828Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetOrderDetailQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\OrderDetailHandlers\\GetOrderDetailQueryHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\OrderDetailHandlers\\GetOrderDetailQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\OrderDetailHandlers\\GetOrderDetailQueryHandler.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\OrderDetailHandlers\\GetOrderDetailQueryHandler.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAoAAAABAAAAAAAAAA==",
+              "Title": "BaristaShop.Order.WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj",
+              "RelativeDocumentMoniker": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj",
+              "RelativeToolTip": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-21T09:37:09.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderContext.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Context\\OrderContext.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Context\\OrderContext.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Context\\OrderContext.cs",
+              "RelativeToolTip": "Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Context\\OrderContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:05:06.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T09:26:25.212Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UpdateOrderDetailCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Commands\\OrderDetailCommands\\UpdateOrderDetailCommand.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Commands\\OrderDetailCommands\\UpdateOrderDetailCommand.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Commands\\OrderDetailCommands\\UpdateOrderDetailCommand.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Commands\\OrderDetailCommands\\UpdateOrderDetailCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:04:19.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateOrderDetailCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\OrderDetailHandlers\\UpdateOrderDetailCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\OrderDetailHandlers\\UpdateOrderDetailCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\OrderDetailHandlers\\UpdateOrderDetailCommandHandler.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Handlers\\OrderDetailHandlers\\UpdateOrderDetailCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T13:54:02.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateOrderDetailCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Commands\\OrderDetailCommands\\CreateOrderDetailCommand.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Commands\\OrderDetailCommands\\CreateOrderDetailCommand.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Commands\\OrderDetailCommands\\CreateOrderDetailCommand.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\BaristaShop.Order.Application\\Features\\CQRS\\Commands\\OrderDetailCommands\\CreateOrderDetailCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T13:49:12.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Domain\\Entities\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\BaristaShop.Order.Domain\\Entities\\OrderDetail.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Core\\BaristaShop.Order.Domain\\Entities\\OrderDetail.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\BaristaShop.Order.Domain\\Entities\\OrderDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T13:47:14.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "WhenOpened": "2024-10-21T09:26:18.421Z"
             }
           ]
         }

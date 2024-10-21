@@ -13,6 +13,7 @@ namespace BaristaShop.Order.Persistence.Context
         // yine domain katmanını ekledim
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            optionsBuilder.UseNpgsql("Host=localhost; port=5432; Database=BaristaShopOrderDb; Username=postgres; Password=admin123D!");
             base.OnConfiguring(optionsBuilder);
         }
 
