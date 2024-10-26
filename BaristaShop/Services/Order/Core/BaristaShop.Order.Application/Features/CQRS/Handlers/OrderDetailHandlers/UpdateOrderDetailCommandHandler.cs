@@ -28,6 +28,7 @@ namespace BaristaShop.Order.Application.Features.CQRS.Handlers.OrderDetailHandle
             value.ProductAmount = command.ProductAmount;
             value.OrderingId = command.OrderingId;
             value.OrderDetailId = command.OrderDetailId;
+            await _repository.UpdateAsync(value);
         }
     }
 }

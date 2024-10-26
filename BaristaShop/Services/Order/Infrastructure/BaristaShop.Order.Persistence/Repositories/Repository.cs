@@ -14,6 +14,12 @@ namespace BaristaShop.Order.Persistence.Repositories
     {
         // Daha önce olusturdugumuz repository interface'ine ihtiyacımız var o yüzden application'ı da reference olarak ekliyorum.
         private readonly OrderContext _context;
+
+        public Repository(OrderContext context)
+        {
+            _context = context;
+        }
+
         public async Task CreateAsync(T entity)
         {
             _context.Set<T>().Add(entity);

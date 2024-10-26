@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oU1cwvO6ke+htzSWqBQxp8cKHG9DqdcyuptbEj4mrxE=",
+  "Source": "BaristaShop.Order.WebApi",
+  "BasePath": "_content/BaristaShop.Order.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

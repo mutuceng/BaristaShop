@@ -1,0 +1,16 @@
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\bin\Debug\net8.0\BaristaShop.Order.Application.deps.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\bin\Debug\net8.0\BaristaShop.Order.Application.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\bin\Debug\net8.0\BaristaShop.Order.Application.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\bin\Debug\net8.0\BaristaShop.Order.Domain.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\bin\Debug\net8.0\BaristaShop.Order.Domain.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\BaristaShop.Order.Application.csproj.AssemblyReference.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\BaristaShop.Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\BaristaShop.Order.Application.AssemblyInfoInputs.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\BaristaShop.Order.Application.AssemblyInfo.cs
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\BaristaShop.Order.Application.csproj.CoreCompileInputs.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\BaristaShop.Order.Application.sourcelink.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\BaristaS.16ACF367.Up2Date
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\BaristaShop.Order.Application.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\refint\BaristaShop.Order.Application.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\BaristaShop.Order.Application.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Order\Core\BaristaShop.Order.Application\obj\Debug\net8.0\ref\BaristaShop.Order.Application.dll

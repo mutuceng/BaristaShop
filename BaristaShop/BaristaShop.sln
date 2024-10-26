@@ -21,13 +21,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{21E94137-0BA9-438E-9628-CF4CCBFE9255}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.Order.Domain", "Services\Order\Core\BaristaShop.Order.Domain\BaristaShop.Order.Domain.csproj", "{31DADB53-4AF5-4624-8BFA-C04523E9249D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Order.Domain", "Services\Order\Core\BaristaShop.Order.Domain\BaristaShop.Order.Domain.csproj", "{31DADB53-4AF5-4624-8BFA-C04523E9249D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.Order.Application", "Services\Order\Core\BaristaShop.Order.Application\BaristaShop.Order.Application.csproj", "{C53D8E79-6CEF-4D28-B430-A827452DE05C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Order.Application", "Services\Order\Core\BaristaShop.Order.Application\BaristaShop.Order.Application.csproj", "{C53D8E79-6CEF-4D28-B430-A827452DE05C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.Order.Persistence", "Services\Order\Infrastructure\BaristaShop.Order.Persistence\BaristaShop.Order.Persistence.csproj", "{23F69B2E-1DDC-4857-A475-FEDE23B9CBFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Order.Persistence", "Services\Order\Infrastructure\BaristaShop.Order.Persistence\BaristaShop.Order.Persistence.csproj", "{23F69B2E-1DDC-4857-A475-FEDE23B9CBFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.Order.WebApi", "Services\Order\Presentation\BaristaShop.Order.WebApi\BaristaShop.Order.WebApi.csproj", "{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Order.WebApi", "Services\Order\Presentation\BaristaShop.Order.WebApi\BaristaShop.Order.WebApi.csproj", "{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{5BEC261E-B1C3-499F-9F9D-C16BDAF1BB0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.IdentityServer", "IdentityServer\BaristaShop.IdentityServer\BaristaShop.IdentityServer.csproj", "{9F319337-D789-4AF1-AFA3-42CBC19121F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F319337-D789-4AF1-AFA3-42CBC19121F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F319337-D789-4AF1-AFA3-42CBC19121F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F319337-D789-4AF1-AFA3-42CBC19121F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F319337-D789-4AF1-AFA3-42CBC19121F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,7 @@ Global
 		{C53D8E79-6CEF-4D28-B430-A827452DE05C} = {7C0644DB-726D-4238-B82E-2993B46A4053}
 		{23F69B2E-1DDC-4857-A475-FEDE23B9CBFD} = {94F363E9-3946-4E60-BD4E-175A408F7690}
 		{267F368F-F5B9-40CC-8E5E-659F64EB5EFB} = {21E94137-0BA9-438E-9628-CF4CCBFE9255}
+		{9F319337-D789-4AF1-AFA3-42CBC19121F2} = {5BEC261E-B1C3-499F-9F9D-C16BDAF1BB0D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EBD5B75-050D-4599-BD83-5A700094D410}

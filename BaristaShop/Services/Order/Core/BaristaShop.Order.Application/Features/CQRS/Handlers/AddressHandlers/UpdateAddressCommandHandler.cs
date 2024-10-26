@@ -26,6 +26,7 @@ namespace BaristaShop.Order.Application.Features.CQRS.Handlers.AddressHandlers
             value.District = command.District;
             value.City = command.City;
             value.Detail = command.Detail;
+            await _repository.UpdateAsync(value);
         }
     }
 }

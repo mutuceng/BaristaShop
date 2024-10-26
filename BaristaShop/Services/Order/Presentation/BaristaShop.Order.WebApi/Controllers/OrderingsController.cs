@@ -22,16 +22,16 @@ namespace BaristaShop.Order.WebApi.Controllers
         public async Task<IActionResult> OrderingList()
         {
             var values = await _mediator.Send(new GetOrderingQuery());
-            // send ile request göndiyoruz
+            // send ile request gönderiyoruz
             // send'in içerisindeki parametre IRequest'ten miras alan parametre olmalı
             // parametreye tıklarsan
             return Ok(values);
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetOrderingById(int i)
+        public async Task<IActionResult> GetOrderingById(int id)
         {
-            var value = await _mediator.Send(new GetOrderingByIdQuery(i));
+            var value = await _mediator.Send(new GetOrderingByIdQuery(id));
             return Ok(value);
         }
 

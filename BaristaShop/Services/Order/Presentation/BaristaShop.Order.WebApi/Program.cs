@@ -2,9 +2,12 @@ using BaristaShop.Order.Application.Features.CQRS.Handlers.AddressHandlers;
 using BaristaShop.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers;
 using BaristaShop.Order.Application.Interfaces;
 using BaristaShop.Order.Application.Services;
+using BaristaShop.Order.Persistence.Context;
 using BaristaShop.Order.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<OrderContext>();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddApplicationService(builder.Configuration);
