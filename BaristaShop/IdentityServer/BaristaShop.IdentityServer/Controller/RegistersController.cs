@@ -3,6 +3,8 @@ using BaristaShop.IdentityServer.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace BaristaShop.IdentityServer.Controller
 {
@@ -22,21 +24,21 @@ namespace BaristaShop.IdentityServer.Controller
         {
             var values = new ApplicationUser()
             {
-                UserName = userRegisterDto.Username,
-                Email = userRegisterDto.Email,
+                UserName = userRegisterDto.UserName,
                 Name = userRegisterDto.Name,
+                Email = userRegisterDto.Email,
                 Surname = userRegisterDto.Surname,
-                PhoneNumber = userRegisterDto.Phone,
+                PhoneNumber = userRegisterDto.Phone
             };
 
             var result = await _userManager.CreateAsync(values, userRegisterDto.Password);
             if (result.Succeeded)
             {
-                return Ok("New user added successfully.");
+                return Ok("User successfully registered");
             }
             else
             {
-                return BadRequest("User couldn't be added");
+                return BadRequest(result.Errors.Select(e => e.Description)); ;
             }
         }
     }

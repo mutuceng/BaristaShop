@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\baristashop.identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\baristashop.identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\controller\\registerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\controller\\registerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F319337-D789-4AF1-AFA3-42CBC19121F2}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,115 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaristaShop.IdentityServer",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-26T11:05:24.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Startup.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Startup.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Startup.cs",
+              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Startup.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:46:58.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegistersController.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Controller\\RegistersController.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Controller\\RegistersController.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Controller\\RegistersController.cs",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Controller\\RegistersController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvyAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:38:46.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Dtos\\UserRegisterDto.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Dtos\\UserRegisterDto.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Dtos\\UserRegisterDto.cs",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Dtos\\UserRegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:36:14.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HostingExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\HostingExtensions.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\HostingExtensions.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\HostingExtensions.cs",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\HostingExtensions.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:14:21.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Program.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Program.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Program.cs",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:14:08.285Z",
+              "WhenOpened": "2024-10-27T10:49:42.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\appsettings.json",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\appsettings.json",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\appsettings.json",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-26T10:11:53.021Z",
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Config.cs*",
+              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Config.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwEwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T08:33:42.18Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:11:20.79Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.Order.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e7c5c43b5b686e016a3edc4a820c027a75a1005")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bc8f1b92f5f81565cf2c2f030e90b008ce5df9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.Order.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.Order.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -48,7 +48,6 @@ namespace BaristaShop.IdentityServer.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("NormalizedEmail")
@@ -72,7 +71,6 @@ namespace BaristaShop.IdentityServer.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Surname")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<bool>("TwoFactorEnabled")
