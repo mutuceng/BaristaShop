@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\presentation\\baristashop.order.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|solutionrelative:services\\order\\presentation\\baristashop.order.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\presentation\\baristashop.order.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|solutionrelative:services\\order\\presentation\\baristashop.order.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\presentation\\baristashop.order.webapi\\controllers\\orderingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|solutionrelative:services\\order\\presentation\\baristashop.order.webapi\\controllers\\orderingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\presentation\\baristashop.order.webapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|solutionrelative:services\\order\\presentation\\baristashop.order.webapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\presentation\\baristashop.order.webapi\\controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|solutionrelative:services\\order\\presentation\\baristashop.order.webapi\\controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|NewFolder1{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|NewFolder1{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|solutionrelative:Ports.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\presentation\\baristashop.order.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{267F368F-F5B9-40CC-8E5E-659F64EB5EFB}|Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj|solutionrelative:services\\order\\presentation\\baristashop.order.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderingsController.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderingsController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderingsController.cs",
+              "RelativeToolTip": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:28:58.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:28:54.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressesController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\AddressesController.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\AddressesController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\AddressesController.cs",
+              "RelativeToolTip": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Controllers\\AddressesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:28:43.758Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Startup.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Startup.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Startup.cs",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Startup.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:49:42.118Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\appsettings.json",
+              "RelativeToolTip": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T19:25:26.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Config.cs*",
-              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Config.cs*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAQwEwAAAANAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Program.cs",
+              "RelativeToolTip": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T08:33:42.18Z",
+              "WhenOpened": "2024-10-27T19:25:07.572Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T19:23:46.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ports.txt",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt",
+              "RelativeDocumentMoniker": "Ports.txt",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt",
+              "RelativeToolTip": "Ports.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-27T19:10:07.97Z",
+              "EditorCaption": ""
             }
           ]
         }

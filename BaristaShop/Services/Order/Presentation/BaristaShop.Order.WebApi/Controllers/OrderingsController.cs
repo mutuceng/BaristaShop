@@ -1,12 +1,14 @@
 ﻿using BaristaShop.Order.Application.Features.Mediator.Commands.OrderingCommands;
 using BaristaShop.Order.Application.Features.Mediator.Queries.OrderingQueries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Formats.Asn1;
 
 namespace BaristaShop.Order.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderingsController : ControllerBase

@@ -1,0 +1,6 @@
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+{
+    opt.Authority = builder.Configuration["IdentityServerUrl"];
+    opt.Audience = "Resource{Service}";
+    opt.RequireHttpsMetadata = false;
+});

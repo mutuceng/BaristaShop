@@ -38,3 +38,11 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaS
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\obj\Debug\net8.0\BaristaShop.Catalog.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\obj\Debug\net8.0\BaristaShop.Catalog.genruntimeconfig.cache
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\obj\Debug\net8.0\ref\BaristaShop.Catalog.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

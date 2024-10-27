@@ -33,6 +33,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.IdentityServer", "IdentityServer\BaristaShop.IdentityServer\BaristaShop.IdentityServer.csproj", "{29BD90A3-D03D-462D-A53A-C99A06A4660D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}"
+	ProjectSection(SolutionItems) = preProject
+		IdentityServer.txt = IdentityServer.txt
+		JWTBearer.txt = JWTBearer.txt
+		Portainer.txt = Portainer.txt
+		Ports.txt = Ports.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.Discount")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bc8f1b92f5f81565cf2c2f030e90b008ce5df9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59152d4ec508527683bde44bdd536c61aefafb6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.Discount")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.Discount")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

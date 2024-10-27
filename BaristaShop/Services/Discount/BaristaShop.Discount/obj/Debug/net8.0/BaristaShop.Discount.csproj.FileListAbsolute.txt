@@ -142,3 +142,4 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\Barista
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\BaristaShop.Discount.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\BaristaShop.Discount.genruntimeconfig.cache
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\ref\BaristaShop.Discount.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

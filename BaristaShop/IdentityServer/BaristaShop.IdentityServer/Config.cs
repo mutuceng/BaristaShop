@@ -15,7 +15,8 @@ namespace BaristaShop.IdentityServer
         {
             new ApiResource("ResourceCatalog") { Scopes = {"CatalogFullPermission","CatalogReadPermission"} },
             new ApiResource("ResourceDiscount") { Scopes = {"DiscountFullPermission"} },
-            new ApiResource("ResourceOrder") { Scopes = {"OrderFullPermission","OrderReadPermission"} }
+            new ApiResource("ResourceOrder") { Scopes = {"OrderFullPermission","OrderReadPermission"} },
+            new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
         public static IEnumerable<IdentityResource> IdentityResources => new IdentityResource[]
@@ -31,7 +32,8 @@ namespace BaristaShop.IdentityServer
             new ApiScope("CatalogReadPermission","Has only read permission for catalog operations"),
             new ApiScope("DiscountFullPermission","Has full authority for discount operations"),
             new ApiScope("OrderFullPermission","Has full authority for order operations"),
-            new ApiScope("OrderReadPermission","Has only read permission for order operations")
+            new ApiScope("OrderReadPermission","Has only read permission for order operations"),
+            new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
         };
 
         // Client'lar
@@ -67,7 +69,7 @@ namespace BaristaShop.IdentityServer
                 ClientSecrets = { new Secret( "baristashopsecret".Sha256()) },              
                 AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission", 
                 // AllowedScopes'un içerisine yazmaya devam ediyorum.
-                IdentityServerConstants.LocalApi.ScopeName,
+                IdentityServerConstants.LocalApi.ScopeName, // bu identity service'ı için yetki veriyor.
                 IdentityServerConstants.StandardScopes.OpenId,
                 IdentityServerConstants.StandardScopes.Email,
                 IdentityServerConstants.StandardScopes.Profile
