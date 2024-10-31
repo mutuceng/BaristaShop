@@ -1,0 +1,15 @@
+-> dotnet new -i identityserver4.templates
+
+  proje oluþtururken
+
+=>    dotnet new is4aspid --name BaristaShop.IdentityServer
+
+Oluþturma sonrasý eylemleri iþleniyor...
+
+Þablon þu eylemi çalýþtýracak þekilde yapýlandýrýldý:
+
+Güncel komut: dotnet run /seed
+
+Bu eylemi çalýþtýrmak istiyor musunuz [Y(evet)|N(hayýr)]?
+
+=> n

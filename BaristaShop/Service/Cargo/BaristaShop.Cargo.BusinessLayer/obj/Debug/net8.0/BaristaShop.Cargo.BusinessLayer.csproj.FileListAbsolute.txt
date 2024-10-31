@@ -1,0 +1,12 @@
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\bin\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.deps.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\bin\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\bin\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.AssemblyInfo.cs
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.sourcelink.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\refint\BaristaShop.Cargo.BusinessLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\ref\BaristaShop.Cargo.BusinessLayer.dll

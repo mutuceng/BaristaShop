@@ -1,0 +1,15 @@
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\bin\Debug\net8.0\BaristaShop.Cargo.EntityLayer.deps.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\bin\Debug\net8.0\BaristaShop.Cargo.EntityLayer.runtimeconfig.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\bin\Debug\net8.0\BaristaShop.Cargo.EntityLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\bin\Debug\net8.0\BaristaShop.Cargo.EntityLayer.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\BaristaShop.Cargo.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\BaristaShop.Cargo.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\BaristaShop.Cargo.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\BaristaShop.Cargo.EntityLayer.AssemblyInfo.cs
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\BaristaShop.Cargo.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\BaristaShop.Cargo.EntityLayer.sourcelink.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\BaristaShop.Cargo.EntityLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\refint\BaristaShop.Cargo.EntityLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\BaristaShop.Cargo.EntityLayer.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\BaristaShop.Cargo.EntityLayer.genruntimeconfig.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.EntityLayer\obj\Debug\net8.0\ref\BaristaShop.Cargo.EntityLayer.dll
