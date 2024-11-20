@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace BaristaShop.Cargo.DataAccessLayer.Abstract
 {
-    public interface IShipmentOperationDal : GenericRepository<ShipmentOperation>, 
+    public interface IShipmentOperationDal : IGenericDal<ShipmentOperation>
     {
+
     }
 }

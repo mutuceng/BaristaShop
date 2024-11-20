@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaristaShop.Cargo.DataAccessLayer.Mapping
+namespace BaristaShop.Cargo.BusinessLayer.Mapping
 {
     public class GeneralMapping:Profile
     {
@@ -19,8 +19,6 @@ namespace BaristaShop.Cargo.DataAccessLayer.Mapping
         {
             CreateMap<CargoCompany, CreateCargoCompanyDto>().ReverseMap();
             CreateMap<CargoCompany, UpdateCargoCompanyDto>().ReverseMap();
-            CreateMap<CargoCompany, GetByIdCargoCompanyDto>().ReverseMap();
-            CreateMap<CargoCompany, ResultCargoCompanyDto>().ReverseMap();
 
             CreateMap<CargoCustomer, CreateCargoCustomerDto>().ReverseMap();
             CreateMap<CargoCustomer,  UpdateCargoCustomerDto>().ReverseMap();

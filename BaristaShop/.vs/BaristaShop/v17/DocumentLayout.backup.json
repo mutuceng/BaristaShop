@@ -3,50 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19D123A1-AA40-48EA-88B5-EC37D8360DE2}|Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\BaristaShop.Cargo.DataAccessLayer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\service\\cargo\\baristashop.cargo.dataaccesslayer\\concrete\\cargocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19D123A1-AA40-48EA-88B5-EC37D8360DE2}|Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\BaristaShop.Cargo.DataAccessLayer.csproj|solutionrelative:service\\cargo\\baristashop.cargo.dataaccesslayer\\concrete\\cargocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F76EC745-D279-46E0-9541-52A172C891DC}|Service\\Cargo\\BaristaShop.Cargo.WebApi\\BaristaShop.Cargo.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\service\\cargo\\baristashop.cargo.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76EC745-D279-46E0-9541-52A172C891DC}|Service\\Cargo\\BaristaShop.Cargo.WebApi\\BaristaShop.Cargo.WebApi.csproj|solutionrelative:service\\cargo\\baristashop.cargo.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19D123A1-AA40-48EA-88B5-EC37D8360DE2}|Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\BaristaShop.Cargo.DataAccessLayer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\service\\cargo\\baristashop.cargo.dataaccesslayer\\migrations\\20241031053439_mig-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19D123A1-AA40-48EA-88B5-EC37D8360DE2}|Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\BaristaShop.Cargo.DataAccessLayer.csproj|solutionrelative:service\\cargo\\baristashop.cargo.dataaccesslayer\\migrations\\20241031053439_mig-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\service\\cargo\\baristashop.cargo.entitylayer\\concrete\\shipmentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|solutionrelative:service\\cargo\\baristashop.cargo.entitylayer\\concrete\\shipmentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\service\\cargo\\baristashop.cargo.entitylayer\\concrete\\shippingbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|solutionrelative:service\\cargo\\baristashop.cargo.entitylayer\\concrete\\shippingbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F69B2E-1DDC-4857-A475-FEDE23B9CBFD}|Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\BaristaShop.Order.Persistence.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\order\\infrastructure\\baristashop.order.persistence\\context\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F69B2E-1DDC-4857-A475-FEDE23B9CBFD}|Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\BaristaShop.Order.Persistence.csproj|solutionrelative:services\\order\\infrastructure\\baristashop.order.persistence\\context\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|Requirements{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|Requirements{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|solutionrelative:Ports.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\service\\cargo\\baristashop.cargo.entitylayer\\concrete\\cargocompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|solutionrelative:service\\cargo\\baristashop.cargo.entitylayer\\concrete\\cargocompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\service\\cargo\\baristashop.cargo.entitylayer\\concrete\\cargocustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|solutionrelative:service\\cargo\\baristashop.cargo.entitylayer\\concrete\\cargocustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\service\\cargo\\baristashop.cargo.entitylayer\\concrete\\shipmentoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}|Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\BaristaShop.Cargo.EntityLayer.csproj|solutionrelative:service\\cargo\\baristashop.cargo.entitylayer\\concrete\\shipmentoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 317,
+      "VerticalTabListWidth": 181,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,119 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20241031053439_mig-1.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\Migrations\\20241031053439_mig-1.cs",
-              "RelativeDocumentMoniker": "Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\Migrations\\20241031053439_mig-1.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\Migrations\\20241031053439_mig-1.cs",
-              "RelativeToolTip": "Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\Migrations\\20241031053439_mig-1.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T05:34:39.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ports.txt",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt",
-              "RelativeDocumentMoniker": "Ports.txt",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt",
-              "RelativeToolTip": "Ports.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-31T05:17:37.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderContext.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Context\\OrderContext.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Context\\OrderContext.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Context\\OrderContext.cs",
-              "RelativeToolTip": "Services\\Order\\Infrastructure\\BaristaShop.Order.Persistence\\Context\\OrderContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T05:17:18.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CargoContext.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
-              "RelativeDocumentMoniker": "Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
-              "RelativeToolTip": "Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAACeAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Service\\Cargo\\BaristaShop.Cargo.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.WebApi\\Program.cs",
+              "RelativeToolTip": "Service\\Cargo\\BaristaShop.Cargo.WebApi\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T05:13:04.295Z",
+              "WhenOpened": "2024-11-20T17:32:41.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShippingBill.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShippingBill.cs",
-              "RelativeDocumentMoniker": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShippingBill.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShippingBill.cs",
-              "RelativeToolTip": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShippingBill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
+              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:16:41.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CargoCustomer.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\CargoCustomer.cs",
-              "RelativeDocumentMoniker": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\CargoCustomer.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\CargoCustomer.cs",
-              "RelativeToolTip": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\CargoCustomer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:38:18.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ShipmentOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShipmentOperation.cs",
-              "RelativeDocumentMoniker": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShipmentOperation.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShipmentOperation.cs",
-              "RelativeToolTip": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShipmentOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:05:12.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShipmentDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShipmentDetail.cs",
-              "RelativeDocumentMoniker": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShipmentDetail.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShipmentDetail.cs",
-              "RelativeToolTip": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\ShipmentDetail.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwB4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:33:53.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CargoCompany.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\CargoCompany.cs",
-              "RelativeDocumentMoniker": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\CargoCompany.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\CargoCompany.cs",
-              "RelativeToolTip": "Service\\Cargo\\BaristaShop.Cargo.EntityLayer\\Concrete\\CargoCompany.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:33:38.777Z",
+              "WhenOpened": "2024-11-20T17:28:09.774Z",
               "EditorCaption": ""
             }
           ]

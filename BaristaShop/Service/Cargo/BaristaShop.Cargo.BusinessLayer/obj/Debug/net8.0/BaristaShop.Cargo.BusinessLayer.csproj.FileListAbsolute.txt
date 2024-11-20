@@ -10,3 +10,11 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\refint\BaristaShop.Cargo.BusinessLayer.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\ref\BaristaShop.Cargo.BusinessLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\bin\Debug\net8.0\BaristaShop.Cargo.DataAccessLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\bin\Debug\net8.0\BaristaShop.Cargo.DtoLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\bin\Debug\net8.0\BaristaShop.Cargo.EntityLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\bin\Debug\net8.0\BaristaShop.Cargo.DataAccessLayer.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\bin\Debug\net8.0\BaristaShop.Cargo.DtoLayer.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\bin\Debug\net8.0\BaristaShop.Cargo.EntityLayer.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaShop.Cargo.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.BusinessLayer\obj\Debug\net8.0\BaristaS.130AD1D3.Up2Date

@@ -43,15 +43,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirement
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{821D590F-1378-40A0-BFB3-E2053CE166D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.Cargo.EntityLayer", "Service\Cargo\BaristaShop.Cargo.EntityLayer\BaristaShop.Cargo.EntityLayer.csproj", "{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Cargo.EntityLayer", "Service\Cargo\BaristaShop.Cargo.EntityLayer\BaristaShop.Cargo.EntityLayer.csproj", "{B86E2FD5-90BC-498E-B9B8-5AAE6BE4FA25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.Cargo.BusinessLayer", "Service\Cargo\BaristaShop.Cargo.BusinessLayer\BaristaShop.Cargo.BusinessLayer.csproj", "{C722DA3A-58DC-4B33-BB0C-B80D2DFA6114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Cargo.BusinessLayer", "Service\Cargo\BaristaShop.Cargo.BusinessLayer\BaristaShop.Cargo.BusinessLayer.csproj", "{C722DA3A-58DC-4B33-BB0C-B80D2DFA6114}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.Cargo.DataAccessLayer", "Service\Cargo\BaristaShop.Cargo.DataAccessLayer\BaristaShop.Cargo.DataAccessLayer.csproj", "{19D123A1-AA40-48EA-88B5-EC37D8360DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Cargo.DataAccessLayer", "Service\Cargo\BaristaShop.Cargo.DataAccessLayer\BaristaShop.Cargo.DataAccessLayer.csproj", "{19D123A1-AA40-48EA-88B5-EC37D8360DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.Cargo.DtoLayer", "Service\Cargo\BaristaShop.Cargo.DtoLayer\BaristaShop.Cargo.DtoLayer.csproj", "{82F9A4E8-AB02-45A6-91CA-4ACB91CF0C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Cargo.DtoLayer", "Service\Cargo\BaristaShop.Cargo.DtoLayer\BaristaShop.Cargo.DtoLayer.csproj", "{82F9A4E8-AB02-45A6-91CA-4ACB91CF0C86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.Cargo.WebApi", "Service\Cargo\BaristaShop.Cargo.WebApi\BaristaShop.Cargo.WebApi.csproj", "{F76EC745-D279-46E0-9541-52A172C891DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Cargo.WebApi", "Service\Cargo\BaristaShop.Cargo.WebApi\BaristaShop.Cargo.WebApi.csproj", "{F76EC745-D279-46E0-9541-52A172C891DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{F7C53D6E-E266-4675-B468-029C6A6E7583}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,7 @@ Global
 		{19D123A1-AA40-48EA-88B5-EC37D8360DE2} = {821D590F-1378-40A0-BFB3-E2053CE166D0}
 		{82F9A4E8-AB02-45A6-91CA-4ACB91CF0C86} = {821D590F-1378-40A0-BFB3-E2053CE166D0}
 		{F76EC745-D279-46E0-9541-52A172C891DC} = {821D590F-1378-40A0-BFB3-E2053CE166D0}
+		{F7C53D6E-E266-4675-B468-029C6A6E7583} = {17962BF9-C760-408E-B115-A8B7DDF24E51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EBD5B75-050D-4599-BD83-5A700094D410}

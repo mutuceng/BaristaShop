@@ -5,10 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaristaShop.Cargo.DataAccessLayer.Abstract
+namespace BaristaShop.Cargo.BusinessLayer.Abstract
 {
-    public interface IShippingtBill:IGenericDal<ShippingBill>
+    public interface IShipmentDetailService : IGenericService<ShipmentDetail>
     {
-
     }
 }

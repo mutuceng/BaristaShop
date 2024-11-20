@@ -14,3 +14,5 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.DataAccessLayer\obj\Debug\net8.0\refint\BaristaShop.Cargo.DataAccessLayer.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.DataAccessLayer\obj\Debug\net8.0\BaristaShop.Cargo.DataAccessLayer.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.DataAccessLayer\obj\Debug\net8.0\ref\BaristaShop.Cargo.DataAccessLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.DataAccessLayer\bin\Debug\net8.0\BaristaShop.Cargo.DtoLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Service\Cargo\BaristaShop.Cargo.DataAccessLayer\bin\Debug\net8.0\BaristaShop.Cargo.DtoLayer.pdb

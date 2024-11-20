@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.Cargo.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f350d82f77190a21cc573e8ba586bb91e7e5f53f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+559fd542f79ce6350aee49d6cd3706f73bd643c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.Cargo.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.Cargo.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

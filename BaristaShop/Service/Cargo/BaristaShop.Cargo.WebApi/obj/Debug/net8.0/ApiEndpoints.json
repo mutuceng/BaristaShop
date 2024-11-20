@@ -1,0 +1,372 @@
+[
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "CargoCompanyListAsync",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "CreateCargoCompany",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCargoCompanyDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.CargoCompanyDto.CreateCargoCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "UpdateCargoCompany",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCargoCompanyDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.CargoCompanyDto.UpdateCargoCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "GetByIdCargoCompany",
+    "RelativePath": "api/CargoCompany/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "DeleteCargoCompany",
+    "RelativePath": "api/CargoCompany/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "CargoCustomerListAsync",
+    "RelativePath": "api/CargoCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "CreateCargoCostumer",
+    "RelativePath": "api/CargoCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCargoCustomerDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.CargoCostumerDto.CreateCargoCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "UpateCargoCostumer",
+    "RelativePath": "api/CargoCustomer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCargoCustomerDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.CargoCostumerDto.UpdateCargoCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "CargoCustomerGetById",
+    "RelativePath": "api/CargoCustomer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "DeleteCargoCustomer",
+    "RelativePath": "api/CargoCustomer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentDetailController",
+    "Method": "ShipmentDetailListAsync",
+    "RelativePath": "api/ShipmentDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentDetailController",
+    "Method": "CreateShipmentDetail",
+    "RelativePath": "api/ShipmentDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createShipmentDetailDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.ShippingDetailDto.CreateShipmentDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentDetailController",
+    "Method": "UpdateShipmentDetail",
+    "RelativePath": "api/ShipmentDetail",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateShipmentDetailDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.ShippingDetailDto.UpdateShipmentDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentDetailController",
+    "Method": "GetByIdShipmentDetail",
+    "RelativePath": "api/ShipmentDetail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentDetailController",
+    "Method": "DeleteShipmentDetail",
+    "RelativePath": "api/ShipmentDetail/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentOperationController",
+    "Method": "ShipmentOperationListAsync",
+    "RelativePath": "api/ShipmentOperation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentOperationController",
+    "Method": "CreateShipmentOperation",
+    "RelativePath": "api/ShipmentOperation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createShipmentOperationDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.ShippingOperationDto.CreateShipmentOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentOperationController",
+    "Method": "UpdateShipmentDetail",
+    "RelativePath": "api/ShipmentOperation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateShipmentOperationDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.ShippingOperationDto.UpdateShipmentOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentOperationController",
+    "Method": "GetByIdShipmentOperation",
+    "RelativePath": "api/ShipmentOperation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShipmentOperationController",
+    "Method": "DeleteShipmentOperation",
+    "RelativePath": "api/ShipmentOperation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShippingBillController",
+    "Method": "ShippingBillListAsync",
+    "RelativePath": "api/ShippingBill",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShippingBillController",
+    "Method": "CreateShippingBill",
+    "RelativePath": "api/ShippingBill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createShippingBillDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.ShippingBillDto.CreateShippingBillDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShippingBillController",
+    "Method": "UpdateShipmentDetail",
+    "RelativePath": "api/ShippingBill",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateShippingBillDto",
+        "Type": "BaristaShop.Cargo.DtoLayer.Dtos.ShippingBillDto.UpdateShippingBillDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShippingBillController",
+    "Method": "GetByIdShippingBill",
+    "RelativePath": "api/ShippingBill/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Cargo.WebApi.Controllers.ShippingBillController",
+    "Method": "DeleteShippingBill",
+    "RelativePath": "api/ShippingBill/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -2,3 +2,4 @@ Identity   ---> http://localhost:5001
 Catalog    ---> https://localhost:7080
 Discount   ---> https://localhost:7081
 Order      ---> https://localhost:7082
+Cargo      ---> https://localhost:7083

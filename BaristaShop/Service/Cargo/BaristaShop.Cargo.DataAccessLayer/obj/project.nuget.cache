@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "JedWvug/rIg=",
+  "dgSpecHash": "6G/P3fKIJlw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.DataAccessLayer\\BaristaShop.Cargo.DataAccessLayer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Umutl\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Umutl\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Umutl\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Umutl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BaristaShop.Cargo.DataAccessLayer.EntityFramework
 {
-    public class EfShippingBillDal : GenericRepository<ShippingBill>, IShippingtBillDal
+    public class EfShippingBillDal : GenericRepository<ShippingBill>, IShippingBillDal
     {
         public EfShippingBillDal(CargoContext context) : base(context)
         {
