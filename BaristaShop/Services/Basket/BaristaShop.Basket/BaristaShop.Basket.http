@@ -1,0 +1,6 @@
+@BaristaShop.Basket_HostAddress = http://localhost:5100
+
+GET {{BaristaShop.Basket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

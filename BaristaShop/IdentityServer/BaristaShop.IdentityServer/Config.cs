@@ -17,6 +17,7 @@ namespace BaristaShop.IdentityServer
             new ApiResource("ResourceDiscount") { Scopes = {"DiscountFullPermission"} },
             new ApiResource("ResourceOrder") { Scopes = {"OrderFullPermission","OrderReadPermission"} },
             new ApiResource("ResourceCargo") { Scopes = {"CargoFullPermission"} },
+            new ApiResource("ResourceBasket") { Scopes = {"BasketFullPermission"} },
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -35,6 +36,7 @@ namespace BaristaShop.IdentityServer
             new ApiScope("OrderFullPermission","Has full authority for order operations"),
             new ApiScope("OrderReadPermission","Has only read permission for order operations"),
             new ApiScope("CargoFullPermission","Has full authority for cargo operations"),
+            new ApiScope("BasketFullPermission","Has full authority for basket operations"),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -56,20 +58,22 @@ namespace BaristaShop.IdentityServer
             {
                 ClientId = "BaristaShopManagerId",
                 ClientName = "BaristaShop Manager User",
-                AllowedGrantTypes = GrantTypes.ClientCredentials,
+                AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                 ClientSecrets = { new Secret( "baristashopsecret".Sha256()) },
                 AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission",  }
 
             },
+
+            // ResourceOwnerPassword ile manager ve admin client'larını password ile token alabilir hale getirdik
 
             // Administrator
             new Client
             {
                 ClientId = "BaristaShopAdminId",
                 ClientName = "BaristaShop Admin User",
-                AllowedGrantTypes= GrantTypes.ClientCredentials,
+                AllowedGrantTypes= GrantTypes.ResourceOwnerPassword,
                 ClientSecrets = { new Secret( "baristashopsecret".Sha256()) },              
-                AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission", "CargoFullPermission",
+                AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission", "CargoFullPermission", "BasketFullPermission",
                 // AllowedScopes'un içerisine yazmaya devam ediyorum.
                 IdentityServerConstants.LocalApi.ScopeName, // bu identity service'ı için yetki veriyor.
                 IdentityServerConstants.StandardScopes.OpenId,

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.Order.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f350d82f77190a21cc573e8ba586bb91e7e5f53f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+372ec7c6b424eb02ad54596fa258bfb60da135bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.Order.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.Order.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\basket\\baristashop.basket\\dtos\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|solutionrelative:services\\basket\\baristashop.basket\\dtos\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F76EC745-D279-46E0-9541-52A172C891DC}|Service\\Cargo\\BaristaShop.Cargo.WebApi\\BaristaShop.Cargo.WebApi.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\service\\cargo\\baristashop.cargo.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F76EC745-D279-46E0-9541-52A172C891DC}|Service\\Cargo\\BaristaShop.Cargo.WebApi\\BaristaShop.Cargo.WebApi.csproj|solutionrelative:service\\cargo\\baristashop.cargo.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\basket\\baristashop.basket\\dtos\\baskettotaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|solutionrelative:services\\basket\\baristashop.basket\\dtos\\baskettotaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\basket\\baristashop.basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|solutionrelative:services\\basket\\baristashop.basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\basket\\baristashop.basket\\settings\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|solutionrelative:services\\basket\\baristashop.basket\\settings\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\basket\\baristashop.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|solutionrelative:services\\basket\\baristashop.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\basket\\baristashop.basket\\settings\\redissettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|solutionrelative:services\\basket\\baristashop.basket\\settings\\redissettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\catalog\\baristashop.catalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:services\\catalog\\baristashop.catalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\basket\\baristashop.basket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|solutionrelative:services\\basket\\baristashop.basket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\basket\\baristashop.basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A973FC5-C9B7-49BD-9570-741A9FB6896F}|Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj|solutionrelative:services\\basket\\baristashop.basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\catalog\\baristashop.catalog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:services\\catalog\\baristashop.catalog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +62,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "Service\\Cargo\\BaristaShop.Cargo.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.WebApi\\Program.cs",
-              "RelativeToolTip": "Service\\Cargo\\BaristaShop.Cargo.WebApi\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BasketItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Dtos\\BasketItemDto.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\BaristaShop.Basket\\Dtos\\BasketItemDto.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Dtos\\BasketItemDto.cs",
+              "RelativeToolTip": "Services\\Basket\\BaristaShop.Basket\\Dtos\\BasketItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:32:41.711Z",
+              "WhenOpened": "2024-11-23T09:07:47.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "BasketTotalDto.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Dtos\\BasketTotalDto.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\BaristaShop.Basket\\Dtos\\BasketTotalDto.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Dtos\\BasketTotalDto.cs",
+              "RelativeToolTip": "Services\\Basket\\BaristaShop.Basket\\Dtos\\BasketTotalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:07:46.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RedisSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Settings\\RedisSettings.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\BaristaShop.Basket\\Settings\\RedisSettings.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Settings\\RedisSettings.cs",
+              "RelativeToolTip": "Services\\Basket\\BaristaShop.Basket\\Settings\\RedisSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:13:21.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RedisService.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Settings\\RedisService.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\BaristaShop.Basket\\Settings\\RedisService.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Settings\\RedisService.cs",
+              "RelativeToolTip": "Services\\Basket\\BaristaShop.Basket\\Settings\\RedisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:00:21.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\BaristaShop.Catalog\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Catalog\\BaristaShop.Catalog\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T14:04:08.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Basket\\BaristaShop.Basket\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Basket\\BaristaShop.Basket\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T14:03:53.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BasketsController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Controllers\\BasketsController.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\BaristaShop.Basket\\Controllers\\BasketsController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Controllers\\BasketsController.cs",
+              "RelativeToolTip": "Services\\Basket\\BaristaShop.Basket\\Controllers\\BasketsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:57:23.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Basket\\BaristaShop.Basket\\appsettings.json",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\appsettings.json",
+              "RelativeToolTip": "Services\\Basket\\BaristaShop.Basket\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T13:10:24.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\BaristaShop.Catalog\\appsettings.json",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\appsettings.json",
+              "RelativeToolTip": "Services\\Catalog\\BaristaShop.Catalog\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T13:10:17.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
               "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
               "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
               "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Config.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAtwE8AAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEIAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:28:09.774Z",
+              "WhenOpened": "2024-11-22T13:06:01.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\BaristaShop.Basket\\Program.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Basket\\BaristaShop.Basket\\Program.cs",
+              "RelativeToolTip": "Services\\Basket\\BaristaShop.Basket\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:05:35.542Z",
               "EditorCaption": ""
             }
           ]
