@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.Basket", "Servi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{EDD0CDA9-C102-48DC-9466-4A80F8AFFE65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.WebUI", "Frontend\BaristaShop.WebUI\BaristaShop.WebUI.csproj", "{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaShop.WebUI", "Frontend\BaristaShop.WebUI\BaristaShop.WebUI.csproj", "{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaShop.DtoLayer", "..\Frontend\DtoLayer\BaristaShop.DtoLayer.csproj", "{F8DABDA3-FDE4-4259-8365-017A880CA120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DABDA3-FDE4-4259-8365-017A880CA120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DABDA3-FDE4-4259-8365-017A880CA120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DABDA3-FDE4-4259-8365-017A880CA120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DABDA3-FDE4-4259-8365-017A880CA120}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +156,7 @@ Global
 		{F7C53D6E-E266-4675-B468-029C6A6E7583} = {17962BF9-C760-408E-B115-A8B7DDF24E51}
 		{6A973FC5-C9B7-49BD-9570-741A9FB6896F} = {F7C53D6E-E266-4675-B468-029C6A6E7583}
 		{D0A1D165-B147-4D79-99F1-A6DA0EA501A9} = {EDD0CDA9-C102-48DC-9466-4A80F8AFFE65}
+		{F8DABDA3-FDE4-4259-8365-017A880CA120} = {EDD0CDA9-C102-48DC-9466-4A80F8AFFE65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EBD5B75-050D-4599-BD83-5A700094D410}

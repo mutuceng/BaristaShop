@@ -3,32 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\baristashop.webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\baristashop.webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\views\\uicontact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\views\\uicontact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\catalog\\baristashop.catalog\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:services\\catalog\\baristashop.catalog\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\wwwroot\\online-shop-website-template\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\wwwroot\\online-shop-website-template\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\views\\uiproductlist\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\views\\uiproductlist\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F8DABDA3-FDE4-4259-8365-017A880CA120}|..\\Frontend\\DtoLayer\\BaristaShop.DtoLayer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\frontend\\dtolayer\\dtos\\catalogdtos\\categorydtos\\resultcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\controllers\\uicontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\controllers\\uicontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\catalog\\baristashop.catalog\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:services\\catalog\\baristashop.catalog\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\viewcomponents\\uiproductdetailcomponents\\uiproductdetailinforeviewviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\viewcomponents\\uiproductdetailcomponents\\uiproductdetailinforeviewviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\catalog\\baristashop.catalog\\dtos\\categorydtos\\getbyidcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:services\\catalog\\baristashop.catalog\\dtos\\categorydtos\\getbyidcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\catalog\\baristashop.catalog\\dtos\\categorydtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412366F1-B8A4-40C5-BEA6-A844823E9DF0}|Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj|solutionrelative:services\\catalog\\baristashop.catalog\\dtos\\categorydtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|Requirements{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|Requirements{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|solutionrelative:Ports.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\areas\\admin\\views\\adminlayout\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\areas\\admin\\views\\adminlayout\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\areas\\admin\\controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\areas\\admin\\controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +53,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-26T16:10:57.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaristaShop.WebUI",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-26T16:09:18.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "contact.html",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\online-shop-website-template\\contact.html",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\wwwroot\\online-shop-website-template\\contact.html",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\online-shop-website-template\\contact.html",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\wwwroot\\online-shop-website-template\\contact.html",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAAAMAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-26T16:07:28.165Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Program.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:54:31.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\UIContact\\Index.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Views\\UIContact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\UIContact\\Index.cshtml",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Views\\UIContact\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T16:04:30.537Z",
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\BaristaShop.Catalog\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Services\\Catalog\\BaristaShop.Catalog\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:45:55.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UIContactController.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Controllers\\UIContactController.cs",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Controllers\\UIContactController.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Controllers\\UIContactController.cs",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Controllers\\UIContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:04:08.186Z",
+              "WhenOpened": "2024-11-28T13:31:44.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UIProductDetailInfoReviewViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\ViewComponents\\UIProductDetailComponents\\UIProductDetailInfoReviewViewComponent.cs",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\ViewComponents\\UIProductDetailComponents\\UIProductDetailInfoReviewViewComponent.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\ViewComponents\\UIProductDetailComponents\\UIProductDetailInfoReviewViewComponent.cs",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\ViewComponents\\UIProductDetailComponents\\UIProductDetailInfoReviewViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Title": "GetByIdCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\GetByIdCategoryDto.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\GetByIdCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\GetByIdCategoryDto.cs",
+              "RelativeToolTip": "Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\GetByIdCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T14:47:08.58Z",
+              "WhenOpened": "2024-11-28T13:31:42.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\CreateCategoryDto.cs",
+              "RelativeToolTip": "Services\\Catalog\\BaristaShop.Catalog\\Dtos\\CategoryDtos\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:31:39.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\UIProductList\\ProductDetails.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Views\\UIProductList\\ProductDetails.cshtml",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\UIProductList\\ProductDetails.cshtml",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Views\\UIProductList\\ProductDetails.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T13:10:29.028Z",
+              "Title": "ResultCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\Frontend\\DtoLayer\\Dtos\\CatalogDtos\\CategoryDtos\\ResultCategoryDto.cs",
+              "RelativeDocumentMoniker": "..\\Frontend\\DtoLayer\\Dtos\\CatalogDtos\\CategoryDtos\\ResultCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\Frontend\\DtoLayer\\Dtos\\CatalogDtos\\CategoryDtos\\ResultCategoryDto.cs",
+              "RelativeToolTip": "..\\Frontend\\DtoLayer\\Dtos\\CatalogDtos\\CategoryDtos\\ResultCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:29:51.345Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ports.txt",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt",
+              "RelativeDocumentMoniker": "Ports.txt",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt",
+              "RelativeToolTip": "Ports.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-28T13:24:58.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Views\\AdminLayout\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Views\\AdminLayout\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Views\\AdminLayout\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Views\\AdminLayout\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T11:41:09.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAAIwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T10:03:01.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:48:21.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminLayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Controllers\\AdminLayoutController.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Controllers\\AdminLayoutController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Controllers\\AdminLayoutController.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Areas\\Admin\\Controllers\\AdminLayoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:19:51.241Z",
+              "EditorCaption": ""
             }
           ]
         }

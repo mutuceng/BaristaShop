@@ -1,0 +1,12 @@
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.DtoLayer.deps.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.DtoLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.DtoLayer.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.AssemblyInfo.cs
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.sourcelink.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\refint\BaristaShop.DtoLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\ref\BaristaShop.DtoLayer.dll

@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5MYXlvdXRcX0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/Shared/Components/AdminLayoutTopBar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5MYXlvdXRUb3BCYXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/Shared/PartialViews/_AdminHeadPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfQWRtaW5IZWFkUGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/Shared/PartialViews/_AdminScriptsPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfQWRtaW5TY3JpcHRzUGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Views/Shared/Components/UIFooter/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVUlGb290ZXJcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -149,7 +169,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-a7ovccp5yv

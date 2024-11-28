@@ -21,9 +21,7 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebU
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BaristaShop.WebUI.props
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BaristaShop.WebUI.props
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\scopedcss\bundle\BaristaShop.WebUI.styles.css
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\scopedcss\projectbundle\BaristaShop.WebUI.bundle.scp.css
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\BaristaShop.WebUI.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\refint\BaristaShop.WebUI.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\BaristaShop.WebUI.pdb
@@ -226,3 +224,5 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebU
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\BaristaShop.WebUI.csproj.AssemblyReference.cache
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\BaristaS.DECD4A98.Up2Date
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\BaristaShop.DtoLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\BaristaShop.DtoLayer.pdb
