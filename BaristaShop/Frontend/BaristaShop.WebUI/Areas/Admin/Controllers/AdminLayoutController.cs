@@ -5,7 +5,7 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
     public class AdminLayoutController : Controller
     {
         [Area("Admin")]
-        public IActionResult _AdminLayout() // area oldugunda index kullandım _AdminLayout ile olmadı
+        public IActionResult _AdminLayout() 
         {
             return View();
         }

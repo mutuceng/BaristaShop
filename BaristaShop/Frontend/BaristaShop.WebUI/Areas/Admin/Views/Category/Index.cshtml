@@ -3,143 +3,55 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+    int count = 0 ;
 }
-
-<div class="page-header">
-    <h3 class="fw-bold mb-3">Kategoriler</h3>
-    <ul class="breadcrumbs mb-3">
-        <li class="nav-home">
-            <a href="#">
-                <i class="icon-home"></i>
-            </a>
-        </li>
-        <li class="separator">
-            <i class="icon-arrow-right"></i>
-        </li>
-        <li class="nav-item">
-            <a href="#">Ana Panel</a>
-        </li>
-        <li class="separator">
-            <i class="icon-arrow-right"></i>
-        </li>
-        <li class="nav-item">
-            <a href="#">Kategoriler</a>
-        </li>
-    </ul>
-</div>
 
 <!--Kategoriler-->
 <div class="row">
     <div class="col-md-12">
         <div class="card">
-            <div class="card-header">
-                <div class="d-flex align-items-center">
-                    <button class="btn btn-primary btn-round ms-auto"
-                            data-bs-toggle="modal"
-                            data-bs-target="#addRowModal">
-                        <i class="fa fa-plus"></i>
-                        Kategori Ekle
-                    </button>
-                </div>
-            </div>
             <div class="card-body">
-
-                <!-- Kategori Oluşturma -->
-                <div class="modal fade"
-                     id="addRowModal"
-                     tabindex="-1"
-                     role="dialog"
-                     aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header border-0">
-                                <h5 class="modal-title">
-                                    <span class="fw-mediumbold"> New</span>
-                                    <span class="fw-light"> Row </span>
-                                </h5>
-                                <button type="button"
-                                        class="close"
-                                        data-dismiss="modal"
-                                        aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <p class="small">
-                                    Kategori Oluştur
-                                </p>
-                                <form>
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <div class="form-group form-group-default">
-                                                <label>Name</label>
-                                                <input id="categoryName"
-                                                       type="text"
-                                                       class="form-control"
-                                                       placeholder="Kategori Adı" />
-                                            </div>
-                                        </div>
-                                        <input id="categoryId" type="hidden"/>                                        
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer border-0">
-                                <button type="button"
-                                        id="addRowButton"
-                                        class="btn btn-primary">
-                                    Add
-                                </button>
-                                <button type="button"
-                                        class="btn btn-danger"
-                                        data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Kategori Oluşturma -->
-
 
                 <!-- Kategoriler -->
                 <div class="table-responsive">
                     <table id="add-row" class="display table table-striped table-hover">
-                        <thead>
+                        <thead class="thead-light">
                             <tr>
-                                <th>Kategori ID</th>
+                                <th>#</th>
                                 <th>Kategori Adı</th>
+                                <th>Ürünler</th>
                                 <th style="width: 10%">İşlem</th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
-                                <th>Kategori ID</th>
+                                <th>#</th>
                                 <th>Kategori Adı</th>
-                                <th>İşlem</th>
+                                <th>Ürünler</th>
+                                <th style="width: 10%">İşlem</th>
                             </tr>
                         </tfoot>
+
                         <tbody>
                             @foreach (var category in Model)
                             {
+                                count++;
                                 <tr>
-                                    <td>@category.CategoryId</td>
+                                    <th scope="row">@count</th>
                                     <td>@category.CategoryName</td>
                                     <td>
+                                        <a href="" class="btn btn-link">
+                                            Kategoriye Ait Ürünler {Sayi}
+                                        </a>
+                                    </td>
+                                    <td>
                                         <div class="form-button-action">
-                                            <button type="button"
-                                                    data-bs-toggle="tooltip"
-                                                    title=""
-                                                    class="btn btn-link btn-primary btn-lg"
-                                                    data-original-title="Düzenle">
+                                            <a href="/Admin/Category/UpdateCategory/@category.CategoryId" class="btn btn-link btn-primary">
                                                 <i class="fa fa-edit"></i>
-                                            </button>
-                                            <button type="button"
-                                                    data-bs-toggle="tooltip"
-                                                    title=""
-                                                    class="btn btn-link btn-danger"
-                                                    data-original-title="Sil">
+                                            </a>
+                                            <a href="/Admin/Category/DeleteCategory/@category.CategoryId" class="btn btn-link btn-danger">
                                                 <i class="fa fa-times"></i>
-                                            </button>
+                                            </a>
                                         </div>
                                     </td>
                                 </tr>
@@ -148,34 +60,16 @@
                     </table>
                 </div>
             </div>
+
+            <div class="card-header">
+                <div class="d-flex align-items-center">
+                    <a href="/Admin/Category/CreateCategory/" class="btn btn-primary btn-round ms-auto">
+                        <i class="fa fa-plus"></i>
+                        Kategori Ekle
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<footer class="footer">
-    <div class="container-fluid d-flex justify-content-between">
-        <nav class="pull-left">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="http://www.themekita.com">
-                        BaristaShop
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Help </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Licenses </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="copyright">
-            2024, made with <i class="fa fa-heart heart text-danger"></i> by
-            <a href="http://www.themekita.com">ThemeKita</a>
-        </div>
-        <div>
-            Distributed by
-            <a target="_blank" href="https://themewagon.com/">ThemeWagon</a>.
-        </div>
-    </div>
-</footer>

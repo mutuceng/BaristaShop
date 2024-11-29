@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "372gNOzjmJKtOMFKWYZxSVBXUvapFdJVHjWYx6npxUo=",
+  "Hash": "tYpXlOjn13pkt6ZulBxzoCEkwwrnWeJ1CMClfP/3aqs=",
   "Source": "BaristaShop.WebUI",
   "BasePath": "_content/BaristaShop.WebUI",
   "Mode": "Default",
@@ -72,25 +72,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
-    },
-    {
-      "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\kaiadmin-lite-1.2.0\\assets\\css\\bootstrap.min.css",
-      "SourceId": "BaristaShop.WebUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\",
-      "BasePath": "_content/BaristaShop.WebUI",
-      "RelativePath": "kaiadmin-lite-1.2.0/assets/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\kaiadmin-lite-1.2.0\\assets\\css\\bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\kaiadmin-lite-1.2.0\\assets\\css\\demo.css",
