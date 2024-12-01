@@ -3,6 +3,8 @@
     public interface IDatabaseSettings
     {
         public string CategoryCollectionName { get; set; }
+        public string CategoryFeatureCollectionName { get; set; }
+
         public string ProductCollectionName { get; set; }
         public string ProductDetailCollectionName { get; set; }
 

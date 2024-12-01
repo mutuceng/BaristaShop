@@ -19,7 +19,10 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Merchant\Data\" />
+    <Folder Include="Areas\Merchant\Models\" />
+    <Folder Include="Areas\Merchant\ViewComponents\" />
+    <Folder Include="Areas\Merchant\Views\Shared\Components\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+415cebdc1b2abf8b818097337e2ed4715a6f1953")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9eb2fe91da25d145be4619c54b48314ffcbeb868")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

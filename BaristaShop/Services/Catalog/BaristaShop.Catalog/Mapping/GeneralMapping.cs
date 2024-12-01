@@ -4,6 +4,7 @@ using AutoMapper;
 using BaristaShop.Catalog.Dtos.ProductDtos;
 using BaristaShop.Catalog.Dtos.ProductDetailDtos;
 using BaristaShop.Catalog.Dtos.ProductImageDtos;
+using BaristaShop.Catalog.Dtos.CategoryFeatureDtos;
 
 namespace BaristaShop.Catalog.Mapping
 {
@@ -15,6 +16,11 @@ namespace BaristaShop.Catalog.Mapping
             CreateMap<Category, CreateCategoryDto>().ReverseMap();
             CreateMap<Category, GetByIdCategoryDto>().ReverseMap();
             CreateMap<Category, UpdateCategoryDto>().ReverseMap();
+
+            CreateMap<CategoryFeature, ResultCategoryFeatureDto>().ReverseMap();
+            CreateMap<CategoryFeature, CreateCategoryFeatureDto>().ReverseMap();
+            CreateMap<CategoryFeature, GetByIdCategoryFeatureDto>().ReverseMap();
+            CreateMap<CategoryFeature, UpdateCategoryFeatureDto>().ReverseMap();
 
             CreateMap<Product, ResultProductDto>().ReverseMap();
             CreateMap<Product, CreateProductDto>().ReverseMap();

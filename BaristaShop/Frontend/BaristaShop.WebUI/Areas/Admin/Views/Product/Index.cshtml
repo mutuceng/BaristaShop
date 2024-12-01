@@ -1,0 +1,58 @@
+﻿@model ProductListViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<div class="table-responsive">
+    <table id="add-row" class="display table table-striped table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>#</th>
+                <th>Ürün Adı</th>
+                <th>Fiyatı</th>
+                <th>Bilgi</th>
+                <th>Açıklama</th>
+                <th>Görseller</th>
+                <th style="width: 10%">İşlem</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>#</th>
+                <th>Ürün Adı</th>
+                <th>Fiyatı</th>
+                <th>Bilgi</th>
+                <th>Açıklama</th>
+                <th>Görseller</th>
+                <th style="width: 10%">İşlem</th>
+            </tr>
+        </tfoot>
+
+        <tbody>
+
+     
+                <tr>
+                    <th scope="row">1</th>
+                    <td>@Model.Products[0].ProductName</td>
+                    <td>@Model.Products[0].ProductPrice</td>
+                    <td>@Model.ProductDetails[0]?.ProductInfo</td>
+                    <td>@Model.ProductDetails[0]?.ProductDescription</td>
+                    <td><img src="@Model.ProductImages[0]?.Images1" alt="Ürün Resmi" /> </td>
+                    <td>
+                        <div class="form-button-action">
+                            <a href="/Admin/Product/UpdateProduct/@Model.Products[0].ProductId" class="btn btn-link btn-primary">
+                                <i class="fa fa-edit"></i>
+                            </a>
+                            <a href="/Admin/Product/DeleteProduct/@Model.Products[0].ProductId" class="btn btn-link btn-danger">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+           
+        </tbody>
+    </table>
+</div>
+

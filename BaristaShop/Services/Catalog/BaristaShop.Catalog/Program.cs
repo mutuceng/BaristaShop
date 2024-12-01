@@ -1,3 +1,4 @@
+using BaristaShop.Catalog.Services.CategoryFeatureServices;
 using BaristaShop.Catalog.Services.CategoryServices;
 using BaristaShop.Catalog.Services.ProductDetailServices;
 using BaristaShop.Catalog.Services.ProductImageServices;
@@ -17,6 +18,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 });
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ICategoryFeatureService, CategoryFeatureService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
 builder.Services.AddScoped<IProductImageService, ProductImageService>();

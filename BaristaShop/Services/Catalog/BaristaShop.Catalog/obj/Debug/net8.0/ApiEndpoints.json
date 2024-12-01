@@ -74,6 +74,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeaturesController",
+    "Method": "CategoryFeatureList",
+    "RelativePath": "api/CategoryFeatures",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeaturesController",
+    "Method": "CreateCategoryFeature",
+    "RelativePath": "api/CategoryFeatures",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCategoryFeatureDto",
+        "Type": "BaristaShop.Catalog.Dtos.CategoryFeatureDtos.CreateCategoryFeatureDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeaturesController",
+    "Method": "DeleteCategoryFeature",
+    "RelativePath": "api/CategoryFeatures",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeaturesController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/CategoryFeatures",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCategoryFeatureDto",
+        "Type": "BaristaShop.Catalog.Dtos.CategoryFeatureDtos.UpdateCategoryFeatureDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeaturesController",
+    "Method": "GetCategoryFeatureById",
+    "RelativePath": "api/CategoryFeatures/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BaristaShop.Catalog.Controllers.ProductDetailsController",
     "Method": "ProductDetailList",
     "RelativePath": "api/ProductDetails",
