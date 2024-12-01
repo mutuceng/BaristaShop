@@ -148,6 +148,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeatureValuesController",
+    "Method": "CategoryFeatureValueList",
+    "RelativePath": "api/CategoryFeatureValues",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeatureValuesController",
+    "Method": "CreateCategoryFeature",
+    "RelativePath": "api/CategoryFeatureValues",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCategoryFeatureValueDto",
+        "Type": "BaristaShop.Catalog.Dtos.CategoryFeatureValueDtos.CreateCategoryFeatureValueDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeatureValuesController",
+    "Method": "DeleteCategoryFeature",
+    "RelativePath": "api/CategoryFeatureValues",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeatureValuesController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/CategoryFeatureValues",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCategoryFeatureValueDto",
+        "Type": "BaristaShop.Catalog.Dtos.CategoryFeatureValueDtos.UpdateCategoryFeatureValueDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeatureValuesController",
+    "Method": "GetCategoryFeatureValueById",
+    "RelativePath": "api/CategoryFeatureValues/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BaristaShop.Catalog.Controllers.ProductDetailsController",
     "Method": "ProductDetailList",
     "RelativePath": "api/ProductDetails",
@@ -210,6 +284,80 @@
     "Method": "GetProductDetailById",
     "RelativePath": "api/ProductDetails/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.ProductFeatureStocksController",
+    "Method": "ListProductFeatureStock",
+    "RelativePath": "api/ProductFeatureStocks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.ProductFeatureStocksController",
+    "Method": "CreateProductFeatureStock",
+    "RelativePath": "api/ProductFeatureStocks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createProductFeatureStockDto",
+        "Type": "BaristaShop.Catalog.Dtos.ProductFeatureStockDtos.CreateProductFeatureStockDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.ProductFeatureStocksController",
+    "Method": "UpdateProductFeatureStock",
+    "RelativePath": "api/ProductFeatureStocks",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProductFeatureStockDto",
+        "Type": "BaristaShop.Catalog.Dtos.ProductFeatureStockDtos.UpdateProductFeatureStockDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.ProductFeatureStocksController",
+    "Method": "GetProductFeatureStockById",
+    "RelativePath": "api/ProductFeatureStocks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.ProductFeatureStocksController",
+    "Method": "DeleteProductFeatureStock",
+    "RelativePath": "api/ProductFeatureStocks/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

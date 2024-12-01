@@ -1,8 +1,10 @@
-﻿namespace BaristaShop.Catalog.Dtos.CategoryFeatureDtos
+﻿using BaristaShop.Catalog.Entities;
+
+namespace BaristaShop.Catalog.Dtos.CategoryFeatureDtos
 {
     public class CreateCategoryFeatureDto
     {
         public string FeatureName { get; set; }
-        public List<string> ValueOptions { get; set; } = new List<string>();
+        public List<CategoryFeatureValue> FeatureValues { get; set; } = new List<CategoryFeatureValue>();
     }
 }

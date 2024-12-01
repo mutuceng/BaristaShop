@@ -13,13 +13,22 @@
                 <h4>Kategori Ekleme</h4>
                 <br/>
                 <div class="bs-example" data-example-id="bordered-table">
-
                     <form method="post" asp-controller="Category" asp-action="CreateCategory">
                         <!-- tag helper olmadan asp-for gibi etiketleri görmüyor onu tag helperı da viewimportsla ekliyoruz -->
                         <label>Kategori Adı</label>
                         <input type="text" class="form-control" asp-for="CategoryName" />
                         <br/>
-                        <button class="btn btn-primary">Kategoriyi Güncelle</button>
+                        <button class="btn btn-primary">Kategori Ekle</button>
+                    </form>
+                </div>
+                <h4>Özellik Ekleme</h4>
+                <div class="bs-example" data-example-id="bordered-table">
+                    <form method="post" asp-controller="Category" asp-action="CreateCategory">
+                        <!-- tag helper olmadan asp-for gibi etiketleri görmüyor onu tag helperı da viewimportsla ekliyoruz -->
+                        <label>Kategori Adı</label>
+                        <input type="text" class="form-control" asp-for="CategoryName" />
+                        <br />
+                        <button class="btn btn-primary">Kategori Ekle</button>
                     </form>
                 </div>
             </div>

@@ -9,7 +9,7 @@ namespace BaristaShop.Catalog.Entities
         [BsonRepresentation(BsonType.ObjectId)]
         public string FeatureId { get; set; }
         public string FeatureName { get; set; }
-        public List<string> ValueOptions { get; set; } = new List<string>();
+        public List<CategoryFeatureValue> FeatureValues { get; set; } = new List<CategoryFeatureValue>();
 
     }
 }

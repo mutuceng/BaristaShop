@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "fJ5GFepLuDwZAeqBui11GL0wGeCqgL/2qorYMej1djU=",
+  "Hash": "awi7haVNjpkYdrhanwCghx7UFr/ttgvQfNdJ+S1hqz8=",
   "Source": "BaristaShop.WebUI",
   "BasePath": "_content/BaristaShop.WebUI",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
+      "Version": 2,
+      "Source": "BaristaShop.Catalog",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "BaristaShop.WebUI\\wwwroot",

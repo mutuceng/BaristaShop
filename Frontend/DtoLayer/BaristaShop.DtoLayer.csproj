@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\BaristaShop\Services\Catalog\BaristaShop.Catalog\BaristaShop.Catalog.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,3 +10,12 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\Ba
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\refint\BaristaShop.DtoLayer.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\ref\BaristaShop.DtoLayer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.Catalog.deps.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.Catalog.runtimeconfig.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.Catalog.exe
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.Catalog.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.Catalog.pdb
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.csproj.AssemblyReference.cache
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaS.903BAFEC.Up2Date
