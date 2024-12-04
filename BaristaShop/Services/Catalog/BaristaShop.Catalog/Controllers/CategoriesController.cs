@@ -1,4 +1,5 @@
 ﻿using BaristaShop.Catalog.Dtos.CategoryDtos;
+using BaristaShop.Catalog.Services.CategoryFeatureServices;
 using BaristaShop.Catalog.Services.CategoryServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

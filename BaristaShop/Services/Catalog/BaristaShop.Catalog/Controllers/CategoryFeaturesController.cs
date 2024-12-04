@@ -1,6 +1,7 @@
 ﻿using BaristaShop.Catalog.Dtos.CategoryDtos;
 using BaristaShop.Catalog.Dtos.CategoryFeatureDtos;
 using BaristaShop.Catalog.Services.CategoryFeatureServices;
+using BaristaShop.Catalog.Services.CategoryFeatureValueServices;
 using BaristaShop.Catalog.Services.CategoryServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

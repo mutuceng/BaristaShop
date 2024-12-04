@@ -39,14 +39,14 @@ namespace BaristaShop.Catalog.Services.CategoryFeatureServices
 
         public async Task<GetByIdCategoryFeatureDto> GetByIdCategoryFeatureAsync(string id)
         {
-            var value = await _categoryFeatureCollection.Find(x => x.FeatureId == id).FirstOrDefaultAsync();
+            var value = await _categoryFeatureCollection.Find(x => x.CategoryFeatureId == id).FirstOrDefaultAsync();
             return _mapper.Map<GetByIdCategoryFeatureDto>(value);
         }
 
         public async Task UpdateCategoryFeatureAsync(UpdateCategoryFeatureDto updateCategoryFeatureDto)
         {
             var value = _mapper.Map<CategoryFeature>(updateCategoryFeatureDto);
-            await _categoryFeatureCollection.FindOneAndReplaceAsync(x => x.FeatureId == updateCategoryFeatureDto.FeatureId, value);
+            await _categoryFeatureCollection.FindOneAndReplaceAsync(x => x.CategoryFeatureId == updateCategoryFeatureDto.CategoryFeatureId, value);
             
         }
     }

@@ -32,21 +32,21 @@ namespace BaristaShop.Catalog.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateCategoryFeature(CreateCategoryFeatureValueDto createCategoryFeatureValueDto)
+        public async Task<IActionResult> CreateCategoryFeatureValue(CreateCategoryFeatureValueDto createCategoryFeatureValueDto)
         {
             await _categoryFeatureValueService.CreateCategoryFeatureValueAsync(createCategoryFeatureValueDto);
             return Ok("Successfully added");
         }
 
         [HttpDelete]
-        public async Task<IActionResult> DeleteCategoryFeature(string id)
+        public async Task<IActionResult> CreateCategoryFeatureValue(string id)
         {
             await _categoryFeatureValueService.DeleteCategoryFeatureValueAsync(id);
             return Ok("Successfully deleted");
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateCategory(UpdateCategoryFeatureValueDto updateCategoryFeatureValueDto)
+        public async Task<IActionResult> CreateCategoryFeatureValue(UpdateCategoryFeatureValueDto updateCategoryFeatureValueDto)
         {
             await _categoryFeatureValueService.UpdateCategoryFeatureValueAsync(updateCategoryFeatureValueDto);
             return Ok("Successfully updated");

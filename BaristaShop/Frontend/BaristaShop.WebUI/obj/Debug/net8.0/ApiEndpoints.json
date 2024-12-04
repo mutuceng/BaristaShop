@@ -159,7 +159,7 @@
   },
   {
     "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeatureValuesController",
-    "Method": "CreateCategoryFeature",
+    "Method": "CreateCategoryFeatureValue",
     "RelativePath": "api/CategoryFeatureValues",
     "HttpMethod": "POST",
     "IsController": true,
@@ -175,7 +175,7 @@
   },
   {
     "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeatureValuesController",
-    "Method": "DeleteCategoryFeature",
+    "Method": "CreateCategoryFeatureValue",
     "RelativePath": "api/CategoryFeatureValues",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -191,7 +191,7 @@
   },
   {
     "ContainingType": "BaristaShop.Catalog.Controllers.CategoryFeatureValuesController",
-    "Method": "UpdateCategory",
+    "Method": "CreateCategoryFeatureValue",
     "RelativePath": "api/CategoryFeatureValues",
     "HttpMethod": "PUT",
     "IsController": true,

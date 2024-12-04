@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Özellik Ekleme</h4>
+                <br />
+                <div class="bs-example" data-example-id="bordered-table">
+                    <form method="post" asp-controller="CategoryFeature" asp-action="CreateCategoryFeature">
+                        <div id="feature-container">
+                            <label>Özellik Adı</label>
+                            <input type="text" name="CategoryFeatures[]" class="form-control" />
+                        </div>
+                        <br />
+                        <button type="button" id="add-feature" class="btn btn-secondary">Özellik Ekle</button>
+                        <br /><br />
+                        <button type="submit" class="btn btn-primary">Kategori Ekle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.getElementById('add-feature').addEventListener('click', function () {
+        const container = document.getElementById('feature-container');
+
+        // Yeni bir input alanı oluştur
+        const newFeatureInput = document.createElement('input');
+        newFeatureInput.type = 'text';
+        newFeatureInput.name = 'CategoryFeatures[]';
+        newFeatureInput.className = 'form-control mt-2';
+
+        // Input alanını container'a ekle
+        container.appendChild(newFeatureInput);
+    });
+</script>
+
+
+

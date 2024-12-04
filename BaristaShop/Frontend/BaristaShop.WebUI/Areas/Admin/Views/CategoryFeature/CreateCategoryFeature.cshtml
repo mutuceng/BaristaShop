@@ -1,0 +1,69 @@
+﻿@model CreateCategoryFeatureViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Özellik Ekleme</h4>
+                <br />
+                <div class="bs-example" data-example-id="bordered-table">
+                    <form method="post" asp-controller="CategoryFeature" asp-action="CreateCategoryFeature">
+                        <div id="feature-container">
+                            <label>Özellik İsmi</label>
+                            <input type="text" name=CategoryFeatureName class="form-control" />
+                            <!-- İlk Özellik Input -->
+                            <label>Özellik Değerleri</label> <button style=" margin:8px; border-radius:5px; width:60px; height:40px; font-size:10px;" type="button" id="add-feature" class="btn btn-secondary">Özellik Ekle</button>
+
+                            <br />
+                            <label>1.Özellik</label> 
+                            <input type="text" name="CategoryFeatureValues[0]" class="form-control" />
+                            <label>2.Özellik</label>
+                            <input type="text" name="CategoryFeatureValues[1]" class="form-control" />
+                            <label>3.Özellik</label>
+                            <input type="text" name="CategoryFeatureValues[2]" class="form-control" />
+
+                        </div>
+                        <br />
+                        <br /><br />
+                        <button type="submit" class="btn btn-primary">Kategori Ekle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.getElementById('add-feature').addEventListener('click', function () {
+        const container = document.getElementById('feature-container');
+
+        const inputCount = container.getElementsByTagName('input').length;
+
+
+        const newLabel = document.createElement('label');
+        newLabel.textContent = `${inputCount}.Özellik`; 
+
+
+        // Yeni bir input alanı oluştur
+        const newFeatureInput = document.createElement('input');
+        newFeatureInput.type = 'text';
+        newFeatureInput.name = `CategoryFeatureValues[${inputCount}]`;
+        newFeatureInput.className = 'form-control mt-2';
+
+        // Input alanını container'a ekle
+        container.appendChild(newLabel);
+        container.appendChild(newFeatureInput);
+    });
+
+    document.querySelector('form').addEventListener('submit', function (e) {
+        const inputs = document.querySelectorAll('input[name^="CategoryFeatureValues"]');
+        inputs.forEach(input => {
+            console.log(input.name, input.value); // Her bir input ve value'yu logla
+        });
+    });
+</script>
