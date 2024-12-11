@@ -9,6 +9,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.IO;
 using JsonConvert = Newtonsoft.Json.JsonConvert;
 using BaristaShop.Catalog.Entities;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BaristaShop.WebUI.Areas.Admin.Controllers
 {
@@ -32,12 +33,33 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
             return View();
         }
 
+
+
         [HttpGet]
         [Route("CreateCategoryFeature")]
-        public IActionResult CreateCategoryFeature()
+        public async Task<IActionResult> CreateCategoryFeature()
         {
             ViewBag.v0 = "Kategori Özellik İşlemleri";
             ViewBag.v1 = "Kategori Özellik Ekleme";
+            
+            var client = _httpClientFactory.CreateClient();
+            var response = await client.GetAsync("https://localhost:7080/api/CategoryFeatureValues");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonData = await response.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<ResultCategoryFeatureValueDto>>(jsonData);
+
+                List<SelectListItem> categoryFeatureValues = (from x in values
+                                                              select new SelectListItem
+                                                              {
+                                                                  Text = x.CategoryFeatureValueName,
+                                                                  Value = x.CategoryFeatureValueId
+                                                              }).ToList();
+
+                ViewBag.CategoryFeatureValues = categoryFeatureValues;
+            }
+
             return View();
         }
 
@@ -50,74 +72,29 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
 
             if (ModelState.IsValid)
             {
+                var list = model.CategoryFeatureValues.Split(',').ToList();
+
                 var client = _httpClientFactory.CreateClient();
-
-                // Feature Values için liste
-                var categoryFeatureValues = new List<CategoryFeatureValue>();
-
-                // formdan gelen string liste
-                var formattedList = FormatFeatureValues(model.CategoryFeatureValues);
-                foreach (var feature in formattedList)
-                {
-                    var createCategoryFeatureValueDto = new CreateCategoryFeatureValueDto
-                    {
-                        CategoryFeatureValueId = ObjectId.GenerateNewId().ToString(),
-                        CategoryFeatureValueName = feature
-                    };
-
-                    var jsonData = JsonConvert.SerializeObject(createCategoryFeatureValueDto);
-                    StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                    var response = await client.PostAsync("https://localhost:7080/api/CategoryFeatureValues", content);
-
-                    if (response.IsSuccessStatusCode)
-                    {
-                        // Başarıyla kaydedilen DTO'yu CategoryFeatureValue'ya mapleyerek listeye ekle
-                        categoryFeatureValues.Add(new CategoryFeatureValue
-                        {
-                            CategoryFeatureValueId = createCategoryFeatureValueDto.CategoryFeatureValueId,
-                            CategoryFeatureValueName = createCategoryFeatureValueDto.CategoryFeatureValueName
-                        });
-
-
-                    }
-                }
 
                 var createCategoryFeatureDto = new CreateCategoryFeatureDto
                 {
                     CategoryFeatureName = model.CategoryFeatureName,
-                    CategoryFeatureValues = categoryFeatureValues
+                    CategoryFeatureValues = list
                 };
-                
-                var categoryFeatureClient = _httpClientFactory.CreateClient();
 
                 var categoryFeatureJson = JsonConvert.SerializeObject(createCategoryFeatureDto);
                 StringContent categoryFeatureContent = new StringContent(categoryFeatureJson, Encoding.UTF8, "application/json");
-                var categoryFeatureResponse = await categoryFeatureClient.PostAsync("https://localhost:7080/api/CategoryFeatures", categoryFeatureContent);
+                var categoryFeatureResponse = await client.PostAsync("https://localhost:7080/api/CategoryFeatures", categoryFeatureContent);
 
                 if (categoryFeatureResponse.IsSuccessStatusCode)
                 {
                     // Başarı durumunda yönlendirme yapabiliriz
-                    return View();
-
+                    return RedirectToAction("Index", "CategoryFeature", new { area = "Admin" });
                 }
-
-            }
-
-            return View(model);
+            }                    
+           return View(model);
         }
 
-        public List<string> FormatFeatureValues(List<string> featureValues)
-        {
-            return featureValues.Select(value =>
-                char.ToUpper(value[0]) + value.Substring(1).ToLower()
-            ).ToList();
-        }
-
-        public string GetCategoryFeatureValueId()
-        {
-
-            return "5";
-        }
 
     }
 }

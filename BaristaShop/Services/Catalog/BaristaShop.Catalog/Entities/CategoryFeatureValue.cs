@@ -6,10 +6,8 @@ namespace BaristaShop.Catalog.Entities
     public class CategoryFeatureValue
     {
         [BsonId]
-        [BsonRepresentation(BsonType.String)]
+        [BsonRepresentation(BsonType.ObjectId)]
         public string CategoryFeatureValueId { get; set; } 
         public string CategoryFeatureValueName { get; set; }
-
-
     }
 }

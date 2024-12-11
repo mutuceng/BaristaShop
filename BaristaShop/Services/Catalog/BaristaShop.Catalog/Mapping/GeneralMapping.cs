@@ -6,6 +6,7 @@ using BaristaShop.Catalog.Dtos.ProductDetailDtos;
 using BaristaShop.Catalog.Dtos.ProductImageDtos;
 using BaristaShop.Catalog.Dtos.CategoryFeatureDtos;
 using BaristaShop.Catalog.Dtos.CategoryFeatureValueDtos;
+using BaristaShop.Catalog.Dtos.ProductFeatureStockDtos;
 
 namespace BaristaShop.Catalog.Mapping
 {
@@ -42,6 +43,16 @@ namespace BaristaShop.Catalog.Mapping
             CreateMap<ProductImage, CreateProductImageDto>().ReverseMap();
             CreateMap<ProductImage, GetByIdProductImageDto>().ReverseMap();
             CreateMap<ProductImage, UpdateProductImageDto>().ReverseMap();
+
+            CreateMap<ProductVariant, ResultProductVariantDto>().ReverseMap();
+            CreateMap<ProductVariant, CreateProductVariantDto>().ReverseMap();
+            CreateMap<ProductVariant, GetByIdProductVariantDto>().ReverseMap();
+            CreateMap<ProductVariant, UpdateProductVariantDto>().ReverseMap();
+
+            CreateMap<ProductVariantImage, ResultProductVariantImageDto>().ReverseMap();
+            CreateMap<ProductVariantImage, CreateProductVariantImageDto>().ReverseMap();
+            CreateMap<ProductVariantImage, GetByIdProductVariantImageDto>().ReverseMap();
+            CreateMap<ProductVariantImage, UpdateProductVariantImageDto>().ReverseMap();
         }
 
     }

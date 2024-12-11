@@ -3,6 +3,7 @@
     public class CreateCategoryFeatureViewModel
     {
         public string CategoryFeatureName { get; set; } = null!;
-        public List<string> CategoryFeatureValues { get; set; } = new List<string>();
+        public string CategoryFeatureValues { get; set; } = null!;
+
     }
 }

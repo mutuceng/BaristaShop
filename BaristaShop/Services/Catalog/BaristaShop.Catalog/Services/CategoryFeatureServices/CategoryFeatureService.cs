@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using BaristaShop.Catalog.Dtos.CategoryDtos;
 using BaristaShop.Catalog.Dtos.CategoryFeatureDtos;
+using BaristaShop.Catalog.Dtos.CategoryFeatureValueDtos;
 using BaristaShop.Catalog.Entities;
 using BaristaShop.Catalog.Settings;
 using MongoDB.Driver;
@@ -48,6 +49,17 @@ namespace BaristaShop.Catalog.Services.CategoryFeatureServices
             var value = _mapper.Map<CategoryFeature>(updateCategoryFeatureDto);
             await _categoryFeatureCollection.FindOneAndReplaceAsync(x => x.CategoryFeatureId == updateCategoryFeatureDto.CategoryFeatureId, value);
             
+        }
+
+        public async Task<List<GetByIdCategoryFeatureValueDto>> GetByIdsAsync(List<string> ids)
+        {
+
+            // Veritabanından ID'lere göre sorgula
+            var categoryFeatures = await _categoryFeatureCollection
+                .Find(x => ids.Contains(x.CategoryFeatureId))
+                .ToListAsync();
+
+            return _mapper.Map<List<GetByIdCategoryFeatureValueDto>>(categoryFeatures);
         }
     }
 }

@@ -8,8 +8,10 @@
 
         public string ProductCollectionName { get; set; }
         public string ProductDetailCollectionName { get; set; }
-        public string ProductFeatureStockCollectionName { get; set; }
         public string ProductImageCollectionName { get; set; }
+
+        public string ProductVariantCollectionName { get; set; }
+        public string ProductVariantImageCollectionName { get; set; }
 
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }

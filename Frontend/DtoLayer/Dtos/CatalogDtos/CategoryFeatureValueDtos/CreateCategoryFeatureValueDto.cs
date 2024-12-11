@@ -8,8 +8,6 @@ namespace BaristaShop.DtoLayer.Dtos.CatalogDtos.CategoryFeatureValueDtos
 {
     public class CreateCategoryFeatureValueDto
     {
-        public string CategoryFeatureValueId { get; set; }
-
         public string CategoryFeatureValueName { get; set; }
     }
 }

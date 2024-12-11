@@ -15,22 +15,27 @@
                     <form method="post" asp-controller="CategoryFeature" asp-action="CreateCategoryFeature">
                         <div id="feature-container">
                             <label>Özellik İsmi</label>
-                            <input type="text" name=CategoryFeatureName class="form-control" />
-                            <!-- İlk Özellik Input -->
-                            <label>Özellik Değerleri</label> <button style=" margin:8px; border-radius:5px; width:60px; height:40px; font-size:10px;" type="button" id="add-feature" class="btn btn-secondary">Özellik Ekle</button>
+                            <input type="text" name="CategoryFeatureName" class="form-control" />
 
-                            <br />
-                            <label>1.Özellik</label> 
-                            <input type="text" name="CategoryFeatureValues[0]" class="form-control" />
-                            <label>2.Özellik</label>
-                            <input type="text" name="CategoryFeatureValues[1]" class="form-control" />
-                            <label>3.Özellik</label>
-                            <input type="text" name="CategoryFeatureValues[2]" class="form-control" />
-
+                            <label>Kategori Özellik için Değerler</label>
+                            <select id="secimler" class="form-control" multiple>
+                                @if (ViewBag.CategoryFeatureValues != null)
+                                {
+                                    foreach (var item in (List<SelectListItem>)ViewBag.CategoryFeatureValues)
+                                    {
+                                        <option value="@item.Value">@item.Text</option>
+                                    }
+                                }
+                                else
+                                {
+                                    <option value="">Değer bulunamadı</option>
+                                }
+                            </select>
+                            <div id="selectedOptions" class="mt-2"></div>
+                            <input type="hidden" id="SelectedFeatures" name="CategoryFeatureValues" value="" />
                         </div>
                         <br />
-                        <br /><br />
-                        <button type="submit" class="btn btn-primary">Kategori Ekle</button>
+                        <button type="submit" class="btn btn-primary">Kategori Özelliği Ekle</button>
                     </form>
                 </div>
             </div>
@@ -39,31 +44,43 @@
 </section>
 
 <script>
-    document.getElementById('add-feature').addEventListener('click', function () {
-        const container = document.getElementById('feature-container');
+    const selectElement = document.getElementById('secimler');
+    const selectedOptionsDiv = document.getElementById('selectedOptions');
+    const hiddenField = document.getElementById('SelectedFeatures');
+    const selectedValues = new Set(); // Seçilen değerlerin tekrarını önlemek için Set kullanıyoruz
 
-        const inputCount = container.getElementsByTagName('input').length;
+    // Select kutusundaki değişiklikleri dinle
+    selectElement.addEventListener('dblclick', function () {
+        const selectedOptionText = selectElement.options[selectElement.selectedIndex].text;
+        const selectedOptionValue = selectElement.value;
 
+        // Eğer seçenek daha önce seçilmişse ekleme
+        if (!selectedValues.has(selectedOptionValue)) {
+            selectedValues.add(selectedOptionValue);
 
-        const newLabel = document.createElement('label');
-        newLabel.textContent = `${inputCount}.Özellik`; 
+            // Yeni kutu oluştur
+            const box = document.createElement('div');
+            box.className = 'selected-box mt-1 p-2 border rounded';
+            box.style.display = "inline-block";
+            box.style.marginRight = "10px";
+            box.innerHTML = `${selectedOptionText} <span class="remove-btn" style="color: red; cursor: pointer;">&times;</span>`;
 
+            // Kutuya çarpı işareti tıklama olayını ekle
+            box.querySelector('.remove-btn').addEventListener('click', function () {
+                selectedValues.delete(selectedOptionValue); // Seçim set'ten kaldırılıyor
+                box.remove(); // Kutu siliniyor
+                updateHiddenField(); // Seçimler değişince hidden field'ı güncelle
+            });
 
-        // Yeni bir input alanı oluştur
-        const newFeatureInput = document.createElement('input');
-        newFeatureInput.type = 'text';
-        newFeatureInput.name = `CategoryFeatureValues[${inputCount}]`;
-        newFeatureInput.className = 'form-control mt-2';
-
-        // Input alanını container'a ekle
-        container.appendChild(newLabel);
-        container.appendChild(newFeatureInput);
+            // Kutu div'e ekle
+            selectedOptionsDiv.appendChild(box);
+        }
+        updateHiddenField();
+        console.log(hiddenField.value);
     });
 
-    document.querySelector('form').addEventListener('submit', function (e) {
-        const inputs = document.querySelectorAll('input[name^="CategoryFeatureValues"]');
-        inputs.forEach(input => {
-            console.log(input.name, input.value); // Her bir input ve value'yu logla
-        });
-    });
+    function updateHiddenField() {
+        hiddenField.value = Array.from(selectedValues).join(','); // Değerleri `"id12345"` formatında virgülle birleştir
+    }
 </script>
+

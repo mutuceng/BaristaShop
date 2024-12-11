@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.DtoLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6e45e10938b956b4a164db63595b85194b7e767")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+510cf7732e7dd0354e01d00a766f68faffe8201d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.DtoLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.DtoLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
