@@ -3,10 +3,10 @@
     public class GetByIdProductVariantDto
     {
         public string ProductVariantId { get; set; }
-        public int ProductVariantStock { get; set; }
-        public decimal ProductVariantPrice { get; set; }
 
-        public string ProductId { get; set; }
-        public string CategoryFeatureValueId { get; set; }
+        public string ProductItemId { get; set; }
+
+        public string VariantOptionId { get; set; }
+
     }
 }

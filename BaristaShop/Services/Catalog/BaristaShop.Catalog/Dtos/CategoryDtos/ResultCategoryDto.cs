@@ -6,6 +6,6 @@ namespace BaristaShop.Catalog.Dtos.CategoryDtos
     {
         public string CategoryId { get; set; }
         public string CategoryName { get; set; }
-        public List<string> Features { get; set; } = new List<string>();
+
     }
 }

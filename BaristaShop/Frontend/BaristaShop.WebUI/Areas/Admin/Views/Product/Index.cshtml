@@ -1,4 +1,4 @@
-﻿@model ProductListViewModel
+﻿@model List<ResultProductDto>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
@@ -13,8 +13,8 @@
                 <th>Ürün Adı</th>
                 <th>Fiyatı</th>
                 <th>Bilgi</th>
-                <th>Açıklama</th>
-                <th>Görseller</th>
+                <th>Stok</th>
+
                 <th style="width: 10%">İşlem</th>
             </tr>
         </thead>
@@ -24,8 +24,8 @@
                 <th>Ürün Adı</th>
                 <th>Fiyatı</th>
                 <th>Bilgi</th>
-                <th>Açıklama</th>
-                <th>Görseller</th>
+                <th>Stok</th>
+ 
                 <th style="width: 10%">İşlem</th>
             </tr>
         </tfoot>
@@ -34,22 +34,29 @@
 
      
                 <tr>
-                    <th scope="row">1</th>
-                    <td>@Model.Products[0].ProductName</td>
-                    <td>@Model.Products[0].ProductPrice</td>
-                    <td>@Model.ProductDetails[0]?.ProductInfo</td>
-                    <td>@Model.ProductDetails[0]?.ProductDescription</td>
-                    <td><img src="@Model.ProductImages[0]?.Images1" alt="Ürün Resmi" /> </td>
-                    <td>
-                        <div class="form-button-action">
-                            <a href="/Admin/Product/UpdateProduct/@Model.Products[0].ProductId" class="btn btn-link btn-primary">
-                                <i class="fa fa-edit"></i>
-                            </a>
-                            <a href="/Admin/Product/DeleteProduct/@Model.Products[0].ProductId" class="btn btn-link btn-danger">
-                                <i class="fa fa-times"></i>
-                            </a>
-                        </div>
-                    </td>
+                    @foreach (var product in Model)
+                    {
+                        count++;
+                    <tr>
+                        <th scope="row">@count</th>
+                        <td>@product.ProductId</td>
+                        <td>@product.ProductName</td>
+                        <td>
+                            @product.CategoryId
+                        </td>
+                        <td>@product.ProductIsActive</td>
+                        <td>
+                            <div class="form-button-action">
+                            <a href="/Admin/Product/UpdateProduct/@product.ProductId" class="btn btn-link btn-primary">
+                                    <i class="fa fa-edit"></i>
+                                </a>
+                            <a href="/Admin/Product/DeleteProduct/@product.ProductId" class="btn btn-link btn-danger">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    }
                 </tr>
            
         </tbody>

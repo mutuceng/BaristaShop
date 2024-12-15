@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "awi7haVNjpkYdrhanwCghx7UFr/ttgvQfNdJ+S1hqz8=",
+  "Hash": "Sey2fwOzBWO5Fc5KZfGMsNjsCFxt44+aR8x+PWRy5F4=",
   "Source": "BaristaShop.WebUI",
   "BasePath": "_content/BaristaShop.WebUI",
   "Mode": "Default",
@@ -65,6 +65,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\js\\multipleselect.js",
+      "SourceId": "BaristaShop.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\",
+      "BasePath": "_content/BaristaShop.WebUI",
+      "RelativePath": "js/multipleselect.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\multipleselect.js"
     },
     {
       "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\js\\site.js",

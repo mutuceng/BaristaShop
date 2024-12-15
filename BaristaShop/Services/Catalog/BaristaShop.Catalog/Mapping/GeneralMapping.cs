@@ -4,9 +4,10 @@ using AutoMapper;
 using BaristaShop.Catalog.Dtos.ProductDtos;
 using BaristaShop.Catalog.Dtos.ProductDetailDtos;
 using BaristaShop.Catalog.Dtos.ProductImageDtos;
-using BaristaShop.Catalog.Dtos.CategoryFeatureDtos;
-using BaristaShop.Catalog.Dtos.CategoryFeatureValueDtos;
+using BaristaShop.Catalog.Dtos.VariantDtos;
+using BaristaShop.Catalog.Dtos.VariantOptionDtos;
 using BaristaShop.Catalog.Dtos.ProductFeatureStockDtos;
+using BaristaShop.Catalog.Dtos.ProductItemDtos;
 
 namespace BaristaShop.Catalog.Mapping
 {
@@ -19,20 +20,25 @@ namespace BaristaShop.Catalog.Mapping
             CreateMap<Category, GetByIdCategoryDto>().ReverseMap();
             CreateMap<Category, UpdateCategoryDto>().ReverseMap();
 
-            CreateMap<CategoryFeature, ResultCategoryFeatureDto>().ReverseMap();
-            CreateMap<CategoryFeature, CreateCategoryFeatureDto>().ReverseMap();
-            CreateMap<CategoryFeature, GetByIdCategoryFeatureDto>().ReverseMap();
-            CreateMap<CategoryFeature, UpdateCategoryFeatureDto>().ReverseMap();
+            CreateMap<Variant, ResultVariantDto>().ReverseMap();
+            CreateMap<Variant, CreateVariantDto>().ReverseMap();
+            CreateMap<Variant, GetByIdVariantDto>().ReverseMap();
+            CreateMap<Variant, UpdateVariantDto>().ReverseMap();
 
-            CreateMap<CategoryFeatureValue, ResultCategoryFeatureValueDto>().ReverseMap();
-            CreateMap<CategoryFeatureValue, CreateCategoryFeatureValueDto>().ReverseMap();
-            CreateMap<CategoryFeatureValue, GetByIdCategoryFeatureValueDto>().ReverseMap();
-            CreateMap<CategoryFeatureValue, UpdateCategoryFeatureValueDto>().ReverseMap();
+            CreateMap<VariantOption, ResultVariantOptionDto>().ReverseMap();
+            CreateMap<VariantOption, CreateVariantOptionDto>().ReverseMap();
+            CreateMap<VariantOption, GetByIdVariantOptionDto>().ReverseMap();
+            CreateMap<VariantOption, UpdateVariantOptionDto>().ReverseMap();
 
             CreateMap<Product, ResultProductDto>().ReverseMap();
             CreateMap<Product, CreateProductDto>().ReverseMap();
             CreateMap<Product, GetByIdProductDto>().ReverseMap();
             CreateMap<Product, UpdateProductDto>().ReverseMap();
+
+            CreateMap<ProductItem, ResultProductItemDto>().ReverseMap();
+            CreateMap<ProductItem, CreateProductItemDto>().ReverseMap();
+            CreateMap<ProductItem, GetByIdProductItemDto>().ReverseMap();
+            CreateMap<ProductItem, UpdateProductItemDto>().ReverseMap();
 
             CreateMap<ProductDetail, ResultProductDetailDto>().ReverseMap();
             CreateMap<ProductDetail, CreateProductDetailDto>().ReverseMap();
@@ -49,10 +55,6 @@ namespace BaristaShop.Catalog.Mapping
             CreateMap<ProductVariant, GetByIdProductVariantDto>().ReverseMap();
             CreateMap<ProductVariant, UpdateProductVariantDto>().ReverseMap();
 
-            CreateMap<ProductVariantImage, ResultProductVariantImageDto>().ReverseMap();
-            CreateMap<ProductVariantImage, CreateProductVariantImageDto>().ReverseMap();
-            CreateMap<ProductVariantImage, GetByIdProductVariantImageDto>().ReverseMap();
-            CreateMap<ProductVariantImage, UpdateProductVariantImageDto>().ReverseMap();
         }
 
     }

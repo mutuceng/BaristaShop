@@ -1,0 +1,19 @@
+﻿@model CreateProductItemDto
+
+
+<div id="addProductItem" class="bs-example" data-example-id="bordered-table" style="display: none;">
+    <label>Ürün Bilgileri</label>
+    <form method="post" asp-controller="ProductItem" asp-action="CreateProductItem">
+        <div id="feature-container">
+            <input type="hidden" name="ProductId" value="@ViewBag.ProductId" class="form-control" />
+            <label>SKU</label>
+            <input type="text" name="SKU" class="form-control" />
+            <label>Product Stock</label>
+            <input type="text" name="ProductStock" class="form-control" />
+            <label>Product Price</label>
+            <input type="text" name="ProductPrice" class="form-control" />
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary" onclick="updateProgressBar()">Sonraki Adım</button>
+    </form>
+</div>

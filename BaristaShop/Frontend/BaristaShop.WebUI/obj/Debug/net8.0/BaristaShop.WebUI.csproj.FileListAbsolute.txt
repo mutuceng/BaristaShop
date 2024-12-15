@@ -251,3 +251,9 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebU
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\BaristaShop.Catalog.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\BaristaShop.Catalog.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\BaristaShop.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

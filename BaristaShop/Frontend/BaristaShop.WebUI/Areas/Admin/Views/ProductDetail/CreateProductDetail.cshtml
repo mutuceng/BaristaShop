@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "CreateProductDetail";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Ürün Ekleme</h4>
+                <div id="progress-container" style="width: 100%; background: #ddd; border-radius: 10px; margin: 20px 0;">
+                    <div id="progress-bar" style="width: 45%; height: 20px; background: #4caf50; border-radius: 10px; text-align: center; color: white;">
+                        %45
+                    </div>
+                </div>
+                <br />
+
+                <div class="bs-example" data-example-id="bordered-table">
+                    <h4>Ürün Açıklamaları ve Dikkat Edilmesi Gerekenler</h4>
+                    <br />
+                    <form method="post" asp-controller="ProductDetail" asp-action="CreateProductDetail">
+                        <div id="feature-container">
+
+                            <input type="hidden" name="ProductId" value="@ViewBag.ProductId" class="form-control" />
+
+                            <label>Ürün Açıklaması</label>
+                            <textarea name="ProductDescription" class="form-control" rows="4" required></textarea>
+
+                            <label>Ürün Bilgisi</label>
+                            <textarea name="ProductInfo" class="form-control" rows="4" required></textarea>
+
+                        </div>
+                        <br />
+                        <button type="submit" class="btn btn-primary">Sonraki Adım</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

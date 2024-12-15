@@ -19,8 +19,7 @@
                             <tr>
                                 <th>#</th>
                                 <th>Kategori Adı</th>
-                                <th>Ürünler</th>
-                                <th>Özellikler</th>
+                                <th>Ürün Sayısı</th>
                                 <th style="width: 10%">İşlem</th>
                             </tr>
                         </thead>
@@ -28,8 +27,7 @@
                             <tr>
                                 <th>#</th>
                                 <th>Kategori Adı</th>
-                                <th>Ürünler</th>
-                                <th>Özellikler</th>
+                                <th>Ürün Sayısı</th>
                                 <th style="width: 10%">İşlem</th>
                             </tr>
                         </tfoot>
@@ -42,15 +40,10 @@
                                     <th scope="row">@count</th>
                                     <td>@category.CategoryName</td>
                                     <td>
-                                        <a href="" class="btn btn-link">
-                                            Ait Ürünler
-                                        </a>
+                                            17
                                     </td>
                                     <td>
-                                        @foreach (var feature in category.Features)
-                                        {
-                                            <span>@feature.CategoryFeatureName, </span>
-                                        }
+
                                     </td>
                                     <td>
                                         <div class="form-button-action">

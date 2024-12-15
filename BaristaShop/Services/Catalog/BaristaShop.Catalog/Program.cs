@@ -4,6 +4,7 @@ using BaristaShop.Catalog.Services.CategoryServices;
 using BaristaShop.Catalog.Services.ProductDetailServices;
 using BaristaShop.Catalog.Services.ProductFeatureStockServices;
 using BaristaShop.Catalog.Services.ProductImageServices;
+using BaristaShop.Catalog.Services.ProductItemServices;
 using BaristaShop.Catalog.Services.ProductServices;
 using BaristaShop.Catalog.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -20,9 +21,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 });
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
-builder.Services.AddScoped<ICategoryFeatureService, CategoryFeatureService>();
-builder.Services.AddScoped<ICategoryFeatureValueService, CategoryFeatureValueService>();
+builder.Services.AddScoped<IVariantService, VariantService>();
+builder.Services.AddScoped<IVariantOptionService, VariantOptionService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductItemService, ProductItemService>();
 builder.Services.AddScoped<IProductVariantService, ProductVariantService>();
 builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
 builder.Services.AddScoped<IProductImageService, ProductImageService>();

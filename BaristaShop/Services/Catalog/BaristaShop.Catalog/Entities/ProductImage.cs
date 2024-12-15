@@ -8,13 +8,9 @@ namespace BaristaShop.Catalog.Entities
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string ProductImageId { get; set; }
-        public string Images1 { get; set; }
-        public string Images2 { get; set; }
-        public string Images3 { get; set; }
-        public string Images4 { get; set; }
-        public string Images5 { get; set; }
+        public List<string> Images { get; set; } = new List<string>();
 
-        
+
         public string ProductId { get; set; }
 
         [BsonIgnore]

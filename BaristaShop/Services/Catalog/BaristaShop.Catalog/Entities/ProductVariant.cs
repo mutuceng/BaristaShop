@@ -5,18 +5,19 @@ namespace BaristaShop.Catalog.Entities
 {
     public class ProductVariant
     {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
         public string ProductVariantId { get; set; }
-        public int ProductVariantStock { get; set; }
-        public decimal ProductVariantPrice { get; set; }
 
-        public string ProductId { get; set; }
+        public string ProductItemId { get; set; }
 
-        [BsonIgnore]
-        public Product Product { get; set; }
+        public string VariantOptionId { get; set; }
 
         [BsonIgnore]
-        public string CategoryFeatureValueId { get; set; }
-        public CategoryFeatureValue CategoryFeatureValue { get; set; }
+        public ProductItem ProductItem { get; set; }
+
+        [BsonIgnore]
+        public VariantOption VariantOption { get; set; }
         
     }
 }

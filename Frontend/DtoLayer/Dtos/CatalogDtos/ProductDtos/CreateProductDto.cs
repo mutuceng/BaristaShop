@@ -9,8 +9,7 @@ namespace BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductDtos
     public class CreateProductDto
     {
         public string ProductName { get; set; }
-        public decimal ProductPrice { get; set; }
-
+        public bool ProductIsActive { get; set; } = true;
         public string CategoryId { get; set; }
     }
 }

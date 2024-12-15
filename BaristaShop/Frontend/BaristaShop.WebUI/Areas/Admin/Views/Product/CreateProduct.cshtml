@@ -1,0 +1,84 @@
+﻿@model CreateProductDto
+
+@{
+    ViewData["Title"] = "CreateProduct";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Ürün Ekleme</h4>
+                <div id="progress-container" style="width: 100%; background: #ddd; border-radius: 10px; margin: 20px 0;">
+                    <div id="progress-bar" style="width: 0%; height: 20px; background: #4caf50; border-radius: 10px; text-align: center; color: white;">
+                        %0
+                    </div>
+                </div>
+                <br />
+                <div id="addProduct" class="bs-example" data-example-id="bordered-table">
+                    <form method="post" asp-controller="Product" asp-action="CreateProduct">
+                        <div id="feature-container">
+                            <label>Ürün İsmi</label>
+                            <input type="text" name="ProductName" class="form-control" required/>
+
+
+                            <!--Kategori Seçimi-->
+                            <label>Kategori Seçimi</label>
+                            <select name="CategoryId" class="form-control" required>
+                                <option value="" disabled selected>Kategori Seçiniz</option>
+                                @if (ViewBag.Categories != null)
+                                {
+                                    foreach (var item in (List<SelectListItem>)ViewBag.Categories)
+                                    {
+                                        <option value="@item.Value">@item.Text</option>
+                                    }
+                                }
+                                else
+                                {
+                                    <option value="">Değer bulunamadı</option>
+                                }
+                            </select>
+                        </div>
+                        <br />
+                        <button type="submit" class="btn btn-primary" onclick ="updateProgressBar()">Sonraki Adım</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function updateProgressBar() {
+
+        const form = document.getElementById("myForm");
+
+        const divProduct = document.getElementById("addProduct");
+        const divProductItem = document.getElementById("addProductItem");
+
+        // Formun geçerli olup olmadığını kontrol et
+        if (form.checkValidity()) {
+
+            divProduct.style.display = none;
+            divProductItem.stlye.display = block;
+
+
+
+            const progressBar = document.getElementById('progress-bar');
+
+            const currentWidth = parseInt(progressBar.style.width); // Mevcut genişliği yüzde olarak al
+            const newWidth = Math.min(currentWidth + 20, 100); // Genişliği 20 artır, 100'ü geçmesin
+
+            // Yeni genişliği ayarla
+            progressBar.style.width = `${newWidth}%`;
+
+            // Yüzdelik değeri güncelle
+            progressBar.textContent = `%${newWidth}`;
+        } else {
+            alert("Form geçerli değil, lütfen gerekli alanları doldurun!");
+            form.reportValidity();
+        }
+
+    }
+</script>

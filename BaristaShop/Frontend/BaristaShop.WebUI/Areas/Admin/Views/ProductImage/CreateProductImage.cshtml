@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "CreateProductImage";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Ürün Ekleme</h4>
+                <div id="progress-container" style="width: 100%; background: #ddd; border-radius: 10px; margin: 20px 0;">
+                    <div id="progress-bar" style="width: 75%; height: 20px; background: #4caf50; border-radius: 10px; text-align: center; color: white;">
+                        %75
+                    </div>
+                </div>
+                <br />
+
+                <div class="bs-example" data-example-id="bordered-table">
+                    <h4>Ürün Görselleri</h4>
+                    <br />
+                    <form method="post" asp-controller="ProductImage" asp-action="CreateProductImage">
+                        <div id="feature-container">
+
+                            <input type="hidden" name="ProductId" value="@ViewBag.ProductId" class="form-control" />
+
+                            <label>Ürün Görselleri (JPEG formatında, max 5 adet)</label>
+                            <input type="file" name="ProductImages" class="form-control" accept="image/jpeg" multiple required/>
+                        </div>
+                        <br />
+                        <button type="submit" class="btn btn-primary">Ürünü Ekle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

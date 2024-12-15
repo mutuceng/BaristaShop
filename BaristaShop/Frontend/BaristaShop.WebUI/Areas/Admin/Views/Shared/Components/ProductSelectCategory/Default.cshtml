@@ -1,0 +1,65 @@
+﻿
+
+
+<select id="secimler" class="form-control" >
+    @if (ViewBag.Categories != null)
+    {
+        foreach (var item in (List<SelectListItem>)ViewBag.Categories)
+        {
+            <option value="@item.Value">@item.Text</option>
+        }
+    }
+    else
+    {
+        <option value="">Değer bulunamadı</option>
+    }
+</select>
+
+<div id="featuresContainer">
+    <!-- Dinamik özellikler buraya eklenecek -->
+</div>
+
+
+
+<script>
+    document.getElementById("category").addEventListener("change", function () {
+        const categoryId = this.value;
+        const featuresContainer = document.getElementById("featuresContainer");
+
+        // Seçim yapılmadıysa, özellikleri temizle
+        if (!categoryId) {
+            featuresContainer.innerHTML = "";
+            return;
+        }
+
+        // Özellikleri çekmek için API çağrısı  
+        fetch(`https://localhost:7080/api/CategoryFeatures?categoryId=${categoryId}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Failed to fetch features.");
+                }
+                return response.json();
+            })
+            .then(features => {
+                // Mevcut özellikleri temizle
+                featuresContainer.innerHTML = "";
+
+                // Her bir özellik için input ekleme
+                features.forEach(feature => {
+                    const featureDiv = document.createElement("div");
+                    featureDiv.innerHTML = `
+                        <label for="${feature.featureName}">${feature.featureName}:</label>
+                        <select id="${feature.featureName}" name="${feature.featureName}" required>
+                            ${feature.values.map(value => `<option value="${value}">${value}</option>`).join("")}
+                        </select>
+                    `;
+                    featuresContainer.appendChild(featureDiv);
+                });
+            })
+            .catch(error => {
+                console.error("Error fetching features:", error);
+                featuresContainer.innerHTML = "<p>Failed to load features.</p>";
+            });
+    });
+
+</script>
