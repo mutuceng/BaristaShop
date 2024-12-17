@@ -23,6 +23,7 @@
     <Folder Include="Areas\Merchant\Models\" />
     <Folder Include="Areas\Merchant\ViewComponents\" />
     <Folder Include="Areas\Merchant\Views\Shared\Components\" />
+    <Folder Include="wwwroot\images\productImages\" />
   </ItemGroup>
 
   <ItemGroup>

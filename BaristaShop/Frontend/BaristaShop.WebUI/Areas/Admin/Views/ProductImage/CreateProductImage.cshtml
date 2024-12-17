@@ -1,4 +1,4 @@
-﻿@model CreateProductImageDto
+﻿@model AddProductImagesViewModel
 @{
     ViewData["Title"] = "CreateProductImage";
     Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
@@ -58,10 +58,20 @@
                     <h4>Ürün Görselleri</h4>
                     <br />
                     <label>Dilersen tek tek dilersen toplu ekleme yapabilirsin.</label>
-                    <form method="post" asp-controller="ProductImage" asp-action="CreateProductImage">
+                    <form method="post" asp-controller="ProductImage" asp-action="CreateProductImage" enctype="multipart/form-data">
                         <div id="feature-container">
 
-                            <input type="hidden" name="ProductId" value="@ViewBag.ProductId" class="form-control" />
+                            <input type="hidden" name="ProductId" value="@ViewBag.ProductId" class="form-control"  />
+
+                            @if (!ViewData.ModelState.IsValid)
+                            {
+                                <div class="alert alert-danger">
+                                    @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                    {
+                                        <p>@modelError.ErrorMessage</p>
+                                    }
+                                </div>
+                            }
 
                             <div class="image-grid">
                                 <!-- Placeholder görseller -->
@@ -87,8 +97,7 @@
                             </div>
                             <p id="sizeWarning" style="color: red; display: none;">Görselin genişliği en az 1000px olmalıdır ve görsel 1:1 olmamalıdır.</p>
 
-
-                            <input name="Images" type="file" class="hidden-input" id="file-input" accept="image/*" multiple onchange="previewImages(event)">
+                            <input name="ProductImages" type="file" class="hidden-input" id="file-input" accept="image/png, image/jpeg" multiple onchange="previewImages(event)" required>
 
                         </div>
                         <br />
@@ -102,9 +111,9 @@
 
 
 <script>
-    let placeholders = document.querySelectorAll('.image-placeholder img'); // Görsel placeholder'ları
+    let placeholders = document.querySelectorAll('.image-placeholder img');// Görsel placeholder'ları
     let currentIndex = 0; // Placeholder indeksi
-    let imageFiles = []; // Görselleri tutacak liste
+    let imageFiles = []; //Görselleri tutacak liste
 
     // Gizli input'u tetikle
     function triggerFileInput() {
@@ -113,11 +122,12 @@
 
     // Çoklu görselleri önizle ve listeye ekle
     function previewImages(event) {
-        const files = Array.from(event.target.files); // Seçilen dosyaları Array'e dönüştür
+        const files = Array.from(event.target.files); //Seçilen dosyaları Array'e dönüştür
         const totalPlaceholders = placeholders.length;
 
+        
         for (let i = 0; i < files.length; i++) {
-            if (currentIndex >= totalPlaceholders) break; // Placeholder'lar dolduysa çık
+            if (currentIndex >= totalPlaceholders) break; //Placeholder'lar dolduysa çık
 
             const file = files[i];
             const img = new Image();
@@ -145,8 +155,10 @@
             };
             reader.readAsDataURL(file);
         }
+       
 
-        console.log(imageFiles); // Görsel listesini konsola yaz
+
+        console.log(imageFiles);// Görsel listesini konsola yaz
     }
 
 

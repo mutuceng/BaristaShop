@@ -9,7 +9,13 @@ namespace BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductImageDtos
     public class ResultProductImageDto
     {
         public string ProductImageId { get; set; }
-        public List<string> Images { get; set; } = new List<string>();
+        public string Image1 { get; set; }
+        public string Image2 { get; set; }
+        public string Image3 { get; set; }
+
+        public string? Image4 { get; set; }
+        public string? Image5 { get; set; }
+        public string? Image6 { get; set; }
 
 
         public string ProductId { get; set; }
