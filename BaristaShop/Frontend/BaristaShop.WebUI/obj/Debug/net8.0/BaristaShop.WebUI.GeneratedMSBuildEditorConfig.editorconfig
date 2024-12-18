@@ -46,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/FeatureSlider/CreateFeatureSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVNsaWRlclxDcmVhdGVGZWF0dXJlU2xpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/FeatureSlider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVNsaWRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/ProductDetail/CreateProductDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdERldGFpbFxDcmVhdGVQcm9kdWN0RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -92,6 +100,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/Shared/PartialViews/_AdminScriptsPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfQWRtaW5TY3JpcHRzUGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/SpecialOffer/CreateSpecialOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlY2lhbE9mZmVyXENyZWF0ZVNwZWNpYWxPZmZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/SpecialOffer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlY2lhbE9mZmVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/_ViewImports.cshtml]

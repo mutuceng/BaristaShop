@@ -1,0 +1,66 @@
+﻿@model List<ResultSpecialOfferDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<div class="table-responsive">
+    <table id="add-row" class="display table table-striped table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>#</th>
+                <th>Başlık</th>
+                <th>Alt Başlık</th>
+                <th>Görsel</th>
+
+                <th style="width: 10%">İşlem</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>#</th>
+                <th>Başlık</th>
+                <th>Alt Başlık</th>
+                <th>Görsel</th>
+
+                <th style="width: 10%">İşlem</th>
+            </tr>
+        </tfoot>
+
+        <tbody>
+
+
+            <tr>
+                @foreach (var offer in Model)
+                {
+                    count++;
+                <tr>
+                    <th scope="row">@count</th>
+                    <td>@offer.SpecialOfferId</td>
+                    <td>@offer.SpecialOfferTitle</td>
+                    <td>
+                            @offer.SpecialOfferSubTitle
+                    </td>
+                    <td>
+                        <img src="~/@offer.SpecialOfferImage" alt="@offer.SpecialOfferTitle" style="width: 100px; height: auto;" />
+                    </td>
+
+
+                    <td>
+                        <div class="form-button-action">
+                            <a href="/Admin/SpecialOffer/UpdateSpecialOffer/@offer.SpecialOfferId" class="btn btn-link btn-primary">
+                                <i class="fa fa-edit"></i>
+                            </a>
+                            <a href="/Admin/SpecialOffer/DeleteSpecialOffer/@offer.SpecialOfferId" class="btn btn-link btn-danger">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                }
+            </tr>
+
+        </tbody>
+    </table>
+</div>

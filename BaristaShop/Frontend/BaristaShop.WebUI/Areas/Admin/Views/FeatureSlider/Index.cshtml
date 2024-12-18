@@ -1,0 +1,66 @@
+﻿@model List<ResultFeatureSliderDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<div class="table-responsive">
+    <table id="add-row" class="display table table-striped table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>#</th>
+                <th>Başlık</th>
+                <th>Bilgi</th>
+                <th>Görsel</th>
+
+                <th style="width: 10%">İşlem</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>#</th>
+                <th>Başlık</th>
+                <th>Bilgi</th>
+                <th>Görsel</th>
+
+                <th style="width: 10%">İşlem</th>
+            </tr>
+        </tfoot>
+
+        <tbody>
+
+
+            <tr>
+                @foreach (var feature in Model)
+                {
+                    count++;
+                <tr>
+                    <th scope="row">@count</th>
+                    <td>@feature.FeatureSliderId</td>
+                    <td>@feature.FeatureSliderTitle</td>
+                    <td>
+                         @feature.FeatureSliderDescription
+                    </td>
+                    <td>
+                        <img src="~/@feature.FeatureSliderImage" alt="@feature.FeatureSliderTitle" style="width: 100px; height: auto;" />
+                    </td>
+
+
+                    <td>
+                        <div class="form-button-action">
+                            <a href="/Admin/FeatureSlider/UpdateFeatureSlider/@feature.FeatureSliderId" class="btn btn-link btn-primary">
+                                <i class="fa fa-edit"></i>
+                            </a>
+                            <a href="/Admin/FeatureSlider/DeleteFeatureSlider/@feature.FeatureSliderId" class="btn btn-link btn-danger">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                }
+            </tr>
+
+        </tbody>
+    </table>
+</div>

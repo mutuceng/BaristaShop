@@ -1,0 +1,52 @@
+﻿@model AddSpecialOfferImageViewModel
+@{
+    ViewData["Title"] = "CreateSpecialOffer";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Özel Teklif Kısmı Ekle</h4>
+
+                <br />
+
+                <div class="bs-example" data-example-id="bordered-table">
+
+                    <form method="post" asp-controller="SpecialOffer" asp-action="CreateSpecialOffer" enctype="multipart/form-data">
+                        <div id="feature-container">
+                            <label>Başlık</label>
+                            <input type="text" name="SpecialOfferTitle" class="form-control" required />
+
+                            <label>Alt Başlık</label>
+                            <input type="text" name="SpecialOfferSubTitle" class="form-control" required />
+
+                            @if (!ViewData.ModelState.IsValid)
+                            {
+                                <div class="alert alert-danger">
+                                    @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                    {
+                                        <p>@modelError.ErrorMessage</p>
+                                    }
+                                </div>
+                            }
+
+                            <div id="main" class="image-placeholder">
+                                <input name="SpecialOfferImage" type="file" id="file-input" accept="image/png, image/jpeg" required>
+                            </div>
+
+                            <p id="sizeWarning" style="color: red; display: none;">Görselin genişliği en az 1000px olmalıdır ve görsel 1:1 olmamalıdır.</p>
+
+
+
+                        </div>
+                        <br />
+                        <button type="submit" class="btn btn-primary">Ekle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

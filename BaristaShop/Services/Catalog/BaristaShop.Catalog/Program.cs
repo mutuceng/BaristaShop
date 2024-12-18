@@ -7,6 +7,7 @@ using BaristaShop.Catalog.Services.ProductFeatureStockServices;
 using BaristaShop.Catalog.Services.ProductImageServices;
 using BaristaShop.Catalog.Services.ProductItemServices;
 using BaristaShop.Catalog.Services.ProductServices;
+using BaristaShop.Catalog.Services.SpecifalOfferServices;
 using BaristaShop.Catalog.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
@@ -30,6 +31,7 @@ builder.Services.AddScoped<IProductVariantService, ProductVariantService>();
 builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
 builder.Services.AddScoped<IProductImageService, ProductImageService>();
 builder.Services.AddScoped<IFeatureSliderService, FeatureSliderService>();
+builder.Services.AddScoped<ISpecialOfferService, SpecialOfferService>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 

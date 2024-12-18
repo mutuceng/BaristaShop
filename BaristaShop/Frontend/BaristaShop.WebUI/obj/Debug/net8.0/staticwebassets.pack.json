@@ -9,6 +9,50 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\featureSlider\\4c77e20a-9dbf-461e-be33-821c345609e0_filtrekahve.jpeg",
+      "PackagePath": "staticwebassets\\images\\homepageImages\\featureSlider\\4c77e20a-9dbf-461e-be33-821c345609e0_filtrekahve.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\featureSlider\\70959c21-42c0-476f-b927-0c281e800c37_filtrekahve.jpeg",
+      "PackagePath": "staticwebassets\\images\\homepageImages\\featureSlider\\70959c21-42c0-476f-b927-0c281e800c37_filtrekahve.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\featureSlider\\809992b5-df0e-4db2-91d0-b41660512165_espresso.jpg",
+      "PackagePath": "staticwebassets\\images\\homepageImages\\featureSlider\\809992b5-df0e-4db2-91d0-b41660512165_espresso.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\featureSlider\\e681550c-05bb-40d2-ae23-d7feb68e193d_barista.jpg",
+      "PackagePath": "staticwebassets\\images\\homepageImages\\featureSlider\\e681550c-05bb-40d2-ae23-d7feb68e193d_barista.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\specialOffer\\d4115468-beb2-450e-ab62-b2867d10ede4_yeniyıl.jpg",
+      "PackagePath": "staticwebassets\\images\\homepageImages\\specialOffer\\d4115468-beb2-450e-ab62-b2867d10ede4_yeniyıl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\specialOffer\\fd32123e-ac9c-4a2e-bdae-76ea7bb361cd_ahsapbarista.jpg",
+      "PackagePath": "staticwebassets\\images\\homepageImages\\specialOffer\\fd32123e-ac9c-4a2e-bdae-76ea7bb361cd_ahsapbarista.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\productImages\\0447a09c-f7ca-4425-a621-64c3f5af9cef_Standart Tamper A (58 mm.).jpg",
+      "PackagePath": "staticwebassets\\images\\productImages\\0447a09c-f7ca-4425-a621-64c3f5af9cef_Standart Tamper A (58 mm.).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\productImages\\4c5272dd-c930-49c3-86e3-932bebd0cca3_Round Tamper B (57,6 mm.).jpg",
+      "PackagePath": "staticwebassets\\images\\productImages\\4c5272dd-c930-49c3-86e3-932bebd0cca3_Round Tamper B (57,6 mm.).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\productImages\\67c2ae6c-0fb2-4f52-9d8c-34ef2a83205b_Round Tamper A (57,6 mm.).jpg",
+      "PackagePath": "staticwebassets\\images\\productImages\\67c2ae6c-0fb2-4f52-9d8c-34ef2a83205b_Round Tamper A (57,6 mm.).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\productImages\\70cc381a-158c-44cd-bae7-4be1f3f83601_Round Striped Tamper A (58 mm.) .jpg",
+      "PackagePath": "staticwebassets\\images\\productImages\\70cc381a-158c-44cd-bae7-4be1f3f83601_Round Striped Tamper A (58 mm.) .jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\productImages\\abac0a58-a491-470e-95a4-e4c0b77ff455_Round Striped Tamper B (58 mm.).jpg",
+      "PackagePath": "staticwebassets\\images\\productImages\\abac0a58-a491-470e-95a4-e4c0b77ff455_Round Striped Tamper B (58 mm.).jpg"
+    },
+    {
       "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\js\\multipleselect.js",
       "PackagePath": "staticwebassets\\js\\multipleselect.js"
     },

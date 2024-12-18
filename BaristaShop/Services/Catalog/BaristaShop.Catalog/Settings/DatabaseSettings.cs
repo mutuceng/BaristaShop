@@ -14,6 +14,7 @@
         public string ProductVariantCollectionName { get; set; }
 
         public string FeatureSliderCollectionName { get; set; }
+        public string SpecialOfferCollectionName { get; set; }
 
 
         public string ConnectionString { get; set; }
