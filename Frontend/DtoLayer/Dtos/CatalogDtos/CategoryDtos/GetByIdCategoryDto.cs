@@ -11,5 +11,6 @@ namespace BaristaShop.DtoLayer.Dtos.CatalogDtos.CategoryDtos
     {
         public string CategoryId { get; set; }
         public string CategoryName { get; set; }
+        public string CategoryImage { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lDNyB3Akussl2fWkPhk8cHG5cJ9G+LVf/tlDp1nEwV4=",
+  "Hash": "/6Iqr3F7Sj4vgvnfArxilpDbcSP7u7C4fibGELKf9p4=",
   "Source": "BaristaShop.WebUI",
   "BasePath": "_content/BaristaShop.WebUI",
   "Mode": "Default",
@@ -143,12 +143,12 @@
       "OriginalItemSpec": "wwwroot\\images\\homepageImages\\featureSlider\\e681550c-05bb-40d2-ae23-d7feb68e193d_barista.jpg"
     },
     {
-      "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\specialOffer\\d4115468-beb2-450e-ab62-b2867d10ede4_yeniyıl.jpg",
+      "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\specialOffer\\be30f4ee-495b-4bf8-aec4-94605b1fc30a_yeniyıl.jpg",
       "SourceId": "BaristaShop.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\",
       "BasePath": "_content/BaristaShop.WebUI",
-      "RelativePath": "images/homepageImages/specialOffer/d4115468-beb2-450e-ab62-b2867d10ede4_yeniyıl.jpg",
+      "RelativePath": "images/homepageImages/specialOffer/be30f4ee-495b-4bf8-aec4-94605b1fc30a_yeniyıl.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -159,15 +159,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\homepageImages\\specialOffer\\d4115468-beb2-450e-ab62-b2867d10ede4_yeniyıl.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\homepageImages\\specialOffer\\be30f4ee-495b-4bf8-aec4-94605b1fc30a_yeniyıl.jpg"
     },
     {
-      "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\specialOffer\\fd32123e-ac9c-4a2e-bdae-76ea7bb361cd_ahsapbarista.jpg",
+      "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\specialOffer\\be539ab9-de42-435c-8df6-c6fe1aea16b2_ahsapbarista.jpg",
       "SourceId": "BaristaShop.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\",
       "BasePath": "_content/BaristaShop.WebUI",
-      "RelativePath": "images/homepageImages/specialOffer/fd32123e-ac9c-4a2e-bdae-76ea7bb361cd_ahsapbarista.jpg",
+      "RelativePath": "images/homepageImages/specialOffer/be539ab9-de42-435c-8df6-c6fe1aea16b2_ahsapbarista.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,7 +178,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\homepageImages\\specialOffer\\fd32123e-ac9c-4a2e-bdae-76ea7bb361cd_ahsapbarista.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\homepageImages\\specialOffer\\be539ab9-de42-435c-8df6-c6fe1aea16b2_ahsapbarista.jpg"
     },
     {
       "Identity": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\productImages\\0447a09c-f7ca-4425-a621-64c3f5af9cef_Standart Tamper A (58 mm.).jpg",

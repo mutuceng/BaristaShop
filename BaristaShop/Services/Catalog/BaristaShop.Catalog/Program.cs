@@ -1,3 +1,4 @@
+using BaristaShop.Catalog.Services.AboutUsServices;
 using BaristaShop.Catalog.Services.CategoryFeatureServices;
 using BaristaShop.Catalog.Services.CategoryFeatureValueServices;
 using BaristaShop.Catalog.Services.CategoryServices;
@@ -32,6 +33,7 @@ builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
 builder.Services.AddScoped<IProductImageService, ProductImageService>();
 builder.Services.AddScoped<IFeatureSliderService, FeatureSliderService>();
 builder.Services.AddScoped<ISpecialOfferService, SpecialOfferService>();
+builder.Services.AddScoped<IAboutUsService, AboutUsService>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 

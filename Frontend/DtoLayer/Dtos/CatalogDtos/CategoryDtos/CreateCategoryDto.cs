@@ -10,6 +10,7 @@ namespace BaristaShop.DtoLayer.Dtos.CatalogDtos.CategoryDtos
     public class CreateCategoryDto
     {
         public string CategoryName { get; set; }
-        
+        public string CategoryImage { get; set; }
+
     }
 }

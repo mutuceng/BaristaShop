@@ -50,49 +50,53 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
             ViewBag.v1 = "Kategori Ekleme";
 
 
-            //var client = _httpClientFactory.CreateClient();
-            //var response = await client.GetAsync("https://localhost:7080/api/CategoryFeatures");
-            //if(response.IsSuccessStatusCode)
-            //{
-            //    var jsonData = await response.Content.ReadAsStringAsync();
-            //    var values = JsonConvert.DeserializeObject<List<ResultVariantDto>>(jsonData);
-
-            //    List<SelectListItem> CategoryFeatures = (from x in values
-            //                                             select new SelectListItem
-            //                                             {
-            //                                                 Text = x.CategoryFeatureName,
-            //                                                 Value = x.CategoryFeatureId
-            //                                             }).ToList();
-
-            //    ViewBag.CategoryFeatures = CategoryFeatures;
-            //}
            
             return View();
         }
 
         [HttpPost]
         [Route("CreateCategory")]
-        public async Task<IActionResult> CreateCategory(CreateCategoryDto model)
+        public async Task<IActionResult> CreateCategory(AddCategoryImageViewModel model)
         {
             if (ModelState.IsValid)
             {
-                
+                string folder = Path.Combine("wwwroot","images", "categoryImages");
 
-                var createCategoryDto = new CreateCategoryDto
+                if (!Directory.Exists(folder))
                 {
-                    CategoryName = model.CategoryName,
-                };
-
-                var client = _httpClientFactory.CreateClient();
-                var jsonData = JsonConvert.SerializeObject(createCategoryDto);
-                StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                var response = await client.PostAsync("https://localhost:7080/api/Categories", content);
-                if (response.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("Index", "Category", new { area = "Admin" });
+                    Directory.CreateDirectory(folder);
                 }
-            }
-            else
+
+                if (model.CategoryImage != null && model.CategoryImage.Length > 0)
+                {
+                    string uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(model.CategoryImage.FileName);
+
+                    string filePath = Path.Combine(folder, uniqueFileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.CategoryImage.CopyToAsync(fileStream);
+                    }
+
+                    string relativePath = Path.Combine("images", "categoryImages", uniqueFileName).Replace("\\", "/");
+
+                    var createCategoryDto = new CreateCategoryDto
+                    {
+                        CategoryName = model.CategoryName,
+                        CategoryImage = relativePath
+                    };
+
+                    var client = _httpClientFactory.CreateClient();
+                    var jsonData = JsonConvert.SerializeObject(createCategoryDto);
+                    StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                    var response = await client.PostAsync("https://localhost:7080/api/Categories", content);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        return RedirectToAction("Index", "Category", new { area = "Admin" });
+                    }
+
+                }
+            } else
             {
                 // ModelState hatalarını inceleyin.
                 var errors = ModelState.Values.SelectMany(v => v.Errors);

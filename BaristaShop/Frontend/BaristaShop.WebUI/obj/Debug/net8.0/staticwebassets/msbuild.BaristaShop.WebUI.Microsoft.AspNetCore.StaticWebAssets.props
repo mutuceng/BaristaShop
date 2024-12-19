@@ -96,12 +96,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\featureSlider\e681550c-05bb-40d2-ae23-d7feb68e193d_barista.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\specialOffer\d4115468-beb2-450e-ab62-b2867d10ede4_yeniyıl.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\specialOffer\be30f4ee-495b-4bf8-aec4-94605b1fc30a_yeniyıl.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BaristaShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BaristaShop.WebUI</BasePath>
-      <RelativePath>images/homepageImages/specialOffer/d4115468-beb2-450e-ab62-b2867d10ede4_yeniyıl.jpg</RelativePath>
+      <RelativePath>images/homepageImages/specialOffer/be30f4ee-495b-4bf8-aec4-94605b1fc30a_yeniyıl.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -110,14 +110,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\specialOffer\d4115468-beb2-450e-ab62-b2867d10ede4_yeniyıl.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\specialOffer\be30f4ee-495b-4bf8-aec4-94605b1fc30a_yeniyıl.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\specialOffer\fd32123e-ac9c-4a2e-bdae-76ea7bb361cd_ahsapbarista.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\specialOffer\be539ab9-de42-435c-8df6-c6fe1aea16b2_ahsapbarista.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BaristaShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BaristaShop.WebUI</BasePath>
-      <RelativePath>images/homepageImages/specialOffer/fd32123e-ac9c-4a2e-bdae-76ea7bb361cd_ahsapbarista.jpg</RelativePath>
+      <RelativePath>images/homepageImages/specialOffer/be539ab9-de42-435c-8df6-c6fe1aea16b2_ahsapbarista.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -126,7 +126,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\specialOffer\fd32123e-ac9c-4a2e-bdae-76ea7bb361cd_ahsapbarista.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\specialOffer\be539ab9-de42-435c-8df6-c6fe1aea16b2_ahsapbarista.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\productImages\0447a09c-f7ca-4425-a621-64c3f5af9cef_Standart Tamper A (58 mm.).jpg))">
       <SourceType>Package</SourceType>

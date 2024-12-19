@@ -10,6 +10,7 @@ using BaristaShop.Catalog.Dtos.ProductFeatureStockDtos;
 using BaristaShop.Catalog.Dtos.ProductItemDtos;
 using BaristaShop.Catalog.Dtos.FeatureSliderDtos;
 using BaristaShop.Catalog.Dtos.SpecialOfferDtos;
+using BaristaShop.Catalog.Dtos.AboutUsDtos;
 
 namespace BaristaShop.Catalog.Mapping
 {
@@ -66,6 +67,9 @@ namespace BaristaShop.Catalog.Mapping
             CreateMap<SpecialOffer, CreateSpecialOfferDto>().ReverseMap();
             CreateMap<SpecialOffer, GetByIdSpecialOfferDto>().ReverseMap();
             CreateMap<SpecialOffer, UpdateSpecialOfferDto>().ReverseMap();
+
+            CreateMap<AboutUs, ResultAboutUsDto>().ReverseMap();
+            CreateMap<AboutUs, CreateAboutUsDto>().ReverseMap();
 
         }
 

@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "BaristaShop.Catalog.Controllers.AboutUsController",
+    "Method": "AboutUsList",
+    "RelativePath": "api/AboutUs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.AboutUsController",
+    "Method": "CreateAboutUs",
+    "RelativePath": "api/AboutUs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAboutUsDto",
+        "Type": "BaristaShop.Catalog.Dtos.AboutUsDtos.CreateAboutUsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.AboutUsController",
+    "Method": "UpdateAboutUs",
+    "RelativePath": "api/AboutUs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateAboutUsDto",
+        "Type": "BaristaShop.Catalog.Dtos.AboutUsDtos.UpdateAboutUsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BaristaShop.Catalog.Controllers.CategoriesController",
     "Method": "CategoryList",
     "RelativePath": "api/Categories",
