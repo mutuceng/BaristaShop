@@ -1,12 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BaristaShop.WebUI.Services.ProductDataServices;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BaristaShop.WebUI.ViewComponents.UIProductDetailComponents
 {
     public class UIProductDetailViewComponent:ViewComponent
     {
-        public IViewComponentResult Invoke()
+        private readonly IProductDataService? _productDataService;
+
+        public UIProductDetailViewComponent(IProductDataService productDataService)
         {
-            return View();
+            _productDataService = productDataService;
+        }
+        public IViewComponentResult Invoke(string productId)
+        {
+            var product = _productDataService.GetProductDataAsync(productId);
+            return View(product);
         }
     }
 }

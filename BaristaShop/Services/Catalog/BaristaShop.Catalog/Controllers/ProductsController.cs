@@ -53,5 +53,12 @@ namespace BaristaShop.Catalog.Controllers
             return Ok("Successfully updated");
         }
 
+        [HttpGet("featured")]
+        public async Task<IActionResult> FeaturedProductList()
+        {
+            var values = await _productService.GetFeaturedProductsAsync();
+            return Ok(values);
+        }
+
     }
 }

@@ -9,5 +9,6 @@ namespace BaristaShop.Catalog.Services.ProductItemServices
         Task UpdateProductItemAsync(UpdateProductItemDto product);
         Task DeleteProductItemAsync(string id);
         Task<GetByIdProductItemDto> GetByIdProductItemAsync(string id);
+        Task<GetProductItemByProductIdDto> GetProductItemByProductIdAsync(string productId);
     }
 }

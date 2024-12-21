@@ -4,14 +4,17 @@ namespace BaristaShop.WebUI.Controllers
 {
     public class UIProductListController : Controller
     {
+        [Route("Index")]
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult ProductDetails()
+        [Route("ProductDetails/${productId}")]
+        public IActionResult ProductDetails(string productId)
         {
-            return View();
+
+            return View(productId);
         }
     }
 }

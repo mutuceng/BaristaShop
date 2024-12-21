@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/AboutUs/CreateAboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRVc1xDcmVhdGVBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/AboutUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRVc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Umutl/Belgeler/GitHub/BaristaShop/BaristaShop/Frontend/BaristaShop.WebUI/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5MYXlvdXRcX0FkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

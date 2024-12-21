@@ -53,5 +53,12 @@ namespace BaristaShop.Catalog.Controllers
             await _productDetailService.UpdateProductDetailAsync(updateProductDetailDto);
             return Ok("Successfully updated");
         }
+
+        [HttpGet("byproduct/{productId}")]
+        public async Task<IActionResult> GetProductDetailByProductId(string productId)
+        {
+            var value = await _productDetailService.GetProductDetailByProductIdAsync(productId);
+            return Ok(value);
+        }
     }
 }

@@ -26,8 +26,8 @@ namespace BaristaShop.Catalog.Services.AboutUsServices
 
         public async Task<ResultAboutUsDto> GetAboutUsAsync()
         {
-            var values = await _aboutUsCollection.Find(x => true).ToListAsync(); // gets all values
-            return _mapper.Map<ResultAboutUsDto>(values);
+            var value = await _aboutUsCollection.Find(x => true).FirstOrDefaultAsync(); // gets the first value
+            return _mapper.Map<ResultAboutUsDto>(value);
         }
 
         public async Task UpdateAboutUsAsync(UpdateAboutUsDto updateAboutUsDto)

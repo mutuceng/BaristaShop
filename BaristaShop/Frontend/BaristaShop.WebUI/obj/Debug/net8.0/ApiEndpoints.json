@@ -264,6 +264,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BaristaShop.Catalog.Controllers.ProductDetailsController",
+    "Method": "GetProductDetailByProductId",
+    "RelativePath": "api/ProductDetails/byproduct/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BaristaShop.Catalog.Controllers.ProductImagesController",
     "Method": "ListProductImage",
     "RelativePath": "api/ProductImages",
@@ -331,6 +347,22 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.ProductImagesController",
+    "Method": "GetProductImageByProductId",
+    "RelativePath": "api/ProductImages/byproduct/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
         "Type": "System.String",
         "IsRequired": true
       }
@@ -412,6 +444,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BaristaShop.Catalog.Controllers.ProductItemsController",
+    "Method": "GetProductItemByProductId",
+    "RelativePath": "api/ProductItems/byproduct/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BaristaShop.Catalog.Controllers.ProductsController",
     "Method": "ProductList",
     "RelativePath": "api/Products",
@@ -483,6 +531,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.ProductsController",
+    "Method": "FeaturedProductList",
+    "RelativePath": "api/Products/featured",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

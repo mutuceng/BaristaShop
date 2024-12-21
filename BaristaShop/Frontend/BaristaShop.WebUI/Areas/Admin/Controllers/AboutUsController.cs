@@ -18,6 +18,8 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
         {
             _httpClientFactory = httpClientFactory;
         }
+
+        [Route("Index")]
         public async Task<IActionResult> Index()
         {
 
@@ -26,7 +28,7 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
             if (response.IsSuccessStatusCode)
             {
                 var jsonData = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultAboutUsDto>>(jsonData);
+                var values = JsonConvert.DeserializeObject<ResultAboutUsDto>(jsonData);
                 return View(values);
             }
 

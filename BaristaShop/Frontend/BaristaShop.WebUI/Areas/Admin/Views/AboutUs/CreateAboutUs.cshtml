@@ -1,0 +1,31 @@
+﻿@model CreateAboutUsDto
+@{
+    ViewData["Title"] = "CreateAboutUs";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Kategori Ekleme</h4>
+                <br />
+                <div class="bs-example" data-example-id="bordered-table">
+                    <form method="post" asp-controller="AboutUs" asp-action="CreateAboutUs">
+                        <!-- tag helper olmadan asp-for gibi etiketleri görmüyor onu tag helperı da viewimportsla ekliyoruz -->
+                        <label>Hakkımda Açıklama Kısmı</label>
+                        <input type="text" class="form-control" name="AboutInfo" required/>
+                        <label>Şirket Email</label>
+                        <input type="text" class="form-control" name="AboutEmail" required />
+                        <label>Şirket Telefonu</label>
+                        <input type="text" class="form-control" name="AboutPhone" required />
+
+
+                        <button class="btn btn-primary">Ekle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

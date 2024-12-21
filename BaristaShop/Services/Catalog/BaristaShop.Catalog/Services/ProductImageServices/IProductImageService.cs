@@ -1,4 +1,5 @@
 ﻿using BaristaShop.Catalog.Dtos.ProductImageDtos;
+using BaristaShop.Catalog.Dtos.ProductItemDtos;
 
 namespace BaristaShop.Catalog.Services.ProductImageServices
 {
@@ -9,5 +10,7 @@ namespace BaristaShop.Catalog.Services.ProductImageServices
         Task DeleteProductImageAsync(string id);
         Task CreateProductImageAsync(CreateProductImageDto createProductImageDto);
         Task<GetByIdProductImageDto> GetByIdProductImageAsync(string id);
+
+        Task<ResultProductImageDto> GetProductImageByProductIdAsync(string productId);
     }
 }

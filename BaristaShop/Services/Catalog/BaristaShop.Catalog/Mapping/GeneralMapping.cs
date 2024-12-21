@@ -42,6 +42,7 @@ namespace BaristaShop.Catalog.Mapping
             CreateMap<ProductItem, CreateProductItemDto>().ReverseMap();
             CreateMap<ProductItem, GetByIdProductItemDto>().ReverseMap();
             CreateMap<ProductItem, UpdateProductItemDto>().ReverseMap();
+            CreateMap<ProductItem, GetProductItemByProductIdDto>().ReverseMap();
 
             CreateMap<ProductDetail, ResultProductDetailDto>().ReverseMap();
             CreateMap<ProductDetail, CreateProductDetailDto>().ReverseMap();

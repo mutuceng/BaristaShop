@@ -1,4 +1,5 @@
 ﻿using BaristaShop.Catalog.Dtos.ProductDetailDtos;
+using BaristaShop.Catalog.Dtos.ProductItemDtos;
 
 namespace BaristaShop.Catalog.Services.ProductDetailServices
 {
@@ -9,5 +10,7 @@ namespace BaristaShop.Catalog.Services.ProductDetailServices
         Task UpdateProductDetailAsync(UpdateProductDetailDto updateProductDetailDto);
         Task DeleteProductDetailAsync(string id);
         Task<GetByIdProductDetailDto> GetByIdProductDetailAsync(string id);
+
+        Task<ResultProductDetailDto> GetProductDetailByProductIdAsync(string productId);
     }
 }

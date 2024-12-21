@@ -52,7 +52,14 @@ namespace BaristaShop.Catalog.Controllers
             await _productImageService.UpdateProductImageAsync(updateProductImageDto);
             return Ok("Successfully updated");
         }
-      
+
+        [HttpGet("byproduct/{productId}")]
+        public async Task<IActionResult> GetProductImageByProductId(string productId)
+        {
+            var value = await _productImageService.GetProductImageByProductIdAsync(productId);
+            return Ok(value);
+        }
+
 
     }
 }

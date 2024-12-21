@@ -47,5 +47,11 @@ namespace BaristaShop.Catalog.Services.ProductServices
             var value = _mapper.Map<Product>(updateProductDto);
             await _productCollection.FindOneAndReplaceAsync(x => x.ProductId == updateProductDto.ProductId, value);
         }
+
+        public async Task<List<ResultProductDto>> GetFeaturedProductsAsync()
+        {
+            var values = await _productCollection.Find(x => x.Featured == true).ToListAsync();
+            return _mapper.Map<List<ResultProductDto>>(values);
+        }
     }
 }

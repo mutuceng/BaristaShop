@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BaristaShop.Catalog.Dtos.ProductImageDtos;
+using BaristaShop.Catalog.Dtos.ProductItemDtos;
 using BaristaShop.Catalog.Entities;
 using BaristaShop.Catalog.Settings;
 using MongoDB.Driver;
@@ -47,5 +48,13 @@ namespace BaristaShop.Catalog.Services.ProductImageServices
             var value = _mapper.Map<ProductImage>(updateProductImageDto);
             await _productImageCollection.FindOneAndReplaceAsync(x => x.ProductImageId == updateProductImageDto.ProductImageId, value);
         }
+
+        public async Task<ResultProductImageDto> GetProductImageByProductIdAsync(string id)
+        {
+            var cursor = await _productImageCollection.FindAsync(x => x.ProductId == id);
+            var value = await cursor.FirstOrDefaultAsync();
+            return _mapper.Map<ResultProductImageDto>(value);
+        }
+
     }
 }
