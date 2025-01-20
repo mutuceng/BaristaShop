@@ -4,7 +4,7 @@ namespace BaristaShop.WebUI.Services.ProductDataServices
 {
     public interface IProductDataService
     {
-        Task<ProductsWithAllAttributesViewModel> GetProductDataAsync(string productId);
+        Task<ProductDetailViewModel> GetProductDataAsync(string productId);
         Task<List<ProductsWithAllAttributesViewModel>> GetAllProductDataAsync();
 
         Task<List<ProductPreviewViewModel>> GetAllProductPrevDataAsync();

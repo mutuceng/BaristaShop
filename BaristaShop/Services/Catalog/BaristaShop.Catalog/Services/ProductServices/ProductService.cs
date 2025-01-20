@@ -38,7 +38,8 @@ namespace BaristaShop.Catalog.Services.ProductServices
 
         public async Task<GetByIdProductDto> GetByIdProductAsync(string id)
         {
-            var value = await _productCollection.FindAsync(x => x.ProductId == id);
+            var cursor = await _productCollection.FindAsync(x => x.ProductId == id);
+            var value = await cursor.FirstOrDefaultAsync();
             return _mapper.Map<GetByIdProductDto>(value);
         }
 
@@ -50,7 +51,7 @@ namespace BaristaShop.Catalog.Services.ProductServices
 
         public async Task<List<ResultProductDto>> GetFeaturedProductsAsync()
         {
-            var values = await _productCollection.Find(x => x.Featured == true).ToListAsync();
+            var values = await _productCollection.Find(x => true).ToListAsync();
             return _mapper.Map<List<ResultProductDto>>(values);
         }
     }

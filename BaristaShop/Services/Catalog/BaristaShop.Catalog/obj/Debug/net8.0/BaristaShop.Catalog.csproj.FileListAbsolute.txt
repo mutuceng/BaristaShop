@@ -54,3 +54,7 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaS
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\BaristaShop.Catalog.staticwebassets.endpoints.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\obj\Debug\net8.0\staticwebassets\msbuild.BaristaShop.Catalog.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

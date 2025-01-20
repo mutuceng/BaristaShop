@@ -2,6 +2,7 @@
 
 namespace BaristaShop.WebUI.Controllers
 {
+    [Route("UIProductList")]
     public class UIProductListController : Controller
     {
         [Route("Index")]
@@ -10,11 +11,11 @@ namespace BaristaShop.WebUI.Controllers
             return View();
         }
 
-        [Route("ProductDetails/${productId}")]
+        [Route("ProductDetails/{productId}")]
         public IActionResult ProductDetails(string productId)
         {
 
-            return View(productId);
+            return View("ProductDetails", productId);
         }
     }
 }

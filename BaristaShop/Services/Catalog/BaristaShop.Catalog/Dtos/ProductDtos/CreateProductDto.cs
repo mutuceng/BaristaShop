@@ -6,7 +6,6 @@ namespace BaristaShop.Catalog.Dtos.ProductDtos
     {
         public string ProductName { get; set; }
         public bool ProductIsActive { get; set; }
-        public bool ProductHasVariants { get; set; } = false;
         public string CategoryId { get; set; }
     }
 }

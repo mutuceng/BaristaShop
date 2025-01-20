@@ -19,3 +19,4 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\Ba
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.Catalog.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaShop.DtoLayer.csproj.AssemblyReference.cache
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\obj\Debug\net8.0\BaristaS.903BAFEC.Up2Date
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\Frontend\DtoLayer\bin\Debug\net8.0\BaristaShop.Catalog.staticwebassets.endpoints.json

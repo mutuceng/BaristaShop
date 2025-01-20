@@ -44,6 +44,7 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
                 {
                     ProductId = model.ProductId,
                     ProductPrice = model.ProductPrice,
+                    ProductPriceWithSale = model.ProductPriceWithSale,
                     ProductStock = model.ProductStock,
                     SKU = model.SKU,
                 };

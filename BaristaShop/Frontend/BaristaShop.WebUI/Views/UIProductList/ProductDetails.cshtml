@@ -20,5 +20,5 @@
 <div class="container-fluid pb-5">
     @await Component.InvokeAsync("UIProductDetail", new { productId = @Model })
     
-    @await Component.InvokeAsync("UIProductDetailInfoReview")
+    @await Component.InvokeAsync("UIProductDetailInfoReview", new { productId = @Model })
 </div>

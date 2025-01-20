@@ -11,9 +11,14 @@ namespace BaristaShop.WebUI.ViewComponents.UIProductDetailComponents
         {
             _productDataService = productDataService;
         }
-        public IViewComponentResult Invoke(string productId)
+        public async Task<IViewComponentResult> InvokeAsync(string productId)
         {
-            var product = _productDataService.GetProductDataAsync(productId);
+            var product = await _productDataService.GetProductDataAsync(productId);
+
+            if(product == null)
+            {
+                return View();
+            }
             return View(product);
         }
     }

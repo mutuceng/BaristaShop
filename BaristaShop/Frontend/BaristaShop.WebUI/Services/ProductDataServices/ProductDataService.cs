@@ -131,22 +131,82 @@ namespace BaristaShop.WebUI.Services.ProductDataServices
             throw new KeyNotFoundException($"Products not found.");
         }
 
-        public async Task<ProductsWithAllAttributesViewModel> GetProductDataAsync(string productId)
+        public async Task<ProductDetailViewModel> GetProductDataAsync(string productId)
         {
-            var allProducts = await GetAllProductDataAsync();
-            var product = allProducts.FirstOrDefault(p => p.ProductId == productId);
+            var productWithDetail = new ProductDetailViewModel();
 
-            if (product != null)
+            var client = _httpClientFactory.CreateClient();
+            var productResponse = await client.GetAsync("https://localhost:7080/api/Products/" + productId);
+            if (productResponse.IsSuccessStatusCode)
             {
-                return product;
-            }
-            else
-            {
-                // Ürün bulunamazsa uygun bir hata mesajı döndürülebilir
-                throw new KeyNotFoundException($"Product with ID {productId} not found.");
-            }
+               var productJsonData = await productResponse.Content.ReadAsStringAsync();
+               var product = JsonConvert.DeserializeObject<GetByIdProductDto>(productJsonData);
+
+                if((product != null) && (product.ProductIsActive == true))
+                {
+                    var productName = product.ProductName;
+
+                    var productItemResponse = await client.GetAsync($"https://localhost:7080/api/ProductItems/byproduct/" + productId);
+
+                    if(productItemResponse.IsSuccessStatusCode)
+                    {
+                        var productItemJsonData = await productItemResponse.Content.ReadAsStringAsync();
+                        var productItem = JsonConvert.DeserializeObject<ResultProductItemDto>(productItemJsonData);
+
+                        var productPrice = productItem.ProductPrice;
+                        var productStock = productItem.ProductStock;
+                        var productSKU = productItem.SKU;
+                        var productPriceWithSale = productItem.ProductPriceWithSale;
 
 
+                        var productDetailResponse = await client.GetAsync($"https://localhost:7080/api/ProductDetails/byproduct/" + productId);
+                        if (productDetailResponse.IsSuccessStatusCode)
+                        {
+                            var productDetailJsonData = await productDetailResponse.Content.ReadAsStringAsync();
+                            var productDetail = JsonConvert.DeserializeObject<ResultProductDetailDto>(productDetailJsonData);
+
+                            var productDescription = productDetail.ProductDescription;
+                            var productInfo = productDetail.ProductInfo;
+
+                            var productImageResponse = await client.GetAsync($"https://localhost:7080/api/ProductImages/byproduct/" + productId);
+                            if (productImageResponse.IsSuccessStatusCode)
+                            {
+                                var productImageJsonData = await productImageResponse.Content.ReadAsStringAsync();
+                                var productImages = JsonConvert.DeserializeObject<ResultProductImageDto>(productImageJsonData);
+
+                                var image1 = productImages.Image1;
+                                var image2 = productImages.Image2;
+                                var image3 = productImages.Image3;
+                                var image4 = productImages.Image4;
+                                var image5 = productImages.Image5;
+                                var image6 = productImages.Image6;
+
+                                productWithDetail = new ProductDetailViewModel
+                                {
+                                    ProductId = productId,
+                                    ProductName = productName,
+                                    ProductPrice = productPrice,
+                                    ProductPriceWithSale = productPriceWithSale,
+                                    Image1 = image1,
+                                    Image2 = image2,
+                                    Image3 = image3,
+                                    Image4 = image4,
+                                    Image5 = image5,
+                                    Image6 = image6
+                                };
+
+                                return productWithDetail;
+                            }
+                        }
+
+                    }
+
+                } 
+            } 
+            
+            // Ürün bulunamazsa uygun bir hata mesajı döndürülebilir
+            throw new KeyNotFoundException($"Product with ID {productId} not found.");
+            
         }
 
         public async Task<List<ProductPreviewViewModel>> GetAllProductPrevDataAsync()

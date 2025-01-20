@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "353rqm0OOuCiXybP1pIsjRclz8VTQGRGFkb15xZfu3U=",
+  "Hash": "peHZPe+F7soAE1XI5qehonr5v6TPtp/i61EHjubj6J8=",
   "Source": "BaristaShop.Catalog",
   "BasePath": "_content/BaristaShop.Catalog",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
