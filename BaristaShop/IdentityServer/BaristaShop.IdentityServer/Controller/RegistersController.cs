@@ -10,6 +10,7 @@ using static IdentityServer4.IdentityServerConstants;
 
 namespace BaristaShop.IdentityServer.Controller
 {
+    [AllowAnonymous]
     [Authorize(LocalApi.PolicyName)]
     [Route("api/[controller]")]
     [ApiController]
@@ -29,9 +30,8 @@ namespace BaristaShop.IdentityServer.Controller
             {
                 UserName = userRegisterDto.UserName,
                 Name = userRegisterDto.Name,
-                Email = userRegisterDto.Email,
                 Surname = userRegisterDto.Surname,
-                PhoneNumber = userRegisterDto.Phone
+                Email = userRegisterDto.Email
             };
 
             var result = await _userManager.CreateAsync(values, userRegisterDto.Password);

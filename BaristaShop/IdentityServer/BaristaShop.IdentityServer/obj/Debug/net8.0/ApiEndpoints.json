@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "BaristaShop.IdentityServer.Controller.LoginsController",
+    "Method": "UserLogin",
+    "RelativePath": "api/Logins",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLoginDto",
+        "Type": "BaristaShop.IdentityServer.Dtos.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BaristaShop.IdentityServer.Controller.RegistersController",
     "Method": "UserRegister",
     "RelativePath": "api/Registers",

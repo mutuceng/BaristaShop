@@ -162,3 +162,7 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\IdentityServer\BaristaSho
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\IdentityServer\BaristaShop.IdentityServer\obj\Debug\net8.0\BaristaShop.IdentityServer.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\IdentityServer\BaristaShop.IdentityServer\obj\Debug\net8.0\BaristaShop.IdentityServer.genruntimeconfig.cache
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\IdentityServer\BaristaShop.IdentityServer\obj\Debug\net8.0\ref\BaristaShop.IdentityServer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\IdentityServer\BaristaShop.IdentityServer\bin\Debug\net8.0\BaristaShop.IdentityServer.staticwebassets.endpoints.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\IdentityServer\BaristaShop.IdentityServer\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\IdentityServer\BaristaShop.IdentityServer\obj\Debug\net8.0\staticwebassets\msbuild.BaristaShop.IdentityServer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\IdentityServer\BaristaShop.IdentityServer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -9,6 +9,7 @@
       "BaristaShop.WebUI/1.0.0": {
         "dependencies": {
           "BaristaShop.DtoLayer": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7"
         },
         "runtime": {

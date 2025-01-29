@@ -3,28 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\viewcomponents\\uihomeviewcomponents\\uihomefeaturedcampaignviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\viewcomponents\\uihomeviewcomponents\\uihomefeaturedcampaignviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\viewcomponents\\uihomeviewcomponents\\uihomecarouselviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\viewcomponents\\uihomeviewcomponents\\uihomecarouselviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\views\\shared\\components\\uilogin\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\views\\shared\\components\\uilogin\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\views\\shared\\components\\uihomecarousel\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\views\\shared\\components\\uihomecarousel\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\views\\uihome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\views\\uihome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\identityserver\\baristashop.identityserver\\controller\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BD90A3-D03D-462D-A53A-C99A06A4660D}|IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj|solutionrelative:identityserver\\baristashop.identityserver\\controller\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\views\\shared\\components\\uihomefeaturedcampaign\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\views\\shared\\components\\uihomefeaturedcampaign\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F8DABDA3-FDE4-4259-8365-017A880CA120}|..\\Frontend\\DtoLayer\\BaristaShop.DtoLayer.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\frontend\\dtolayer\\dtos\\identitydtos\\logindtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,87 +33,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\Frontend\\DtoLayer\\Dtos\\IdentityDtos\\LoginDtos\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "..\\Frontend\\DtoLayer\\Dtos\\IdentityDtos\\LoginDtos\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\Frontend\\DtoLayer\\Dtos\\IdentityDtos\\LoginDtos\\UserLoginDto.cs",
+              "RelativeToolTip": "..\\Frontend\\DtoLayer\\Dtos\\IdentityDtos\\LoginDtos\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T10:22:35.544Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\UIHome\\Index.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Views\\UIHome\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\UIHome\\Index.cshtml",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Views\\UIHome\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T16:39:42.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UIHomeCarousel\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UIHomeCarousel\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UIHomeCarousel\\Default.cshtml",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UIHomeCarousel\\Default.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T16:37:42.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T16:26:22.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UIHomeCarouselViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\ViewComponents\\UIHomeViewComponents\\UIHomeCarouselViewComponent.cs",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\ViewComponents\\UIHomeViewComponents\\UIHomeCarouselViewComponent.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\ViewComponents\\UIHomeViewComponents\\UIHomeCarouselViewComponent.cs",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\ViewComponents\\UIHomeViewComponents\\UIHomeCarouselViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Program.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:25:10.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UIHomeFeaturedCampaign\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UIHomeFeaturedCampaign\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UIHomeFeaturedCampaign\\Default.cshtml",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UIHomeFeaturedCampaign\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T16:25:02.818Z",
+              "WhenOpened": "2025-01-29T09:48:17.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UIHomeFeaturedCampaignViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\ViewComponents\\UIHomeViewComponents\\UIHomeFeaturedCampaignViewComponent.cs",
-              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\ViewComponents\\UIHomeViewComponents\\UIHomeFeaturedCampaignViewComponent.cs",
-              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\ViewComponents\\UIHomeViewComponents\\UIHomeFeaturedCampaignViewComponent.cs",
-              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\ViewComponents\\UIHomeViewComponents\\UIHomeFeaturedCampaignViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwCsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:24:54.786Z",
+              "WhenOpened": "2025-01-29T09:19:17.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Dtos\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Dtos\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Dtos\\UserLoginDto.cs",
+              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Dtos\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T09:08:30.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginsController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Controller\\LoginsController.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\BaristaShop.IdentityServer\\Controller\\LoginsController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\IdentityServer\\BaristaShop.IdentityServer\\Controller\\LoginsController.cs",
+              "RelativeToolTip": "IdentityServer\\BaristaShop.IdentityServer\\Controller\\LoginsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T09:01:33.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UILogin\\Default.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UILogin\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UILogin\\Default.cshtml",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Views\\Shared\\Components\\UILogin\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T08:58:35.281Z",
               "EditorCaption": ""
             }
           ]

@@ -1,12 +1,29 @@
+using BaristaShop.WebUI.Services.LoginServices;
 using BaristaShop.WebUI.Services.ProductDataServices;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddCookie(JwtBearerDefaults.AuthenticationScheme, 
+    options =>
+    {
+        options.Cookie.Name = "BaristaShopJwt";
+        options.SlidingExpiration = true;
+        options.LoginPath = "/Login/Index";
+        options.LogoutPath = "/Login/Logout";
+        options.AccessDeniedPath = "/Pages/AccessDenied";
+        options.Cookie.HttpOnly = true;
+        options.Cookie.SameSite = SameSiteMode.Strict;
+        options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
+    });
+
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpClient();
 
+builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IProductDataService, ProductDataService>();
 var app = builder.Build();
 
@@ -22,7 +39,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

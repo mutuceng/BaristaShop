@@ -10,4 +10,8 @@
     <ProjectReference Include="..\..\BaristaShop\Services\Catalog\BaristaShop.Catalog\BaristaShop.Catalog.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dtos\CommentDtos\" />
+  </ItemGroup>
+
 </Project>

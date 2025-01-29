@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/css/Login/login.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Login\login.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WkMh0vmWPG\u002B6XBX0CdQWFDcAQXqaIhQ90gi1vP5DeiE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3838"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WkMh0vmWPG\u002B6XBX0CdQWFDcAQXqaIhQ90gi1vP5DeiE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 15:14:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/css/Login/login.uy8xhkx2py.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Login\login.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uy8xhkx2py"},{"Name":"integrity","Value":"sha256-WkMh0vmWPG\u002B6XBX0CdQWFDcAQXqaIhQ90gi1vP5DeiE="},{"Name":"label","Value":"_content/BaristaShop.WebUI/css/Login/login.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3838"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WkMh0vmWPG\u002B6XBX0CdQWFDcAQXqaIhQ90gi1vP5DeiE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 15:14:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -95,6 +107,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rTrpu/DY06tvNvV\u002Bogt6BQfEfW6U9OS98gjHQpjBg2Q="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"420010"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022rTrpu/DY06tvNvV\u002Bogt6BQfEfW6U9OS98gjHQpjBg2Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Dec 2024 06:27:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/loginImages/backImg.95m0i8fiax.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\loginImages\backImg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"95m0i8fiax"},{"Name":"integrity","Value":"sha256-HVJjhJt6WnNtAzYxFj/UbrpdoejfBaddYTjrhqCJskM="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/loginImages/backImg.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16375132"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HVJjhJt6WnNtAzYxFj/UbrpdoejfBaddYTjrhqCJskM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Sep 2023 16:42:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/loginImages/backImg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\loginImages\backImg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HVJjhJt6WnNtAzYxFj/UbrpdoejfBaddYTjrhqCJskM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"16375132"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HVJjhJt6WnNtAzYxFj/UbrpdoejfBaddYTjrhqCJskM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Sep 2023 16:42:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/loginImages/frontImg.f8sh6vfmac.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\loginImages\frontImg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f8sh6vfmac"},{"Name":"integrity","Value":"sha256-L7vlthy3thVOMPo8b7uKFDTj1VI\u002BoEcJmUT/XBEjusI="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/loginImages/frontImg.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4869069"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L7vlthy3thVOMPo8b7uKFDTj1VI\u002BoEcJmUT/XBEjusI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Aug 2023 11:42:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/loginImages/frontImg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\loginImages\frontImg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L7vlthy3thVOMPo8b7uKFDTj1VI\u002BoEcJmUT/XBEjusI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4869069"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L7vlthy3thVOMPo8b7uKFDTj1VI\u002BoEcJmUT/XBEjusI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Aug 2023 11:42:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/productImages/0308f255-c864-458f-b327-419eb324c9ae_Tamp İstasyonu No. 1 (Küçük Boy) D.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\productImages\0308f255-c864-458f-b327-419eb324c9ae_Tamp İstasyonu No. 1 (Küçük Boy) D.jpg'))</AssetFile>

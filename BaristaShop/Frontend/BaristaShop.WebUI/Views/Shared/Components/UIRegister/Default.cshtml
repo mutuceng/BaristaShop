@@ -1,0 +1,35 @@
+﻿@model UserRegisterDto
+
+<div class="signup-form">
+    <div class="title">Kaydol</div>
+    <form method="post" asp-controller="Register" id="registerForm">
+        <div class="input-boxes">
+            <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input name="Name" type="text" placeholder="İsim - Soyisim" required>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input name="SurName" type="text" placeholder="İsim - Soyisim" required>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input name="UserName" type="text" placeholder="Username" required>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input name="Email" type="text" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input name="Password" type="password" placeholder="Şifreyi tekrar giriniz" required>
+            </div>
+            <div class="button input-box">
+                <input type="submit" value="Kaydol">
+            </div>
+            <div class="text sign-up-text">Zaten hesabın var mı? <a href="/Login/Index" >Giriş Yap</a></div>
+        </div>
+    </form>
+</div>
+
+

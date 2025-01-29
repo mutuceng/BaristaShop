@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Services\\Catalog\\BaristaShop.Catalog\\BaristaShop.Catalog.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

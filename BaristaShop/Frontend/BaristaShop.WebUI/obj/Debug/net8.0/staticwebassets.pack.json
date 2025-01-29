@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\css\\Login\\login.css",
+      "PackagePath": "staticwebassets\\css\\Login\\login.css"
+    },
+    {
       "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -31,6 +35,14 @@
     {
       "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\specialOffer\\be539ab9-de42-435c-8df6-c6fe1aea16b2_ahsapbarista.jpg",
       "PackagePath": "staticwebassets\\images\\homepageImages\\specialOffer\\be539ab9-de42-435c-8df6-c6fe1aea16b2_ahsapbarista.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\loginImages\\backImg.jpg",
+      "PackagePath": "staticwebassets\\images\\loginImages\\backImg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\loginImages\\frontImg.jpg",
+      "PackagePath": "staticwebassets\\images\\loginImages\\frontImg.jpg"
     },
     {
       "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\productImages\\0308f255-c864-458f-b327-419eb324c9ae_Tamp İstasyonu No. 1 (Küçük Boy) D.jpg",

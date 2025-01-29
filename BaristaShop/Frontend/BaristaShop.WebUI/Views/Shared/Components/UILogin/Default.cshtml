@@ -1,0 +1,23 @@
+﻿@model UserLoginDto
+
+<div class="login-form">
+    <div class="title">Giriş Yap</div>
+    <form method="post" asp-controller="Login">
+        <div class="input-boxes">
+            <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input name="UserName" type="text" placeholder="Username" required>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input name="Password" type="password" placeholder="Şifre" required>
+            </div>
+            <div class="text"><a href="#">Şifreni mi unuttun?</a></div>
+            <div class="button input-box">
+                <input type="submit" value="Giriş Yap">
+            </div>
+            <div class="text sign-up-text">Hesabın yok mu? <a href="/Register/Index">Hemen Kaydol</a></div>
+        </div>
+    </form>
+</div>
+

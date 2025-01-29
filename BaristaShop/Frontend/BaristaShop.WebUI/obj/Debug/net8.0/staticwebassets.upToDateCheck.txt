@@ -1,3 +1,4 @@
+wwwroot\css\Login\login.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\homepageImages\featureSlider\4c77e20a-9dbf-461e-be33-821c345609e0_filtrekahve.jpeg
@@ -6,6 +7,8 @@ wwwroot\images\homepageImages\featureSlider\809992b5-df0e-4db2-91d0-b41660512165
 wwwroot\images\homepageImages\featureSlider\e681550c-05bb-40d2-ae23-d7feb68e193d_barista.jpg
 wwwroot\images\homepageImages\specialOffer\be30f4ee-495b-4bf8-aec4-94605b1fc30a_yeniyıl.jpg
 wwwroot\images\homepageImages\specialOffer\be539ab9-de42-435c-8df6-c6fe1aea16b2_ahsapbarista.jpg
+wwwroot\images\loginImages\backImg.jpg
+wwwroot\images\loginImages\frontImg.jpg
 wwwroot\images\productImages\0308f255-c864-458f-b327-419eb324c9ae_Tamp İstasyonu No. 1 (Küçük Boy) D.jpg
 wwwroot\images\productImages\0447a09c-f7ca-4425-a621-64c3f5af9cef_Standart Tamper A (58 mm.).jpg
 wwwroot\images\productImages\205befe8-17a2-4ccd-9362-b2d152479f0a_Tamp İstasyonu No. 1 (Küçük Boy) B.jpg
