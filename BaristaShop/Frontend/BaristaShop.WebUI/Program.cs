@@ -1,5 +1,8 @@
+using BaristaShop.WebUI.Services.IdentityServices;
 using BaristaShop.WebUI.Services.LoginServices;
 using BaristaShop.WebUI.Services.ProductDataServices;
+using BaristaShop.WebUI.Settings;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,13 +21,33 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddCo
         options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
     });
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).
+    AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
+    {
+        options.LoginPath = "/Login/Index";
+        options.ExpireTimeSpan = TimeSpan.FromDays(5);
+        options.Cookie.Name = "BaristaShopCookie";
+        options.SlidingExpiration = true;
 
-builder.Services.AddControllersWithViews();
+        //slidingExp cookie tabanlý oturum süresinin uzatýlýp uzatýlmayacaðýný belirler
+        // True ise Kullanýcý aktif kaldýðý sürece oturum süresi sürekli uzatýlýr ve
+        // kullanýcý belirli bir süre boyunca iþlem yapmazsa oturum süresi dolar ve kullanýcý tekrar giriþ yapmak zorunda kalýr.
+    });
+    
 
-builder.Services.AddHttpClient();
+
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IProductDataService, ProductDataService>();
+
+builder.Services.AddHttpClient<IIdentityService, IdentityService>();
+
+builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("ClientSettings"));
+
+builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

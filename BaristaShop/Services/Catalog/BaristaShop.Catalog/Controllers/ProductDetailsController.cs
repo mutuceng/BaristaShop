@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BaristaShop.Catalog.Controllers
 {
-    [AllowAnonymous]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductDetailsController : ControllerBase

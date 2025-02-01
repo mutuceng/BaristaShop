@@ -2,11 +2,13 @@
 using BaristaShop.Catalog.Dtos.ProductImageDtos;
 using BaristaShop.Catalog.Services.ProductFeatureStockServices;
 using BaristaShop.Catalog.Services.ProductImageServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BaristaShop.Catalog.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductVariantsController : ControllerBase

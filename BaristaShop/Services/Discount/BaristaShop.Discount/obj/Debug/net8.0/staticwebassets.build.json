@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "rmuy9gpyifBisGeqzRy0wePxK+hKu598Cd5t7cvUEEQ=",
+  "Hash": "bLp2PY5beqN6IgtES7VwBw4GtpD3+R9QtxhXjgn4YLc=",
   "Source": "BaristaShop.Discount",
   "BasePath": "_content/BaristaShop.Discount",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

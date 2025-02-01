@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "X01N4NdB5/Y2k9UmtPcKrL8AVxDwEJjr+xUyW0deHYg=",
+  "Hash": "9jFdBV+lueoGxM74oUjWfTDTOMmqW+mwJ+T0l+AT0Ts=",
   "Source": "BaristaShop.Cargo.WebApi",
   "BasePath": "_content/BaristaShop.Cargo.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

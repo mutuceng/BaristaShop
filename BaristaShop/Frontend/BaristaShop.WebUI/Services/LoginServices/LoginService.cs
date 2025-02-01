@@ -4,13 +4,13 @@ namespace BaristaShop.WebUI.Services.LoginServices
 {
     public class LoginService : ILoginService
     {
-        private readonly HttpContextAccessor _httpContextAccessor;
+        private readonly HttpContext _httpContext;
 
-        public LoginService(HttpContextAccessor httpContextAccessor)
+        public LoginService(IHttpContextAccessor httpContextAccessor)
         {
-            _httpContextAccessor = httpContextAccessor;
+            _httpContext = httpContextAccessor.HttpContext;
         }
 
-        public string GetUserId => _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value;
+        public string GetUserId => _httpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value;
     }
 }

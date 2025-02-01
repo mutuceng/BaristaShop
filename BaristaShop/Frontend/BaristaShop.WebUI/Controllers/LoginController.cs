@@ -1,5 +1,7 @@
 ﻿using BaristaShop.DtoLayer.Dtos.IdentityDtos.LoginDtos;
 using BaristaShop.WebUI.Models;
+using BaristaShop.WebUI.Services.IdentityServices;
+using BaristaShop.WebUI.Services.LoginServices;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
@@ -15,10 +17,14 @@ namespace BaristaShop.WebUI.Controllers
     public class LoginController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ILoginService _loginService;
+        private readonly IIdentityService _identityService;
 
-        public LoginController(IHttpClientFactory httpClientFactory)
+        public LoginController(IHttpClientFactory httpClientFactory, ILoginService loginService, IIdentityService identityService)
         {
             _httpClientFactory = httpClientFactory;
+            _loginService = loginService;
+            _identityService = identityService;
         }
 
         [HttpGet]
@@ -30,6 +36,8 @@ namespace BaristaShop.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(UserLoginDto userLoginDto)
         {
+
+            // giriş yapan kullanıcı için token alma işlemi
             var userLogin = new UserLoginDto
             {
                 UserName = userLoginDto.UserName,
@@ -70,6 +78,8 @@ namespace BaristaShop.WebUI.Controllers
 
                         await HttpContext.SignInAsync(JwtBearerDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
 
+                        var id = _loginService.GetUserId;
+
                         return RedirectToAction("Index", "Home");
 
                     }
@@ -78,6 +88,28 @@ namespace BaristaShop.WebUI.Controllers
             }
 
             return View();
+        }
+
+
+
+
+        // Farklı bir yöntemle token alma işlemi
+        [HttpGet]
+        public IActionResult SignIn()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SignIn(SignInDto signInDto)
+        {
+            signInDto.UserName = "mutu";
+            signInDto.Password = "mutu123D!";
+
+
+            await _identityService.SignIn(signInDto);
+
+            return RedirectToAction("Index", "Test");
         }
     }
 }

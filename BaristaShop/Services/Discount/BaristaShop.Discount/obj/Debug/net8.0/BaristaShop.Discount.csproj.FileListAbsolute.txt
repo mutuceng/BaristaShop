@@ -1,5 +1,6 @@
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\appsettings.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\BaristaShop.Discount.staticwebassets.endpoints.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\BaristaShop.Discount.exe
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\BaristaShop.Discount.deps.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\BaristaShop.Discount.runtimeconfig.json
@@ -9,6 +10,7 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\Barista
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\Dapper.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -128,18 +130,20 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\Barista
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\BaristaShop.Discount.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\BaristaShop.Discount.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\BaristaShop.Discount.sourcelink.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\scopedcss\bundle\BaristaShop.Discount.styles.css
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets\msbuild.BaristaShop.Discount.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets\msbuild.BaristaShop.Discount.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets\msbuild.build.BaristaShop.Discount.props
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BaristaShop.Discount.props
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BaristaShop.Discount.props
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\scopedcss\bundle\BaristaShop.Discount.styles.css
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\BaristaS.AECC49F9.Up2Date
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\BaristaShop.Discount.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\refint\BaristaShop.Discount.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\BaristaShop.Discount.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\BaristaShop.Discount.genruntimeconfig.cache
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\obj\Debug\net8.0\ref\BaristaShop.Discount.dll
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Discount\BaristaShop.Discount\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -50,7 +50,7 @@ namespace BaristaShop.IdentityServer
                 ClientName = "BaristaShop Visitor User",
                 AllowedGrantTypes = GrantTypes.ClientCredentials,
                 ClientSecrets = { new Secret( "baristashopsecret".Sha256() ) },
-                AllowedScopes = { "CatalogReadPermission" }  
+                AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission" }  
             },
 
             // Manager

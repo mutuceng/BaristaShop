@@ -1,11 +1,13 @@
 ﻿using BaristaShop.Catalog.Dtos.VariantDtos;
 using BaristaShop.Catalog.Dtos.VariantOptionDtos;
 using BaristaShop.Catalog.Services.CategoryFeatureValueServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BaristaShop.Catalog.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class VariantOptionsController : ControllerBase

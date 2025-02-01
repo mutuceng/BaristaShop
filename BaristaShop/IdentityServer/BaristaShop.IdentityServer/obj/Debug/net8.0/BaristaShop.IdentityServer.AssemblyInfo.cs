@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.IdentityServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea3b18f831784f098f1e5295f929a2fdf295e20b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46acff920eca2df6875c76e4f0890697bf713bbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.IdentityServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.IdentityServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
