@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.Cargo.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46acff920eca2df6875c76e4f0890697bf713bbd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06f4f632778dcca4edb06ca2ff3cf6dfb0ce8519")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.Cargo.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.Cargo.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

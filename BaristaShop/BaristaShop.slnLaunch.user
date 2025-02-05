@@ -7,15 +7,15 @@
         "Action": "Start"
       },
       {
-        "Path": "Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj",
-        "Action": "Start"
-      },
-      {
         "Path": "IdentityServer\\BaristaShop.IdentityServer\\BaristaShop.IdentityServer.csproj",
         "Action": "Start"
       },
       {
-        "Path": "..\\Frontend\\DtoLayer\\BaristaShop.DtoLayer.csproj",
+        "Path": "ApiGateway\\BaristaShop.OcelotGateway\\BaristaShop.OcelotGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj",
         "Action": "Start"
       }
     ]

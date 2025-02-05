@@ -18,6 +18,7 @@ namespace BaristaShop.IdentityServer
             new ApiResource("ResourceOrder") { Scopes = {"OrderFullPermission","OrderReadPermission"} },
             new ApiResource("ResourceCargo") { Scopes = {"CargoFullPermission"} },
             new ApiResource("ResourceBasket") { Scopes = {"BasketFullPermission"} },
+            new ApiResource("ResourceOcelot") { Scopes = {"OcelotFullPermission"} },
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -37,6 +38,7 @@ namespace BaristaShop.IdentityServer
             new ApiScope("OrderReadPermission","Has only read permission for order operations"),
             new ApiScope("CargoFullPermission","Has full authority for cargo operations"),
             new ApiScope("BasketFullPermission","Has full authority for basket operations"),
+            new ApiScope("OcelotFullPermission","Has full authority for ocelot operations"),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -50,7 +52,7 @@ namespace BaristaShop.IdentityServer
                 ClientName = "BaristaShop Visitor User",
                 AllowedGrantTypes = GrantTypes.ClientCredentials,
                 ClientSecrets = { new Secret( "baristashopsecret".Sha256() ) },
-                AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission" }  
+                AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission" , "OcelotFullPermission" }  
             },
 
             // Manager
@@ -60,7 +62,11 @@ namespace BaristaShop.IdentityServer
                 ClientName = "BaristaShop Manager User",
                 AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                 ClientSecrets = { new Secret( "baristashopsecret".Sha256()) },
-                AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission",  }
+                AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OcelotFullPermission" ,
+                    IdentityServerConstants.LocalApi.ScopeName, // bu identity service'ı için yetki veriyor.
+                    IdentityServerConstants.StandardScopes.OpenId,
+                    IdentityServerConstants.StandardScopes.Email,
+                    IdentityServerConstants.StandardScopes.Profile}
 
             },
 
@@ -73,12 +79,12 @@ namespace BaristaShop.IdentityServer
                 ClientName = "BaristaShop Admin User",
                 AllowedGrantTypes= GrantTypes.ResourceOwnerPassword,
                 ClientSecrets = { new Secret( "baristashopsecret".Sha256()) },              
-                AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission", "CargoFullPermission", "BasketFullPermission",
-                // AllowedScopes'un içerisine yazmaya devam ediyorum.
-                IdentityServerConstants.LocalApi.ScopeName, // bu identity service'ı için yetki veriyor.
-                IdentityServerConstants.StandardScopes.OpenId,
-                IdentityServerConstants.StandardScopes.Email,
-                IdentityServerConstants.StandardScopes.Profile
+                AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission", "CargoFullPermission", "BasketFullPermission", "OcelotFullPermission",
+                    // AllowedScopes'un içerisine yazmaya devam ediyorum.
+                    IdentityServerConstants.LocalApi.ScopeName, // bu identity service'ı için yetki veriyor.
+                    IdentityServerConstants.StandardScopes.OpenId,
+                    IdentityServerConstants.StandardScopes.Email,
+                    IdentityServerConstants.StandardScopes.Profile
                 },
 
                 AccessTokenLifetime = 3600 //defaultu 3600 zaten saniye cinsinden

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fNQsVf4YadAB5zdxQWvtgzM8rw7souoYi0Kp8tsTpp8=",
+  "Source": "BaristaShop.OcelotGateway",
+  "BasePath": "_content/BaristaShop.OcelotGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

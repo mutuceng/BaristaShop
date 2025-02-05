@@ -44,6 +44,7 @@ builder.Services.AddScoped<IProductDataService, ProductDataService>();
 builder.Services.AddHttpClient<IIdentityService, IdentityService>();
 
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("ClientSettings"));
+builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();

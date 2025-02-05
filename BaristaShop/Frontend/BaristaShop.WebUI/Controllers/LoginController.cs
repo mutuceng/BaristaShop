@@ -36,8 +36,8 @@ namespace BaristaShop.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(UserLoginDto userLoginDto)
         {
-
-            // giriş yapan kullanıcı için token alma işlemi
+            /* 
+            // giriş yapan kullanıcı için manuel token alma işlemi
             var userLogin = new UserLoginDto
             {
                 UserName = userLoginDto.UserName,
@@ -85,7 +85,7 @@ namespace BaristaShop.WebUI.Controllers
                     }
                 }
                 
-            }
+            } */
 
             return View();
         }
