@@ -263,3 +263,5 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebU
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\BaristaShop.WebUI.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\BaristaShop.WebUI.genruntimeconfig.cache
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\ref\BaristaShop.WebUI.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\IdentityModel.AspNetCore.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

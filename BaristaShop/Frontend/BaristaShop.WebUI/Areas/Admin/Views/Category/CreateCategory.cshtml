@@ -13,7 +13,7 @@
                 <h4>Kategori Ekleme</h4>
                 <br/>
                 <div class="bs-example" data-example-id="bordered-table">
-                    <form method="post" asp-controller="Category" asp-action="CreateCategory">
+                    <form method="post" asp-controller="Category" asp-action="CreateCategory" enctype="multipart/form-data">
                         <!-- tag helper olmadan asp-for gibi etiketleri görmüyor onu tag helperı da viewimportsla ekliyoruz -->
                         <label>Kategori Adı</label>
                         <input type="text" class="form-control" name="CategoryName" />

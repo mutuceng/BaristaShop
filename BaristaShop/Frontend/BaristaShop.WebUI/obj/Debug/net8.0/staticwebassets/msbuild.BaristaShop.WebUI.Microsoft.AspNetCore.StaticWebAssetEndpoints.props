@@ -36,6 +36,198 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 Nov 2024 10:01:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/08edfe6a-1881-4053-93d8-bd79ad43bb5b_1sComplement.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\08edfe6a-1881-4053-93d8-bd79ad43bb5b_1sComplement.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NBfkv1CDp1afBU1reJV/jcMrfFY2tLZS\u002B4KICg/HlOI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12311"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NBfkv1CDp1afBU1reJV/jcMrfFY2tLZS\u002B4KICg/HlOI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 10:49:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/08edfe6a-1881-4053-93d8-bd79ad43bb5b_1sComplement.ols4nyksty.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\08edfe6a-1881-4053-93d8-bd79ad43bb5b_1sComplement.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ols4nyksty"},{"Name":"integrity","Value":"sha256-NBfkv1CDp1afBU1reJV/jcMrfFY2tLZS\u002B4KICg/HlOI="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/08edfe6a-1881-4053-93d8-bd79ad43bb5b_1sComplement.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12311"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NBfkv1CDp1afBU1reJV/jcMrfFY2tLZS\u002B4KICg/HlOI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 10:49:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/1f25476f-0beb-4298-beaa-7c448d7db299_aslrob.ph_3543947848388200918.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\1f25476f-0beb-4298-beaa-7c448d7db299_aslrob.ph_3543947848388200918.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zbErl7pTtoabVNxRcGkGKPCZOmtzkNAn8IZUaem7dpk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"60386"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zbErl7pTtoabVNxRcGkGKPCZOmtzkNAn8IZUaem7dpk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 11:00:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/1f25476f-0beb-4298-beaa-7c448d7db299_aslrob.ph_3543947848388200918.z8fsyka5id.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\1f25476f-0beb-4298-beaa-7c448d7db299_aslrob.ph_3543947848388200918.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z8fsyka5id"},{"Name":"integrity","Value":"sha256-zbErl7pTtoabVNxRcGkGKPCZOmtzkNAn8IZUaem7dpk="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/1f25476f-0beb-4298-beaa-7c448d7db299_aslrob.ph_3543947848388200918.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"60386"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zbErl7pTtoabVNxRcGkGKPCZOmtzkNAn8IZUaem7dpk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 11:00:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/30d69afb-fc0d-49ab-9103-d9b6687e7d3e_843048-1920x1080-desktop-1080p-jaime-lannister-wallpaper.gmffua20ju.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\30d69afb-fc0d-49ab-9103-d9b6687e7d3e_843048-1920x1080-desktop-1080p-jaime-lannister-wallpaper.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gmffua20ju"},{"Name":"integrity","Value":"sha256-KJ2AH8\u002Bm7PSuBUuK3z47WltnW4UHxFw\u002B05jlze/FPko="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/30d69afb-fc0d-49ab-9103-d9b6687e7d3e_843048-1920x1080-desktop-1080p-jaime-lannister-wallpaper.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"627539"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KJ2AH8\u002Bm7PSuBUuK3z47WltnW4UHxFw\u002B05jlze/FPko=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 11:05:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/30d69afb-fc0d-49ab-9103-d9b6687e7d3e_843048-1920x1080-desktop-1080p-jaime-lannister-wallpaper.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\30d69afb-fc0d-49ab-9103-d9b6687e7d3e_843048-1920x1080-desktop-1080p-jaime-lannister-wallpaper.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KJ2AH8\u002Bm7PSuBUuK3z47WltnW4UHxFw\u002B05jlze/FPko="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"627539"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KJ2AH8\u002Bm7PSuBUuK3z47WltnW4UHxFw\u002B05jlze/FPko=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 11:05:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/3fce2a9d-6e74-4533-ac90-fa7dc6023909_1sComplement.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\3fce2a9d-6e74-4533-ac90-fa7dc6023909_1sComplement.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NBfkv1CDp1afBU1reJV/jcMrfFY2tLZS\u002B4KICg/HlOI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12311"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NBfkv1CDp1afBU1reJV/jcMrfFY2tLZS\u002B4KICg/HlOI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 10:56:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/3fce2a9d-6e74-4533-ac90-fa7dc6023909_1sComplement.ols4nyksty.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\3fce2a9d-6e74-4533-ac90-fa7dc6023909_1sComplement.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ols4nyksty"},{"Name":"integrity","Value":"sha256-NBfkv1CDp1afBU1reJV/jcMrfFY2tLZS\u002B4KICg/HlOI="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/3fce2a9d-6e74-4533-ac90-fa7dc6023909_1sComplement.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12311"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NBfkv1CDp1afBU1reJV/jcMrfFY2tLZS\u002B4KICg/HlOI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 10:56:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/44e66f14-37ee-4e9b-89a7-d920999b1b75_tv_show-game_of_thrones-cersei_lannister-lena_headey-758462.fgyvexquod.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\44e66f14-37ee-4e9b-89a7-d920999b1b75_tv_show-game_of_thrones-cersei_lannister-lena_headey-758462.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fgyvexquod"},{"Name":"integrity","Value":"sha256-0S0kfp6ugtamuHfp9PmE6/CU6KJD/0h33HA44GWAG\u002BM="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/44e66f14-37ee-4e9b-89a7-d920999b1b75_tv_show-game_of_thrones-cersei_lannister-lena_headey-758462.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1050324"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220S0kfp6ugtamuHfp9PmE6/CU6KJD/0h33HA44GWAG\u002BM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 11:09:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/44e66f14-37ee-4e9b-89a7-d920999b1b75_tv_show-game_of_thrones-cersei_lannister-lena_headey-758462.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\44e66f14-37ee-4e9b-89a7-d920999b1b75_tv_show-game_of_thrones-cersei_lannister-lena_headey-758462.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0S0kfp6ugtamuHfp9PmE6/CU6KJD/0h33HA44GWAG\u002BM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1050324"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220S0kfp6ugtamuHfp9PmE6/CU6KJD/0h33HA44GWAG\u002BM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 11:09:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/533ab4e4-f981-4743-92e2-b4a594d753f2_GhCF8HCWAAArzGA.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\533ab4e4-f981-4743-92e2-b4a594d753f2_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:01:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/533ab4e4-f981-4743-92e2-b4a594d753f2_GhCF8HCWAAArzGA.kdjviwvj6e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\533ab4e4-f981-4743-92e2-b4a594d753f2_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kdjviwvj6e"},{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/533ab4e4-f981-4743-92e2-b4a594d753f2_GhCF8HCWAAArzGA.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:01:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/575373c6-cccd-4dd8-ab7c-d55963021986_GhCF8HCWAAArzGA.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\575373c6-cccd-4dd8-ab7c-d55963021986_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:21:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/575373c6-cccd-4dd8-ab7c-d55963021986_GhCF8HCWAAArzGA.kdjviwvj6e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\575373c6-cccd-4dd8-ab7c-d55963021986_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kdjviwvj6e"},{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/575373c6-cccd-4dd8-ab7c-d55963021986_GhCF8HCWAAArzGA.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:21:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/661c57ae-13a8-431a-be3b-199ba55221c5_GhCF8HCWAAArzGA.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\661c57ae-13a8-431a-be3b-199ba55221c5_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:08:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/661c57ae-13a8-431a-be3b-199ba55221c5_GhCF8HCWAAArzGA.kdjviwvj6e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\661c57ae-13a8-431a-be3b-199ba55221c5_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kdjviwvj6e"},{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/661c57ae-13a8-431a-be3b-199ba55221c5_GhCF8HCWAAArzGA.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:08:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/873e08db-fd09-47cd-8b15-9f7aadecc2d2_GhCF8HCWAAArzGA.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\873e08db-fd09-47cd-8b15-9f7aadecc2d2_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 11:50:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/873e08db-fd09-47cd-8b15-9f7aadecc2d2_GhCF8HCWAAArzGA.kdjviwvj6e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\873e08db-fd09-47cd-8b15-9f7aadecc2d2_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kdjviwvj6e"},{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/873e08db-fd09-47cd-8b15-9f7aadecc2d2_GhCF8HCWAAArzGA.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 11:50:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/87df9271-344e-4205-9c6d-fb60a762ec05_thenessanation_476475112_18000519491737297_7108446438431688378_n.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\87df9271-344e-4205-9c6d-fb60a762ec05_thenessanation_476475112_18000519491737297_7108446438431688378_n.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wGuDjDIWGkITb4CYSHieIGYSr5GefS0OxX5qQiGJuZA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"90658"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wGuDjDIWGkITb4CYSHieIGYSr5GefS0OxX5qQiGJuZA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 09:32:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/87df9271-344e-4205-9c6d-fb60a762ec05_thenessanation_476475112_18000519491737297_7108446438431688378_n.o61jnmd6d6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\87df9271-344e-4205-9c6d-fb60a762ec05_thenessanation_476475112_18000519491737297_7108446438431688378_n.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o61jnmd6d6"},{"Name":"integrity","Value":"sha256-wGuDjDIWGkITb4CYSHieIGYSr5GefS0OxX5qQiGJuZA="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/87df9271-344e-4205-9c6d-fb60a762ec05_thenessanation_476475112_18000519491737297_7108446438431688378_n.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"90658"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wGuDjDIWGkITb4CYSHieIGYSr5GefS0OxX5qQiGJuZA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 09:32:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/a8fb2395-546a-47e7-925c-52f052b7916d_GhCF8HCWAAArzGA.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\a8fb2395-546a-47e7-925c-52f052b7916d_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:33:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/a8fb2395-546a-47e7-925c-52f052b7916d_GhCF8HCWAAArzGA.kdjviwvj6e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\a8fb2395-546a-47e7-925c-52f052b7916d_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kdjviwvj6e"},{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/a8fb2395-546a-47e7-925c-52f052b7916d_GhCF8HCWAAArzGA.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:33:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/ada2b561-60a8-44b9-81c6-28a2a631f5d1_GhCF8HCWAAArzGA.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\ada2b561-60a8-44b9-81c6-28a2a631f5d1_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:07:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/ada2b561-60a8-44b9-81c6-28a2a631f5d1_GhCF8HCWAAArzGA.kdjviwvj6e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\ada2b561-60a8-44b9-81c6-28a2a631f5d1_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kdjviwvj6e"},{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/ada2b561-60a8-44b9-81c6-28a2a631f5d1_GhCF8HCWAAArzGA.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:07:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/bb7042ce-0996-44e5-a0c7-af3d8e2a5154_GhCF8HCWAAArzGA.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\bb7042ce-0996-44e5-a0c7-af3d8e2a5154_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:27:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/bb7042ce-0996-44e5-a0c7-af3d8e2a5154_GhCF8HCWAAArzGA.kdjviwvj6e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\bb7042ce-0996-44e5-a0c7-af3d8e2a5154_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kdjviwvj6e"},{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/bb7042ce-0996-44e5-a0c7-af3d8e2a5154_GhCF8HCWAAArzGA.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:27:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/bebf1c60-947d-4607-bf0c-809fc42ab9bd_7da42a2967b2ade81a70f637b2cc9635.0n6z0021zp.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\bebf1c60-947d-4607-bf0c-809fc42ab9bd_7da42a2967b2ade81a70f637b2cc9635.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0n6z0021zp"},{"Name":"integrity","Value":"sha256-XGz8D0q4878RBzgaKoGm3mnp2/SlKpyqi2vDB1SlwMc="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/bebf1c60-947d-4607-bf0c-809fc42ab9bd_7da42a2967b2ade81a70f637b2cc9635.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"190431"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XGz8D0q4878RBzgaKoGm3mnp2/SlKpyqi2vDB1SlwMc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 09:40:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/bebf1c60-947d-4607-bf0c-809fc42ab9bd_7da42a2967b2ade81a70f637b2cc9635.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\bebf1c60-947d-4607-bf0c-809fc42ab9bd_7da42a2967b2ade81a70f637b2cc9635.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XGz8D0q4878RBzgaKoGm3mnp2/SlKpyqi2vDB1SlwMc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"190431"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XGz8D0q4878RBzgaKoGm3mnp2/SlKpyqi2vDB1SlwMc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 09:40:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/d87b787b-9042-4b52-b32c-507d382272b9_GhCF8HCWAAArzGA.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\d87b787b-9042-4b52-b32c-507d382272b9_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 11:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/d87b787b-9042-4b52-b32c-507d382272b9_GhCF8HCWAAArzGA.kdjviwvj6e.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\d87b787b-9042-4b52-b32c-507d382272b9_GhCF8HCWAAArzGA.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kdjviwvj6e"},{"Name":"integrity","Value":"sha256-KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/d87b787b-9042-4b52-b32c-507d382272b9_GhCF8HCWAAArzGA.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"207984"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KAr4C0KlmvDo2NlYjpzafcQUM1HYMjYZWVQ66NJmaro=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 11:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/e567f79c-8f89-46f4-9d1a-a9648a7009db_7da42a2967b2ade81a70f637b2cc9635.0n6z0021zp.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\e567f79c-8f89-46f4-9d1a-a9648a7009db_7da42a2967b2ade81a70f637b2cc9635.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0n6z0021zp"},{"Name":"integrity","Value":"sha256-XGz8D0q4878RBzgaKoGm3mnp2/SlKpyqi2vDB1SlwMc="},{"Name":"label","Value":"_content/BaristaShop.WebUI/images/categoryImages/e567f79c-8f89-46f4-9d1a-a9648a7009db_7da42a2967b2ade81a70f637b2cc9635.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"190431"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XGz8D0q4878RBzgaKoGm3mnp2/SlKpyqi2vDB1SlwMc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 09:59:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/categoryImages/e567f79c-8f89-46f4-9d1a-a9648a7009db_7da42a2967b2ade81a70f637b2cc9635.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\categoryImages\e567f79c-8f89-46f4-9d1a-a9648a7009db_7da42a2967b2ade81a70f637b2cc9635.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XGz8D0q4878RBzgaKoGm3mnp2/SlKpyqi2vDB1SlwMc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"190431"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XGz8D0q4878RBzgaKoGm3mnp2/SlKpyqi2vDB1SlwMc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 09:59:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/images/homepageImages/featureSlider/4c77e20a-9dbf-461e-be33-821c345609e0_filtrekahve.8hsguyo195.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\homepageImages\featureSlider\4c77e20a-9dbf-461e-be33-821c345609e0_filtrekahve.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

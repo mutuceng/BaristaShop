@@ -58,3 +58,6 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaS
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\obj\Debug\net8.0\BaristaShop.Catalog.pdb
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\obj\Debug\net8.0\BaristaShop.Catalog.genruntimeconfig.cache
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\obj\Debug\net8.0\ref\BaristaShop.Catalog.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\IdentityModel.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\IdentityModel.AspNetCore.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Services\Catalog\BaristaShop.Catalog\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

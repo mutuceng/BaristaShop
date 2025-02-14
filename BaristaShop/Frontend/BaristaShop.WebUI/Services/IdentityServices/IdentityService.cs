@@ -18,6 +18,7 @@ namespace BaristaShop.WebUI.Services.IdentityServices
 
         public IdentityService(HttpClient httpClient, IHttpContextAccessor httpContextAccessor, IOptions<ClientSettings> clientSettings, IOptions<ServiceApiSettings> serviceApiSettings)
         {
+            if (httpClient == null) throw new ArgumentNullException(nameof(httpClient), "HttpClient is null");
             _httpClient = httpClient;
             _httpContextAccessor = httpContextAccessor;
             _clientSettings = clientSettings.Value;
@@ -80,8 +81,13 @@ namespace BaristaShop.WebUI.Services.IdentityServices
 
         public async Task<bool> SignIn(SignInDto signInDto)
         {
+            if (string.IsNullOrEmpty(_serviceApiSettings.IdentityServerUrl))
+            {
+                throw new Exception("IdentityServerUrl is null or empty.");
+            }
             var discoveryEndPoint = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
             {
+
                 Address = _serviceApiSettings.IdentityServerUrl,
                 Policy = new DiscoveryPolicy
                 {
@@ -99,7 +105,12 @@ namespace BaristaShop.WebUI.Services.IdentityServices
             };
 
 
+      
             var token = await _httpClient.RequestPasswordTokenAsync(passwordTokenRequest);
+            if (token == null)
+            {
+                throw new Exception("Failed to retrieve token. Please check your credentials and try again.");
+            }
 
             var userInfoRequest = new UserInfoRequest
             {

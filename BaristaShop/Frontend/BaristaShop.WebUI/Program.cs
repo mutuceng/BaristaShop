@@ -1,9 +1,14 @@
+using BaristaShop.WebUI.Handlers;
+using BaristaShop.WebUI.Services.ApiServices.CategoryServices;
+using BaristaShop.WebUI.Services.CredentialTokenServices;
 using BaristaShop.WebUI.Services.IdentityServices;
 using BaristaShop.WebUI.Services.LoginServices;
 using BaristaShop.WebUI.Services.ProductDataServices;
+using BaristaShop.WebUI.Services.UserServices;
 using BaristaShop.WebUI.Settings;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,20 +39,39 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         // kullanýcý belirli bir süre boyunca iþlem yapmazsa oturum süresi dolar ve kullanýcý tekrar giriþ yapmak zorunda kalýr.
     });
     
-
+builder.Services.AddAccessTokenManagement();
 
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IProductDataService, ProductDataService>();
 
+builder.Services.AddHttpClient();
+
+builder.Services.AddControllersWithViews();
+
 builder.Services.AddHttpClient<IIdentityService, IdentityService>();
+
 
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("ClientSettings"));
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
 
-builder.Services.AddControllersWithViews();
-builder.Services.AddHttpClient();
+builder.Services.AddScoped<ResourceOwnerPasswordTokenHandler>();
+builder.Services.AddScoped<ClientCredentialTokenHandler>();
+
+var values = builder.Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
+builder.Services.AddHttpClient<IUserService, UserService>( opt =>
+{
+    opt.BaseAddress = new Uri(values.IdentityServerUrl);
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<ICategoryService, CategoryService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
+
 
 var app = builder.Build();
 

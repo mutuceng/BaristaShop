@@ -1,8 +1,10 @@
-﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.CategoryDtos;
+﻿using BaristaShop.Catalog.Services.CategoryServices;
+using BaristaShop.DtoLayer.Dtos.CatalogDtos.CategoryDtos;
 using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductDetailDtos;
 using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductDtos;
 using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductImageDtos;
 using BaristaShop.WebUI.Areas.Admin.Models;
+using BaristaShop.WebUI.Services.ApiServices.ProductServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -17,10 +19,14 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         IHttpClientFactory _httpClientFactory;
+        IProductService _productService;
+        ICategoryService _categoryService;
 
-        public ProductController(IHttpClientFactory httpClientFactory)
+        public ProductController(IHttpClientFactory httpClientFactory, IProductService productService, ICategoryService categoryService)
         {
             _httpClientFactory = httpClientFactory;
+            _productService = productService;
+            _categoryService = categoryService;
         }
         [Route("Index")]
         public async Task<IActionResult> Index()
@@ -28,16 +34,10 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
             ViewBag.v0 = "Ürün İşlemleri";
             ViewBag.v1 = "Ürünler";
 
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7080/api/Products");
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonData = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
-                return View(values);
-            }
 
-            return View();
+           var values = await _productService.GetAllProductAsync();
+
+            return View(values);
         }
 
         [HttpGet]
@@ -48,24 +48,20 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
             ViewBag.v1 = "Ürün Ekleme";
 
 
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7080/api/Categories");
-            if (response.IsSuccessStatusCode)
+            var categories = await _categoryService.GetAllCategoryAsync();
+
+            // Kategorileri SelectListItem listesine dönüştürüyoruz
+            List<SelectListItem> categoryList = categories.Select(x => new SelectListItem
             {
-                var jsonData = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
+                Text = x.CategoryName,
+                Value = x.CategoryId
+            }).ToList();
 
-                List<SelectListItem> categories = (from x in values
-                                                         select new SelectListItem
-                                                         {
-                                                             Text = x.CategoryName,
-                                                             Value = x.CategoryId
-                                                         }).ToList();
-
-                ViewBag.Categories = categories;
-            }
+            // ViewBag ile kategorileri gönderiyoruz
+            ViewBag.Categories = categoryList;
 
             return View();
+
         }
 
         [HttpPost]
@@ -74,38 +70,24 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-    
-
                 var createProductDto = new CreateProductDto
                 {
                     ProductName = model.ProductName,
                     CategoryId = model.CategoryId,  
                 };
 
-                var client = _httpClientFactory.CreateClient();
-                var jsonData = JsonConvert.SerializeObject(createProductDto);
-                StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                var response = await client.PostAsync("https://localhost:7080/api/Products", content);
+                await _productService.CreateProductAsync(createProductDto);
 
-                if (response.IsSuccessStatusCode)
+                var products = await _productService.GetAllProductAsync();
+   
+                foreach(var value in products)
                 {
-                    var clientId = _httpClientFactory.CreateClient();
-                    var responseId = await client.GetAsync("https://localhost:7080/api/Products");
-
-                    if (response.IsSuccessStatusCode)
+                    if(value.ProductName == model.ProductName)
                     {
-                        var jsonDataId = await responseId.Content.ReadAsStringAsync();
-                        var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonDataId);
-                        foreach(var value in values)
-                        {
-                            if(value.ProductName == model.ProductName)
-                            {
-                                return RedirectToAction("CreateProductItem", "ProductItem", new { area = "Admin" , id = value.ProductId});
-                            }
-                        }
+                        return RedirectToAction("CreateProductItem", "ProductItem", new { area = "Admin" , id = value.ProductId});
                     }
-                    
-                }
+                }                   
+                  
             }
             else
             {

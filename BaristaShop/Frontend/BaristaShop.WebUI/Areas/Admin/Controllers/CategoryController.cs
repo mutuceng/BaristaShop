@@ -2,6 +2,7 @@
 using BaristaShop.Catalog.Entities;
 using BaristaShop.DtoLayer.Dtos.CatalogDtos.CategoryDtos;
 using BaristaShop.WebUI.Areas.Admin.Models;
+using BaristaShop.WebUI.Services.ApiServices.CategoryServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -13,14 +14,16 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/Category")]
-    [AllowAnonymous]
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ICategoryService _categoryService;
 
-        public CategoryController(IHttpClientFactory httpClientFactory)
+        public CategoryController(IHttpClientFactory httpClientFactory, ICategoryService categoryService)
         {
             _httpClientFactory = httpClientFactory;
+            _categoryService = categoryService;
         }
 
         [Route("Index")]
@@ -29,16 +32,18 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
             ViewBag.v0 = "Kategori İşlemleri";
             ViewBag.v1 = "Kategori Listesi";
 
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7080/api/Categories");
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonData = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
-                return View(values);
-            }
-
-            return View();
+            /*
+                var client = _httpClientFactory.CreateClient();
+                var response = await client.GetAsync("https://localhost:7080/api/Categories");
+                if (response.IsSuccessStatusCode)
+                {
+                    var jsonData = await response.Content.ReadAsStringAsync();
+                    var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
+                    return View(values);
+                }               
+            */
+            var values = await _categoryService.GetAllCategoryAsync();
+            return View(values);
         }
 
 
@@ -86,14 +91,19 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
                         CategoryImage = relativePath
                     };
 
-                    var client = _httpClientFactory.CreateClient();
-                    var jsonData = JsonConvert.SerializeObject(createCategoryDto);
-                    StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                    var response = await client.PostAsync("https://localhost:7080/api/Categories", content);
-                    if (response.IsSuccessStatusCode)
-                    {
-                        return RedirectToAction("Index", "Category", new { area = "Admin" });
-                    }
+                    /*
+                        var client = _httpClientFactory.CreateClient();
+                        var jsonData = JsonConvert.SerializeObject(createCategoryDto);
+                        StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                        var response = await client.PostAsync("https://localhost:7080/api/Categories", content);
+                        if (response.IsSuccessStatusCode)
+                        {
+                            return RedirectToAction("Index", "Category", new { area = "Admin" });
+                        }
+                    */
+
+                    await _categoryService.CreateCategoryAsync(createCategoryDto);
+                    return RedirectToAction("Index", "Category", new { area = "Admin" });
 
                 }
             } else
@@ -109,14 +119,15 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
         [Route("DeleteCategory/{id}")]
         public async Task<IActionResult> DeleteCategory(string id)
         {
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.DeleteAsync("https://localhost:7080/api/Categories?id=" + id);
-            if (response.IsSuccessStatusCode)
-            {
-                return RedirectToAction("Index", "Category", new { area = "Admin" });
-            }
+            await _categoryService.DeleteCategoryAsync(id);
 
-            return View();
+            //var response = await client.DeleteAsync("https://localhost:7080/api/Categories?id=" + id);
+            //if (response.IsSuccessStatusCode)
+            //{
+            //    return RedirectToAction("Index", "Category", new { area = "Admin" });
+            //}
+
+            return RedirectToAction("Index", "Category", new { area = "Admin" });
 
         }
 
@@ -130,16 +141,16 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
             ViewBag.v0 = "Kategori İşlemleri";
             ViewBag.v1 = "Kategori Güncelleme";
 
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7080/api/Categories/" + id);
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonData = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<UpdateCategoryDto>(jsonData);
-                return View(values);
-            }
+            var value = await _categoryService.GetByIdCategoryAsync(id);
 
-            return View();
+            var updateCategoryDto = new UpdateCategoryDto
+            {
+                CategoryId = value.CategoryId,
+                CategoryName = value.CategoryName,
+                CategoryImage = value.CategoryImage
+            };
+
+            return View(updateCategoryDto);
         }
 
         [HttpPost]
@@ -148,14 +159,19 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
         {
             if(ModelState.IsValid)
             {
-                var client = _httpClientFactory.CreateClient();
-                var jsonData = JsonConvert.SerializeObject(updateCategoryDto);
-                StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                var response = await client.PutAsync("https://localhost:7080/api/Categories", content);
-                if (response.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("Index", "Category", new { area = "admin" });
-                }
+                await _categoryService.UpdateCategoryAsync(updateCategoryDto);
+
+                //var client = _httpClientFactory.CreateClient();
+                //var jsonData = JsonConvert.SerializeObject(updateCategoryDto);
+                //StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                //var response = await client.PutAsync("https://localhost:7080/api/Categories", content);
+                //if (response.IsSuccessStatusCode)
+                //{
+                //    return RedirectToAction("Index", "Category", new { area = "admin" });
+                //}
+
+                return RedirectToAction("Index", "Category", new { area = "admin" });
+
             }
             else
             {

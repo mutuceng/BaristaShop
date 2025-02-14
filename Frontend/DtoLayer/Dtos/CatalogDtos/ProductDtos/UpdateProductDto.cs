@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductDtos
 {
-    public class UpdateCreateDto
+    public class UpdateProductDto
     {
         public string ProductId { get; set; }
         public string ProductName { get; set; }

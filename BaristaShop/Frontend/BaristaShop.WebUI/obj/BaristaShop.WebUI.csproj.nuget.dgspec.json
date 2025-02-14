@@ -55,9 +55,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "IdentityModel": {
+            "IdentityModel.AspNetCore": {
               "target": "Package",
-              "version": "[4.4.0, )"
+              "version": "[4.3.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -141,6 +141,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "IdentityModel.AspNetCore": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

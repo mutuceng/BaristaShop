@@ -52,7 +52,9 @@ namespace BaristaShop.IdentityServer
                 ClientName = "BaristaShop Visitor User",
                 AllowedGrantTypes = GrantTypes.ClientCredentials,
                 ClientSecrets = { new Secret( "baristashopsecret".Sha256() ) },
-                AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission" , "OcelotFullPermission" }  
+                AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission" , "OcelotFullPermission",
+                IdentityServerConstants.LocalApi.ScopeName},
+                AllowAccessTokensViaBrowser = true
             },
 
             // Manager

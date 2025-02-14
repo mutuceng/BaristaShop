@@ -6,6 +6,7 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using Newtonsoft.Json;
 using JsonConvert = Newtonsoft.Json.JsonConvert;
+using BaristaShop.WebUI.Services.ApiServices.CategoryServices;
 
 
 namespace BaristaShop.WebUI.Controllers
@@ -13,10 +14,12 @@ namespace BaristaShop.WebUI.Controllers
     public class TestController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ICategoryService _categoryService;
 
-        public TestController(IHttpClientFactory httpClientFactory)
+        public TestController(IHttpClientFactory httpClientFactory, ICategoryService categoryService)
         {
             _httpClientFactory = httpClientFactory;
+            _categoryService = categoryService;
         }
 
         public async Task<IActionResult> Index()
@@ -73,6 +76,13 @@ namespace BaristaShop.WebUI.Controllers
 
             // Burada güzelce çalıştı ziyaretçi giriş yapmadan görebiliyor ancak bu kodları sürekli tekrar edicez
             // Bunun için Ocelet Gateway kullanıcaz ve işlemleri azaltarak daha sağlıklı bir yapı elde edicez.
+        }
+
+
+        public async Task<IActionResult> Deneme()
+        {
+            var values = await _categoryService.GetAllCategoryAsync();
+            return View(values);
         }
     }
 }

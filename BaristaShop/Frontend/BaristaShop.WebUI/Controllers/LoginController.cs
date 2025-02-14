@@ -17,13 +17,12 @@ namespace BaristaShop.WebUI.Controllers
     public class LoginController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-        private readonly ILoginService _loginService;
         private readonly IIdentityService _identityService;
 
-        public LoginController(IHttpClientFactory httpClientFactory, ILoginService loginService, IIdentityService identityService)
+        public LoginController(IHttpClientFactory httpClientFactory,  IIdentityService identityService)
         {
             _httpClientFactory = httpClientFactory;
-            _loginService = loginService;
+ 
             _identityService = identityService;
         }
 
@@ -34,8 +33,9 @@ namespace BaristaShop.WebUI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Index(UserLoginDto userLoginDto)
+        public async Task<IActionResult> Index(SignInDto signInDto)
         {
+            await _identityService.SignIn(signInDto);
             /* 
             // giriş yapan kullanıcı için manuel token alma işlemi
             var userLogin = new UserLoginDto
@@ -94,22 +94,22 @@ namespace BaristaShop.WebUI.Controllers
 
 
         // Farklı bir yöntemle token alma işlemi
-        [HttpGet]
-        public IActionResult SignIn()
-        {
-            return View();
-        }
+        //[HttpGet]
+        //public IActionResult SignIn()
+        //{
+        //    return View();
+        //}
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> SignIn(SignInDto signInDto)
         {
-            signInDto.UserName = "mutu";
+            signInDto.UserName = "mutuu";
             signInDto.Password = "mutu123D!";
 
 
             await _identityService.SignIn(signInDto);
 
-            return RedirectToAction("Index", "Test");
+            return RedirectToAction("Index", "User");
         }
     }
 }
