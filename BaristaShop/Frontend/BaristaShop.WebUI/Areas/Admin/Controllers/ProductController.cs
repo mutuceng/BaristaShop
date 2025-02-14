@@ -1,15 +1,10 @@
-﻿using BaristaShop.Catalog.Services.CategoryServices;
-using BaristaShop.DtoLayer.Dtos.CatalogDtos.CategoryDtos;
-using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductDetailDtos;
-using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductDtos;
-using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductImageDtos;
-using BaristaShop.WebUI.Areas.Admin.Models;
+﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductDtos;
+using BaristaShop.WebUI.Services.ApiServices.CategoryServices;
 using BaristaShop.WebUI.Services.ApiServices.ProductServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
-using System.Text;
 
 namespace BaristaShop.WebUI.Areas.Admin.Controllers
 {

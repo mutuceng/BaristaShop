@@ -1,5 +1,5 @@
-﻿using BaristaShop.Catalog.Dtos.ProductDetailDtos;
-using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductItemDtos;
+﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductDetailDtos;
+using BaristaShop.WebUI.Services.ApiServices.ProductDetailServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -13,11 +13,11 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
     [AllowAnonymous]
     public class ProductDetailController : Controller
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IProductDetailService _productDetailService;
 
-        public ProductDetailController(IHttpClientFactory httpClientFactory)
+        public ProductDetailController(IProductDetailService productDetailService)
         {
-            _httpClientFactory = httpClientFactory;
+            _productDetailService = productDetailService;
         }
 
         [HttpGet]
@@ -46,15 +46,12 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
                     ProductInfo = model.ProductInfo,
                 };
 
-                var client = _httpClientFactory.CreateClient();
-                var jsonData = JsonConvert.SerializeObject(createProductDetailDto);
-                StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                var response = await client.PostAsync("https://localhost:7080/api/ProductDetails", content);
 
-                if (response.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("CreateProductImage", "ProductImage", new { area = "Admin", id = model.ProductId });
-                }
+                await _productDetailService.CreateProductDetailAsync(createProductDetailDto);
+
+
+                return RedirectToAction("CreateProductImage", "ProductImage", new { area = "Admin", id = model.ProductId });
+                
             }
             else
             {

@@ -1,5 +1,6 @@
 ﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.CategoryDtos;
 using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductItemDtos;
+using BaristaShop.WebUI.Services.ApiServices.ProductItemServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -14,11 +15,11 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
     [AllowAnonymous]
     public class ProductItemController : Controller
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IProductItemService _productItemService;
 
-        public ProductItemController(IHttpClientFactory httpClientFactory)
+        public ProductItemController(IProductItemService productItemService)
         {
-            _httpClientFactory = httpClientFactory;
+            _productItemService = productItemService;
         }
 
         [HttpGet]
@@ -49,15 +50,11 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
                     SKU = model.SKU,
                 };
 
-                var client = _httpClientFactory.CreateClient();
-                var jsonData = JsonConvert.SerializeObject(createProductItemDto);
-                StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                var response = await client.PostAsync("https://localhost:7080/api/ProductItems", content);
+                await _productItemService.CreateProductItemAsync(createProductItemDto);
 
-                if (response.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("CreateProductDetail", "ProductDetail", new { area = "Admin", id = model.ProductId });
-                }
+                
+                return RedirectToAction("CreateProductDetail", "ProductDetail", new { area = "Admin", id = model.ProductId });
+                
             }
             else
             {

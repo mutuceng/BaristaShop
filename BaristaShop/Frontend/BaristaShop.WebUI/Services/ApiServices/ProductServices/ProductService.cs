@@ -23,7 +23,7 @@ namespace BaristaShop.WebUI.Services.ApiServices.ProductServices
 
         public async Task<List<ResultProductDto>> GetAllProductAsync()
         {
-            var responseMessage = await _httpClient.GetAsync("categories");
+            var responseMessage = await _httpClient.GetAsync("products");
             var values = await responseMessage.Content.ReadFromJsonAsync<List<ResultProductDto>>();
 
             return values;
@@ -31,7 +31,7 @@ namespace BaristaShop.WebUI.Services.ApiServices.ProductServices
 
         public async Task<GetByIdProductDto> GetByIdProductAsync(string id)
         {
-            var responseMessage = await _httpClient.GetAsync("categories/" + id);
+            var responseMessage = await _httpClient.GetAsync("products/" + id);
             var value = await responseMessage.Content.ReadFromJsonAsync<GetByIdProductDto>();
             return value;
         }
