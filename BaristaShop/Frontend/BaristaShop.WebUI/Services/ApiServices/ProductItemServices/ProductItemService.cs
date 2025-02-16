@@ -34,5 +34,21 @@ namespace BaristaShop.WebUI.Services.ApiServices.ProductItemServices
             return values;
         }
 
+        public async Task<GetProductItemByProductIdDto> GetProductItemByProductIdAsync(string productId)
+        {
+            var responseMessage = await _httpClient.GetAsync($"productitems/byproduct/{productId}");
+            var value = await responseMessage.Content.ReadFromJsonAsync<GetProductItemByProductIdDto>();
+
+            try
+            {
+                responseMessage.EnsureSuccessStatusCode(); // HTTP isteği başarısız olursa Exception fırlatır.
+                return value;
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine($"HTTP Request Error: {ex.Message}");
+                throw;
+            }
+        }
     }
 }

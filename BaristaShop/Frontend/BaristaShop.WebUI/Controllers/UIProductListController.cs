@@ -2,7 +2,7 @@
 
 namespace BaristaShop.WebUI.Controllers
 {
-    [Route("UIProductList")]
+    [Route("ProductList")]
     public class UIProductListController : Controller
     {
         [Route("Index")]

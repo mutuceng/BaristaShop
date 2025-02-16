@@ -1,6 +1,8 @@
 ﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.CategoryDtos;
 using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductDtos;
 using BaristaShop.WebUI.Models;
+using BaristaShop.WebUI.Services.ApiServices.CategoryServices;
+using BaristaShop.WebUI.Services.ApiServices.ProductServices;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -8,36 +10,20 @@ namespace BaristaShop.WebUI.ViewComponents.UIHomeViewComponents
 {
     public class UIHomeCategoriesViewComponent:ViewComponent
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ICategoryService _categoryService;
+        private readonly IProductService _productService;
 
-        public UIHomeCategoriesViewComponent(IHttpClientFactory httpClientFactory)
+        public UIHomeCategoriesViewComponent(ICategoryService categoryService, IProductService productService)
         {
-            _httpClientFactory = httpClientFactory;
+            _categoryService = categoryService;
+            _productService = productService;
         }
-
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var client = _httpClientFactory.CreateClient();
+            var categories = await _categoryService.GetAllCategoryAsync();
 
-
-            var categoryResponse = await client.GetAsync("https://localhost:7080/api/Categories");
-            if (!categoryResponse.IsSuccessStatusCode)
-            {
-                return View();
-            }
-
-            var categoryJson = await categoryResponse.Content.ReadAsStringAsync();
-            var categories = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(categoryJson);
-
-            var productResponse = await client.GetAsync("https://localhost:7080/api/Products");
-            if (!productResponse.IsSuccessStatusCode)
-            {
-                return View();
-            }
-
-            var productJson = await productResponse.Content.ReadAsStringAsync();
-            var products = JsonConvert.DeserializeObject<List<ResultProductDto>>(productJson);
+            var products = await _productService.GetAllProductAsync();
 
             var categoryProductCount = categories.Select(category => new CategoriesWithProductCountViewModel
             {
@@ -52,6 +38,7 @@ namespace BaristaShop.WebUI.ViewComponents.UIHomeViewComponents
 
             // 5. Kategorileri View'e gönder
             return View(sortedCategories);
+        
         }
     }
 }

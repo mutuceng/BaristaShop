@@ -1,5 +1,6 @@
 ﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.SpecialOfferDtos;
 using BaristaShop.WebUI.Areas.Admin.Models;
+using BaristaShop.WebUI.Services.ApiServices.SpecialOfferServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -9,28 +10,21 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/SpecialOffer")]
-    [AllowAnonymous]
+    [Authorize]
     public class SpecialOfferController : Controller
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ISpecialOfferService _specialOfferService;
 
-        public SpecialOfferController(IHttpClientFactory httpClientFactory)
+        public SpecialOfferController(ISpecialOfferService specialOfferService)
         {
-            _httpClientFactory = httpClientFactory;
+            _specialOfferService = specialOfferService;
         }
 
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7080/api/SpecialOffers");
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonData = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultSpecialOfferDto>>(jsonData);
-                return View(values);
-            }
-            return View();
+            var values = await _specialOfferService.GetAllSpecialOfferAsync();
+            return View(values);
         }
 
 
@@ -82,15 +76,11 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
                         SpecialOfferImage = relativePath
                     };
 
-                    var client = _httpClientFactory.CreateClient();
-                    var jsonData = JsonConvert.SerializeObject(createSpecialOfferDto);
-                    StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                    var response = await client.PostAsync("https://localhost:7080/api/SpecialOffers", content);
+                    await _specialOfferService.CreateSpecialOfferAsync(createSpecialOfferDto);
 
-                    if (response.IsSuccessStatusCode)
-                    {
-                        return RedirectToAction("Index", "SpecialOffer", new { area = "Admin" });
-                    }
+                
+                    return RedirectToAction("Index", "SpecialOffer", new { area = "Admin" });
+                    
                 }
 
 

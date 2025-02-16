@@ -1,4 +1,5 @@
 ﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.AboutUsDtos;
+using BaristaShop.WebUI.Services.ApiServices.AboutUsServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -12,27 +13,20 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
     [AllowAnonymous]
     public class AboutUsController : Controller
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IAboutUsService _aboutUsService;
 
-        public AboutUsController(IHttpClientFactory httpClientFactory)
+        public AboutUsController(IAboutUsService aboutUsService)
         {
-            _httpClientFactory = httpClientFactory;
+            _aboutUsService = aboutUsService;
         }
 
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
 
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7080/api/AboutUs");
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonData = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<ResultAboutUsDto>(jsonData);
-                return View(values);
-            }
+            var value = await _aboutUsService.GetAboutUsAsync();
 
-            return View();
+            return View(value);
         }
 
         [HttpGet]
@@ -63,16 +57,10 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
                     AboutPhone = createAboutUsDto.AboutPhone
                 };
 
+                await _aboutUsService.CreateAboutUsAsync(CreateAboutUsDto);
 
-                var client = _httpClientFactory.CreateClient();
-                var jsonData = JsonConvert.SerializeObject(CreateAboutUsDto);
-                StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                var response = await client.PostAsync("https://localhost:7080/api/AboutUs", content);
-
-                if (response.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("Index", "AboutUs", new { area = "Admin" });
-                }
+                return RedirectToAction("Index", "AboutUs", new { area = "Admin" });
+               
             }
 
             return View();

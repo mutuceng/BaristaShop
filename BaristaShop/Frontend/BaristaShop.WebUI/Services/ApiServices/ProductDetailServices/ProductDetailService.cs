@@ -26,9 +26,21 @@ namespace BaristaShop.WebUI.Services.ApiServices.ProductDetailServices
             throw new NotImplementedException();
         }
 
-        public Task<ResultProductDetailDto> GetProductDetailByProductIdAsync(string productId)
+        public async Task<GetProductDetailByProductIdDto> GetProductDetailByProductIdAsync(string productId)
         {
-            throw new NotImplementedException();
+            var responseMessage = await _httpClient.GetAsync($"productdetails/byproduct/{productId}");
+            var value = await responseMessage.Content.ReadFromJsonAsync<GetProductDetailByProductIdDto>();
+
+            try
+            {
+                responseMessage.EnsureSuccessStatusCode();
+                return value;
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine($"HTTP Request Error: {ex.Message}");
+                throw;
+            }
         }
     }
 }

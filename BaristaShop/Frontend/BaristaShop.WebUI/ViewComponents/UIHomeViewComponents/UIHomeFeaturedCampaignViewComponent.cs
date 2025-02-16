@@ -1,4 +1,5 @@
 ﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.SpecialOfferDtos;
+using BaristaShop.WebUI.Services.ApiServices.SpecialOfferServices;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 
@@ -6,25 +7,25 @@ namespace BaristaShop.WebUI.ViewComponents.UIHomeViewComponents
 {
     public class UIHomeFeaturedCampaignViewComponent:ViewComponent
     {
-        private readonly IHttpClientFactory _httpClientFactory;
-        public UIHomeFeaturedCampaignViewComponent(IHttpClientFactory httpClientFactory)
+        private readonly ISpecialOfferService _specialOfferService;
+
+        public UIHomeFeaturedCampaignViewComponent(ISpecialOfferService specialOfferService)
         {
-            _httpClientFactory = httpClientFactory;
+            _specialOfferService = specialOfferService;
         }
+
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7080/api/SpecialOffers");
-
-            if (response.IsSuccessStatusCode)
+            try
             {
-                var jsonData = await response.Content.ReadAsStringAsync();
-                var products = Newtonsoft.Json.JsonConvert.DeserializeObject<List<ResultSpecialOfferDto>>(jsonData);
-
-                return View(products);
+                var specialOffers = await _specialOfferService.GetAllSpecialOfferAsync();
+                return View(specialOffers);
             }
-
-            return View(new List<ResultSpecialOfferDto>()); // Return an empty list if no data
+            catch (Exception ex)
+            {
+                // Log the exception (logging mechanism not shown here)
+                return View(new List<ResultSpecialOfferDto>()); // Return an empty list if an error occurs
+            }
         }
     }
 }

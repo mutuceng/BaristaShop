@@ -1,5 +1,6 @@
 ﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.FeatureSliderDtos;
 using BaristaShop.WebUI.Areas.Admin.Models;
+using BaristaShop.WebUI.Services.ApiServices.FeatureSliderServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -10,29 +11,23 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/FeatureSlider")]
-    [AllowAnonymous]
+    [Authorize]
     public class FeatureSliderController : Controller
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IFeatureSliderService _featureSliderService;
 
-        public FeatureSliderController(IHttpClientFactory httpClientFactory)
+        public FeatureSliderController(IFeatureSliderService featureSliderService)
         {
-            _httpClientFactory = httpClientFactory;
+            _featureSliderService = featureSliderService;
         }
 
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7080/api/FeatureSliders");
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonData = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultFeatureSliderDto>>(jsonData);
-                return View(values);
-            }
+            
+            var values = await _featureSliderService.GetAllFeatureSliderAsync();
 
-            return View();
+            return View(values);
         }
 
 
@@ -84,15 +79,10 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
                         FeatureSliderImage = relativePath
                     };
 
-                    var client = _httpClientFactory.CreateClient();
-                    var jsonData = JsonConvert.SerializeObject(createFeatureSliderDto);
-                    StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                    var response = await client.PostAsync("https://localhost:7080/api/FeatureSliders", content);
+                    await _featureSliderService.CreateFeatureSliderAsync(createFeatureSliderDto);
 
-                    if (response.IsSuccessStatusCode)
-                    {
-                        return RedirectToAction("Index", "FeatureSlider", new { area = "Admin" });
-                    }
+                    return RedirectToAction("Index", "FeatureSlider", new { area = "Admin" });
+                    
                 }
 
 

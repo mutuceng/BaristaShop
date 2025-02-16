@@ -1,8 +1,12 @@
 using BaristaShop.WebUI.Handlers;
+using BaristaShop.WebUI.Services.ApiServices.AboutUsServices;
 using BaristaShop.WebUI.Services.ApiServices.CategoryServices;
+using BaristaShop.WebUI.Services.ApiServices.FeatureSliderServices;
 using BaristaShop.WebUI.Services.ApiServices.ProductDetailServices;
+using BaristaShop.WebUI.Services.ApiServices.ProductImageServices;
 using BaristaShop.WebUI.Services.ApiServices.ProductItemServices;
 using BaristaShop.WebUI.Services.ApiServices.ProductServices;
+using BaristaShop.WebUI.Services.ApiServices.SpecialOfferServices;
 using BaristaShop.WebUI.Services.CredentialTokenServices;
 using BaristaShop.WebUI.Services.IdentityServices;
 using BaristaShop.WebUI.Services.LoginServices;
@@ -84,6 +88,26 @@ builder.Services.AddHttpClient<IProductItemService, ProductItemService>(opt =>
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IProductDetailService, ProductDetailService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<IProductImageService, ProductImageService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<IFeatureSliderService, FeatureSliderService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<ISpecialOfferService, SpecialOfferService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<IAboutUsService, AboutUsService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();

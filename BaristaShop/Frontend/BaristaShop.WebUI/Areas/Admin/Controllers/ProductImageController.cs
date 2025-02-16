@@ -1,5 +1,6 @@
 ﻿using BaristaShop.DtoLayer.Dtos.CatalogDtos.ProductImageDtos;
 using BaristaShop.WebUI.Areas.Admin.Models;
+using BaristaShop.WebUI.Services.ApiServices.ProductImageServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -13,11 +14,11 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
     [AllowAnonymous]
     public class ProductImageController : Controller
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IProductImageService _productImageService;
 
-        public ProductImageController(IHttpClientFactory httpClientFactory)
+        public ProductImageController(IProductImageService productImageService)
         {
-            _httpClientFactory = httpClientFactory;
+            _productImageService = productImageService;
         }
 
         [HttpGet]
@@ -84,7 +85,12 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
                     ProductId = model.ProductId
                 };
 
-                var client = _httpClientFactory.CreateClient();
+
+                await _productImageService.CreateProductImageAsync(createProductImageDto);
+
+                return RedirectToAction("Index", "Product", new { area = "Admin" });
+
+                /* var client = _httpClientFactory.CreateClient();
                 var jsonData = JsonConvert.SerializeObject(createProductImageDto);
                 StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
                 var response = await client.PostAsync("https://localhost:7080/api/ProductImages", content);
@@ -93,6 +99,7 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
                 {
                     return RedirectToAction("Index", "Product", new { area = "Admin" });
                 }
+                */
             }
             else
             {

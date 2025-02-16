@@ -7,5 +7,6 @@ namespace BaristaShop.WebUI.Services.ApiServices.ProductItemServices
         Task<List<ResultProductItemDto>> GetAllProductItemAsync();
         Task CreateProductItemAsync(CreateProductItemDto createProductItemDto);
         Task DeleteProductItemAsync(string id);
+        Task<GetProductItemByProductIdDto> GetProductItemByProductIdAsync(string productId);
     }
 }

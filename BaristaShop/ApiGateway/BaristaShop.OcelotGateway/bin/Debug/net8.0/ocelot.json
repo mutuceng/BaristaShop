@@ -19,7 +19,23 @@
       "UpStreamScheme": "http",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "OcelotAuthenticationScheme",
-        "AllowedScopes": ["CatalogFullPermission"]
+        "AllowedScopes": [ "CatalogFullPermission" ]
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/{entity}/byproduct/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7080
+        }
+      ],
+      "UpstreamPathTemplate": "/services/catalog/{entity}/byproduct/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+        "AllowedScopes": [ "CatalogFullPermission" ]
       }
     },
 
