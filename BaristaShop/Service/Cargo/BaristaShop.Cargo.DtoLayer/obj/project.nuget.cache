@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "n6aqLoKG/hQ=",
+  "dgSpecHash": "mjF2srUbxdI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Service\\Cargo\\BaristaShop.Cargo.DtoLayer\\BaristaShop.Cargo.DtoLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Umutl\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.200\\microsoft.net.sdk.compilers.toolset.9.0.200.nupkg.sha512",
+    "C:\\Users\\Umutl\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Umutl\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Umutl\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -107,7 +107,7 @@
         }
       ],
       "UpstreamPathTemplate": "/services/basket/{everything}",
-      "UpstreamHttpMethod": [ "Get" ],
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Update" ],
       "UpStreamScheme": "http",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "OcelotAuthenticationScheme",

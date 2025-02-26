@@ -5,9 +5,6 @@ namespace BaristaShop.Basket.Services
     public interface IBasketService
     {
         Task<BasketTotalDto> GetBasketAsync(string userId);
-        Task AddItemToBasketAsync(BasketItemDto basketItemDto);
-        Task DeleteItemFromBasketAync(BasketItemDto basketItemDto);
-        Task EmptyBasketAsync(string userId);
         Task DeleteBasketAsync(string userId);
         Task SaveBasketAsync(BasketTotalDto basketTotalDto);        
 

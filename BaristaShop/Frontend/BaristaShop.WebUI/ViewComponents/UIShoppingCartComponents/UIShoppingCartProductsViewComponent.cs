@@ -1,12 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BaristaShop.WebUI.Services.ApiServices.BasketServices;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BaristaShop.WebUI.ViewComponents.UIShoppingCartComponents
 {
     public class UIShoppingCartProductsViewComponent:ViewComponent
     {
-        public IViewComponentResult Invoke()
+        private readonly IBasketService _basketService;
+
+        public UIShoppingCartProductsViewComponent(IBasketService basketService)
         {
-            return View();
+            _basketService = basketService;
+        }
+
+        public async Task<IViewComponentResult> InvokeAsync()
+        {
+
+            var values = await _basketService.GetBasketAsync();
+            return View(values);
         }
     }
 }

@@ -11,60 +11,8 @@
   },
   {
     "ContainingType": "BaristaShop.Basket.Controllers.BasketsController",
-    "Method": "AddItemToBasket",
-    "RelativePath": "api/Baskets/add-item",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "basketItemDto",
-        "Type": "BaristaShop.Basket.Dtos.BasketItemDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BaristaShop.Basket.Controllers.BasketsController",
-    "Method": "DeleteBasket",
-    "RelativePath": "api/Baskets/delete-basket",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BaristaShop.Basket.Controllers.BasketsController",
-    "Method": "DeleteItemFromBasket",
-    "RelativePath": "api/Baskets/delete-item",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "basketItemDto",
-        "Type": "BaristaShop.Basket.Dtos.BasketItemDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BaristaShop.Basket.Controllers.BasketsController",
-    "Method": "EmptyBasket",
-    "RelativePath": "api/Baskets/empty-basket",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BaristaShop.Basket.Controllers.BasketsController",
     "Method": "SaveBasket",
-    "RelativePath": "api/Baskets/save",
+    "RelativePath": "api/Baskets",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -75,6 +23,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Basket.Controllers.BasketsController",
+    "Method": "DeleteBasket",
+    "RelativePath": "api/Baskets",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

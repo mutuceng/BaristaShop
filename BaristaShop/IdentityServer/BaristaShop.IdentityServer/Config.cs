@@ -64,7 +64,7 @@ namespace BaristaShop.IdentityServer
                 ClientName = "BaristaShop Manager User",
                 AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                 ClientSecrets = { new Secret( "baristashopsecret".Sha256()) },
-                AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OcelotFullPermission" ,
+                AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OcelotFullPermission","BasketFullPermission" ,
                     IdentityServerConstants.LocalApi.ScopeName, // bu identity service'ı için yetki veriyor.
                     IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Email,

@@ -21,6 +21,10 @@
       {
         "Path": "Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj",
+        "Action": "Start"
       }
     ]
   }
