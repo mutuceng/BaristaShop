@@ -1,19 +1,255 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\views\\discount\\confirmdiscountcoupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\views\\discount\\confirmdiscountcoupon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\controllers\\uishoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\controllers\\uishoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\services\\apiservices\\basketservices\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\services\\apiservices\\basketservices\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\dtos\\coupondtos\\discountcodedetailybycodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\dtos\\coupondtos\\discountcodedetailybycodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\controllers\\discountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\controllers\\discountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\services\\apiservices\\discountservices\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\services\\apiservices\\discountservices\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\frontend\\baristashop.webui\\services\\apiservices\\discountservices\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A1D165-B147-4D79-99F1-A6DA0EA501A9}|Frontend\\BaristaShop.WebUI\\BaristaShop.WebUI.csproj|solutionrelative:frontend\\baristashop.webui\\services\\apiservices\\discountservices\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\services\\discount\\baristashop.discount\\services\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9056A0E-85AB-4367-8F3F-CA9FB20066CE}|Services\\Discount\\BaristaShop.Discount\\BaristaShop.Discount.csproj|solutionrelative:services\\discount\\baristashop.discount\\services\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|Requirements{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|Requirements{EC0B7E6A-751B-46BC-8507-3AE81C8EE6AF}|solutionrelative:Ports.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2186E1B6-D028-4068-9C76-2FCE6A305579}|ApiGateway\\BaristaShop.OcelotGateway\\BaristaShop.OcelotGateway.csproj|c:\\users\\umutl\\belgeler\\github\\baristashop\\baristashop\\apigateway\\baristashop.ocelotgateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2186E1B6-D028-4068-9C76-2FCE6A305579}|ApiGateway\\BaristaShop.OcelotGateway\\BaristaShop.OcelotGateway.csproj|solutionrelative:apigateway\\baristashop.ocelotgateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 180,
+      "VerticalTabListWidth": 201,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\BasketServices\\BasketService.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\BasketServices\\BasketService.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\BasketServices\\BasketService.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\BasketServices\\BasketService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T12:09:58.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Entities\\Coupon.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Entities\\Coupon.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Entities\\Coupon.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Entities\\Coupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:32:18.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfirmDiscountCoupon.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\Discount\\ConfirmDiscountCoupon.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Views\\Discount\\ConfirmDiscountCoupon.cshtml",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Views\\Discount\\ConfirmDiscountCoupon.cshtml",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Views\\Discount\\ConfirmDiscountCoupon.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwCgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T09:01:34.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Program.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:53:42.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Controllers\\DiscountController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Controllers\\DiscountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:50:45.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ports.txt",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt",
+              "RelativeDocumentMoniker": "Ports.txt",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Ports.txt",
+              "RelativeToolTip": "Ports.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-27T06:12:09.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DiscountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Controllers\\DiscountsController.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Controllers\\DiscountsController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Controllers\\DiscountsController.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Controllers\\DiscountsController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwCwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:08:10.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Services\\DiscountService.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Services\\DiscountService.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Services\\DiscountService.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Services\\DiscountService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwGYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:05:25.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiscountCodeDetailyByCodeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Dtos\\CouponDtos\\DiscountCodeDetailyByCodeDto.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Dtos\\CouponDtos\\DiscountCodeDetailyByCodeDto.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Dtos\\CouponDtos\\DiscountCodeDetailyByCodeDto.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Dtos\\CouponDtos\\DiscountCodeDetailyByCodeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:05:03.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Services\\IDiscountService.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\BaristaShop.Discount\\Services\\IDiscountService.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Services\\Discount\\BaristaShop.Discount\\Services\\IDiscountService.cs",
+              "RelativeToolTip": "Services\\Discount\\BaristaShop.Discount\\Services\\IDiscountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:04:45.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\DiscountServices\\DiscountService.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\DiscountServices\\DiscountService.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\DiscountServices\\DiscountService.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\DiscountServices\\DiscountService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T20:00:46.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\DiscountServices\\IDiscountService.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\DiscountServices\\IDiscountService.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\DiscountServices\\IDiscountService.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Services\\ApiServices\\DiscountServices\\IDiscountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T20:00:34.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\ApiGateway\\BaristaShop.OcelotGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "ApiGateway\\BaristaShop.OcelotGateway\\ocelot.json",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\ApiGateway\\BaristaShop.OcelotGateway\\ocelot.json",
+              "RelativeToolTip": "ApiGateway\\BaristaShop.OcelotGateway\\ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T19:53:25.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Controllers\\UIShoppingCart.cs",
+              "RelativeDocumentMoniker": "Frontend\\BaristaShop.WebUI\\Controllers\\UIShoppingCart.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\Controllers\\UIShoppingCart.cs",
+              "RelativeToolTip": "Frontend\\BaristaShop.WebUI\\Controllers\\UIShoppingCart.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:50:16.448Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,6 +1,7 @@
 ﻿using BaristaShop.Discount.Context;
 using BaristaShop.Discount.Dtos.CouponDtos;
 using Dapper;
+using Microsoft.EntityFrameworkCore;
 
 namespace BaristaShop.Discount.Services
 {
@@ -32,9 +33,9 @@ namespace BaristaShop.Discount.Services
             string query = "Delete From Coupons Where CouponId=@couponId";
             var parameters = new DynamicParameters();
             parameters.Add("couponId", id);
-            using ( var connection = _dapperContext.CreateConnection())
+            using (var connection = _dapperContext.CreateConnection())
             {
-                await connection.ExecuteAsync(query,parameters);
+                await connection.ExecuteAsync(query, parameters);
             }
         }
 
@@ -53,7 +54,7 @@ namespace BaristaShop.Discount.Services
             string query = "SELECT * FROM Coupons WHERE CouponId=@couponId";
             var parameters = new DynamicParameters();
             parameters.Add("@couponId", id);
-            using ( var connection = _dapperContext.CreateConnection() )
+            using (var connection = _dapperContext.CreateConnection())
             {
                 var value = await connection.QueryFirstOrDefaultAsync<GetByIdCouponDto>(query, parameters);
                 return value;
@@ -73,6 +74,35 @@ namespace BaristaShop.Discount.Services
             using (var connection = _dapperContext.CreateConnection())
             {
                 await connection.ExecuteAsync(query, parameters);
+            }
+        }
+
+
+
+        public async Task<DiscountCodeDetailyByCodeDto> GetCodeDetailAsync(string code)
+        {
+            string query = "Select * from Coupons where Code=@code";
+            var parameters = new DynamicParameters();
+            parameters.Add("@code", code);
+
+            // similar like getbyid
+            using (var connection = _dapperContext.CreateConnection())
+            {
+                var value = await connection.QueryFirstOrDefaultAsync<DiscountCodeDetailyByCodeDto>(query, parameters);
+                return value;
+            }
+        }
+
+        public async Task<int> GetDiscountCouponCountRate(string code)
+        {
+            string query = "Select DiscountRate From Coupons Where Code=@code";
+            var parameters = new DynamicParameters();
+            parameters.Add("@code", code);
+
+            using (var connection = _dapperContext.CreateConnection())
+            {
+                var values = connection.QueryFirstOrDefault<int>(query, parameters);
+                return values;
             }
         }
     }

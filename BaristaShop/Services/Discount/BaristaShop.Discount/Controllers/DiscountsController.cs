@@ -32,6 +32,13 @@ namespace BaristaShop.Discount.Controllers
             return Ok(value);
         }
 
+        [HttpGet("GetCodeDetailByCode")]
+        public async Task<IActionResult> GetCodeDetailByCode(string code)
+        {
+            var value = await _discountService.GetCodeDetailAsync(code);
+            return Ok(value);
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateCoupon(CreateCouponDto createCouponDto)
         {

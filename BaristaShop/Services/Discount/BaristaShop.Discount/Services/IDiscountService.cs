@@ -9,5 +9,10 @@ namespace BaristaShop.Discount.Services
         Task CreateCouponAsync(CreateCouponDto createCouponDto);
         Task UpdateCouponAsync(UpdateCouponDto updateCouponDto);
         Task DeleteCouponAsync(int id);
+
+        Task<DiscountCodeDetailyByCodeDto> GetCodeDetailAsync(string code);
+
+        Task<int> GetDiscountCouponCountRate(string code);
+
     }
 }
