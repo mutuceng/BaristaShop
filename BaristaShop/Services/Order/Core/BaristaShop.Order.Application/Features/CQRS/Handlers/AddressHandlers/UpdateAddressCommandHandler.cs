@@ -22,10 +22,20 @@ namespace BaristaShop.Order.Application.Features.CQRS.Handlers.AddressHandlers
         {
             var value = await _repository.GetByIdAsync(command.AddressId);
             value.AddressId = command.AddressId;
-            value.UserId = command.UserId;
+            value.Name = command.Name;
+            value.Surname = command.Surname;
+            value.PhoneNumber = command.PhoneNumber;
+
+            value.Country = command.Country;
             value.District = command.District;
             value.City = command.City;
-            value.Detail = command.Detail;
+
+            value.Detail1 = command.Detail1;
+            value.Detail2 = command.Detail2;
+            value.Description = command.Description;
+            value.ZipCode = command.ZipCode;
+
+            value.UserId = command.UserId;
             await _repository.UpdateAsync(value);
         }
     }

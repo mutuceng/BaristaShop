@@ -28,6 +28,8 @@ builder.Services.AddScoped<CreateAddressCommandHandler>();
 builder.Services.AddScoped<UpdateAddressCommandHandler>();
 builder.Services.AddScoped<DeleteAddressCommandHandler>();
 
+builder.Services.AddScoped<GetAddressByUserIdQueryHandler>();
+
 builder.Services.AddScoped<GetOrderDetailQueryHandler>();
 builder.Services.AddScoped<GetOrderDetailByIdQueryHandler>();
 builder.Services.AddScoped<CreateOrderDetailCommandHandler>();

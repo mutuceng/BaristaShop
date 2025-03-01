@@ -1,4 +1,5 @@
 ﻿using BaristaShop.Order.Application.Interfaces;
+using BaristaShop.Order.Domain.Entities;
 using BaristaShop.Order.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -39,9 +40,9 @@ namespace BaristaShop.Order.Persistence.Repositories
 
         }
 
-        public async Task<T> GetByFiltreAsync(Expression<Func<T, bool>> filter)
+        public async Task<List<T>> GetByFiltreAsync(Expression<Func<T, bool>> filter)
         {
-            return await _context.Set<T>().SingleOrDefaultAsync(filter);
+            return await _context.Set<T>().Where(filter).ToListAsync();
         }
 
         public async Task<T> GetByIdAsync(int id)
@@ -55,5 +56,16 @@ namespace BaristaShop.Order.Persistence.Repositories
             _context.Set<T>().Update(entity);
             await _context.SaveChangesAsync();
         }
-    }   
+
+        //public async Task<Address> GetAddressByUserIdAsync(string userId)
+        //{
+        //    if (typeof(T) == typeof(Address))
+        //    {
+        //        return await _context.Set<Address>().SingleOrDefaultAsync(a => a.UserId == userId);
+        //    }
+
+        //    throw new InvalidOperationException("This method can only be used for Address entities.");
+        //}
+
+    }
 }

@@ -9786,8 +9786,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i9uj5z4s7s</Fingerprint>
-      <Integrity>Cg/bdvaXJVL+FG3TP43iANjgX+KSce9M1uj5nAS9NdA=</Integrity>
+      <Fingerprint>2khehxpdad</Fingerprint>
+      <Integrity>ngrzt8ELOzDSEyyyF0XvpXAtDnhmT9S2TjTBpyy8llE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\online-shop-website-template\checkout.html'))</OriginalItemSpec>

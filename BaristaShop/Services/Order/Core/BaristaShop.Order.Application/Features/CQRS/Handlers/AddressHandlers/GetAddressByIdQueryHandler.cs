@@ -25,8 +25,19 @@ namespace BaristaShop.Order.Application.Features.CQRS.Handlers.AddressHandlers
             return new GetAddressByIdQueryResult
             {
                 AddressId = value.AddressId,
-                City = value.City,
+                Name = value.Name,
+                Surname = value.Surname,
+                PhoneNumber = value.PhoneNumber,
+
+                Country = value.Country,
                 District = value.District,
+                City = value.City,
+
+                Detail1 = value.Detail1,
+                Detail2 = value.Detail2,
+                Description = value.Description,
+                ZipCode = value.ZipCode,
+
                 UserId = value.UserId,
             };
         }

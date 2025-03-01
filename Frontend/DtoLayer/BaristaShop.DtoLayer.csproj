@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <Folder Include="Dtos\CommentDtos\" />
+    <Folder Include="Dtos\OrderDtos\OrderDetailDtos\" />
+    <Folder Include="Dtos\OrderDtos\OrderingDtos\" />
   </ItemGroup>
 
 </Project>

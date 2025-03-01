@@ -1,0 +1,108 @@
+﻿@model List<GetAddressByUserId>
+
+<style>
+    .address-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .address-card {
+        display: flex;
+        align-items: center;
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        border: 2px solid transparent;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: 0.3s;
+        position: relative;
+    }
+
+        .address-card:hover {
+            background: #e9ecef;
+        }
+
+        .address-card input {
+            display: none;
+        }
+
+        .address-card.selected {
+            border-color: #007bff;
+            background: #e3f2fd;
+        }
+
+    .address-label {
+        font-size: 14px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #add-new-address-btn {
+        background: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        #add-new-address-btn:hover {
+            background: #0056b3;
+        }
+</style>
+
+<div class="address-container">
+    @if (Model.Count > 0)
+    {
+        @foreach (var address in Model)
+        {
+            <div class="address-card" onclick="selectAddress(this)">
+                <input type="radio" name="SelectedAddressId" value="@address.AddressId">
+                <label class="address-label">
+                    @address.Country - @address.City/@address.District - @address.ZipCode
+                </label>
+            </div>
+        }
+    } else {
+        <div class="alert alert-warning">Henüz bir adres eklenmemiş.</div>
+        
+    }
+    <div class="button-container">
+        <button type="button" id="add-new-address-btn">
+            @if (Model.Count > 0)
+            {
+                <text>Farklı bir adrese gönderim</text>
+            }
+            else
+            {
+                <text>Yeni Adres Ekle</text>
+            }
+        </button>
+    </div>
+</div>
+
+
+<script>
+    function selectAddress(card) {
+        document.querySelectorAll('.address-card').forEach(el => el.classList.remove('selected'));
+        card.classList.add('selected');
+        card.querySelector('input').checked = true;
+    }
+
+    function disableAddressSelection() {
+    document.querySelectorAll('.address-card').forEach(el => {
+        el.classList.add('disabled'); // Kartları devre dışı bırak
+        el.onclick = null; // Tıklanabilirliğini kaldır
+    });
+
+    }
+</script>

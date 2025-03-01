@@ -6516,17 +6516,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VgsbwrOhJ37xOc3Yre1RNKTvh3LKaCiP/4/8kO\u002BkQJY="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25619"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022VgsbwrOhJ37xOc3Yre1RNKTvh3LKaCiP/4/8kO\u002BkQJY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/online-shop-website-template/checkout.2khehxpdad.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\online-shop-website-template\checkout.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2khehxpdad"},{"Name":"integrity","Value":"sha256-ngrzt8ELOzDSEyyyF0XvpXAtDnhmT9S2TjTBpyy8llE="},{"Name":"label","Value":"_content/BaristaShop.WebUI/online-shop-website-template/checkout.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6617"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ngrzt8ELOzDSEyyyF0XvpXAtDnhmT9S2TjTBpyy8llE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 13:13:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/online-shop-website-template/checkout.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\online-shop-website-template\checkout.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Cg/bdvaXJVL\u002BFG3TP43iANjgX\u002BKSce9M1uj5nAS9NdA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"26457"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Cg/bdvaXJVL\u002BFG3TP43iANjgX\u002BKSce9M1uj5nAS9NdA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/online-shop-website-template/checkout.i9uj5z4s7s.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\online-shop-website-template\checkout.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i9uj5z4s7s"},{"Name":"integrity","Value":"sha256-Cg/bdvaXJVL\u002BFG3TP43iANjgX\u002BKSce9M1uj5nAS9NdA="},{"Name":"label","Value":"_content/BaristaShop.WebUI/online-shop-website-template/checkout.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26457"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Cg/bdvaXJVL\u002BFG3TP43iANjgX\u002BKSce9M1uj5nAS9NdA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ngrzt8ELOzDSEyyyF0XvpXAtDnhmT9S2TjTBpyy8llE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6617"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ngrzt8ELOzDSEyyyF0XvpXAtDnhmT9S2TjTBpyy8llE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 13:13:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BaristaShop.WebUI/online-shop-website-template/contact.2e2dfq58vt.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\online-shop-website-template\contact.html'))</AssetFile>

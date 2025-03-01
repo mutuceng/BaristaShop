@@ -25,6 +25,10 @@
       {
         "Path": "Services\\Basket\\BaristaShop.Basket\\BaristaShop.Basket.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Services\\Order\\Presentation\\BaristaShop.Order.WebApi\\BaristaShop.Order.WebApi.csproj",
+        "Action": "Start"
       }
     ]
   }

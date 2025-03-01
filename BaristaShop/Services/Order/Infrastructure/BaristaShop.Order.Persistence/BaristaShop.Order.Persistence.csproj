@@ -24,4 +24,8 @@
     <ProjectReference Include="..\..\Core\BaristaShop.Order.Domain\BaristaShop.Order.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

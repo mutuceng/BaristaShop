@@ -14,6 +14,6 @@ namespace BaristaShop.Order.Application.Interfaces
         Task UpdateAsync(T entity);
         Task DeleteAsync(T entity);
         Task CreateAsync(T entity);
-        Task<T> GetByFiltreAsync(Expression <Func<T,bool>> filter); //dynamic function
+        Task<List<T>> GetByFiltreAsync(Expression <Func<T,bool>> filter); //dynamic function
     }
 }

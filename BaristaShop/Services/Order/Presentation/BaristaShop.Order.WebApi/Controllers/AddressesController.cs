@@ -17,15 +17,17 @@ namespace BaristaShop.Order.WebApi.Controllers
         private readonly CreateAddressCommandHandler _createAddressCommandHandler;
         private readonly DeleteAddressCommandHandler _deleteAddressCommandHandler;
         private readonly UpdateAddressCommandHandler _updateAddressCommandHandler;
+        private readonly GetAddressByUserIdQueryHandler _getAddressByUserIdQueryHandler;
 
 
-        public AddressesController(GetAddressQueryHandler getAddressQueryHandler, GetAddressByIdQueryHandler getAddressByIdQueryHandler, DeleteAddressCommandHandler deleteAddressCommandHandler, UpdateAddressCommandHandler updateAddressCommandHandler, CreateAddressCommandHandler createAddressCommandHandler)
+        public AddressesController(GetAddressQueryHandler getAddressQueryHandler, GetAddressByIdQueryHandler getAddressByIdQueryHandler, DeleteAddressCommandHandler deleteAddressCommandHandler, UpdateAddressCommandHandler updateAddressCommandHandler, CreateAddressCommandHandler createAddressCommandHandler, GetAddressByUserIdQueryHandler getAddressByUserIdQueryHandler)
         {
             _getAddressQueryHandler = getAddressQueryHandler;
             _getAddressByIdQueryHandler = getAddressByIdQueryHandler;
             _deleteAddressCommandHandler = deleteAddressCommandHandler;
             _updateAddressCommandHandler = updateAddressCommandHandler;
             _createAddressCommandHandler = createAddressCommandHandler;
+            _getAddressByUserIdQueryHandler = getAddressByUserIdQueryHandler;
         }
 
         [HttpGet]
@@ -61,6 +63,13 @@ namespace BaristaShop.Order.WebApi.Controllers
         {
             await _updateAddressCommandHandler.Handle(command);
             return Ok("Successfully updated.");
+        }
+
+        [HttpGet("AddressByUserId")]
+        public async Task<IActionResult> GetAddressByUserId(string id)
+        {
+            var address = await _getAddressByUserIdQueryHandler.Handle(new GetAddressByUserIdQuery(id));
+            return Ok(address);
         }
     }
 }

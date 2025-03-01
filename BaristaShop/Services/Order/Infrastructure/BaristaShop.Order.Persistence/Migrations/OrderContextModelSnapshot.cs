@@ -34,7 +34,19 @@ namespace BaristaShop.Order.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Detail")
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Detail1")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Detail2")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -42,7 +54,23 @@ namespace BaristaShop.Order.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ZipCode")
                         .IsRequired()
                         .HasColumnType("text");
 

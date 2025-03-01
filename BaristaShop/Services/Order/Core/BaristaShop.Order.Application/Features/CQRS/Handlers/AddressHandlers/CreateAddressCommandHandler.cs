@@ -23,9 +23,19 @@ namespace BaristaShop.Order.Application.Features.CQRS.Handlers.AddressHandlers
         {
             await _repository.CreateAsync(new Address
             {
+                Name = createAddressCommand.Name,
+                Surname = createAddressCommand.Surname,
+                PhoneNumber = createAddressCommand.PhoneNumber,
+
+                Country = createAddressCommand.Country,               
                 City = createAddressCommand.City,
-                Detail = createAddressCommand.Detail,
                 District = createAddressCommand.District,
+
+                Detail1 = createAddressCommand.Detail1,
+                Detail2 = createAddressCommand.Detail2,
+                Description = createAddressCommand.Description,
+                ZipCode = createAddressCommand.ZipCode,
+
                 UserId = createAddressCommand.UserId,
 
             });

@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BaristaShop.Order.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class mig1 : Migration
+    public partial class Mig1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,9 +19,16 @@ namespace BaristaShop.Order.Persistence.Migrations
                     AddressId = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     UserId = table.Column<string>(type: "text", nullable: false),
-                    City = table.Column<string>(type: "text", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    Surname = table.Column<string>(type: "text", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "text", nullable: false),
+                    Country = table.Column<string>(type: "text", nullable: false),
                     District = table.Column<string>(type: "text", nullable: false),
-                    Detail = table.Column<string>(type: "text", nullable: false)
+                    City = table.Column<string>(type: "text", nullable: false),
+                    Detail1 = table.Column<string>(type: "text", nullable: false),
+                    Detail2 = table.Column<string>(type: "text", nullable: false),
+                    Description = table.Column<string>(type: "text", nullable: false),
+                    ZipCode = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {

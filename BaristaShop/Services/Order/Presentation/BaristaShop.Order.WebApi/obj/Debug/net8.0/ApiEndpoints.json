@@ -74,6 +74,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BaristaShop.Order.WebApi.Controllers.AddressesController",
+    "Method": "GetAddressByUserId",
+    "RelativePath": "api/Addresses/AddressByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BaristaShop.Order.WebApi.Controllers.OrderDetailsController",
     "Method": "OrderDetailList",
     "RelativePath": "api/OrderDetails",
