@@ -29,6 +29,7 @@ namespace BaristaShop.Order.Application.Features.Mediator.Handlers.OrderingHandl
                 OrderingId = value.OrderingId,
                 TotalPrice = value.TotalPrice,
                 UserId = value.UserId,
+                AddressId = value.AddressId,
 
             };
         }

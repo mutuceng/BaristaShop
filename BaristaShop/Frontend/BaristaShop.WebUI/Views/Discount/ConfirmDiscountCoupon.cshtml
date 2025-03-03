@@ -4,7 +4,7 @@
             <input name="code" type="text" class="form-control border-0 p-4" placeholder="Kupon Kodu">
             <div class="input-group-append">
                 <button class="btn btn-primary">Kuponu Uygula</button>
-                
+
             </div>
         </div>
         <div class="input-group mb-3">
@@ -33,14 +33,40 @@
                     <h6 class="font-weight-medium">@ViewBag.totalWithTax</h6>
                 </div>
             }
-            </div>
         </div>
-        <div class="pt-2">
-            <div class="d-flex justify-content-between mt-2">
+    </div>
+    <div class="pt-2">
+        <div class="d-flex justify-content-between mt-2">
+            @if (ViewBag.code != null)
+            {
                 <h5>KDV'li Toplam</h5>
-            <h5>@ViewBag.totalNewPriceWithDiscount TL</h5>
-            </div>
-            <button class="btn btn-block btn-primary font-weight-bold my-3 py-3">Ödeme Adımına Geç</button>
+                <h5>@ViewBag.totalNewPriceWithDiscount TL</h5>
+            }
+            else{
+                <h5>KDV'li Toplam</h5>
+                <h5>@ViewBag.totalWithTax TL</h5>
+            }
+
+
         </div>
+        @if (@ViewBag.hasProducts == true)
+        {
+            <form method="get" action="/Order/Index">
+
+                @if (ViewBag.code != null)
+                {
+                    <input type="hidden" name="discountRate" value="@ViewBag.discountRate" />
+
+                }
+
+                <input type="hidden" name="totalPrice" value="@ViewBag.total">
+                <input type="hidden" name="tax" value="@ViewBag.tax"/>
+                
+                
+                <button class="btn btn-block btn-primary font-weight-bold my-3 py-3">Ödeme Adımına Geç</button>
+
+            </form>
+
+        }
     </div>
 </div>

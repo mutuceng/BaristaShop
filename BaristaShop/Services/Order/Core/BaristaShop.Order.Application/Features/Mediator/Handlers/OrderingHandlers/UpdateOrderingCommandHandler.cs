@@ -28,6 +28,7 @@ namespace BaristaShop.Order.Application.Features.Mediator.Handlers.OrderingHandl
             value.OrderDate = request.OrderDate;
             value.TotalPrice = request.TotalPrice;
             value.UserId = request.UserId;
+            value.AddressId = request.AddressId;
 
             await _repository.UpdateAsync(value);
 

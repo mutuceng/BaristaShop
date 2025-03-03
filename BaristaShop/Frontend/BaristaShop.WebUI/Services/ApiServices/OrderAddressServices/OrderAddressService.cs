@@ -14,7 +14,7 @@ namespace BaristaShop.WebUI.Services.ApiServices.OrderAddressServices
 
         public async Task CreateOrderAddressAsync(CreateAddressDto createAddressDto)
         {
-            await _httpClient.PostAsJsonAsync("orders/addresses", createAddressDto);
+            await _httpClient.PostAsJsonAsync("Addresses", createAddressDto);
         }
 
         public async Task<List<GetAddressByUserId>> GetAddressByUserIdAsync(string id)

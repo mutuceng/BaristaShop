@@ -77,6 +77,14 @@
       "PackagePath": "staticwebassets\\images\\categoryImages\\e567f79c-8f89-46f4-9d1a-a9648a7009db_7da42a2967b2ade81a70f637b2cc9635.jpg"
     },
     {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\credit-card\\chip.png",
+      "PackagePath": "staticwebassets\\images\\credit-card\\chip.png"
+    },
+    {
+      "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\credit-card\\visa.png",
+      "PackagePath": "staticwebassets\\images\\credit-card\\visa.png"
+    },
+    {
       "Id": "C:\\Users\\Umutl\\Belgeler\\GitHub\\BaristaShop\\BaristaShop\\Frontend\\BaristaShop.WebUI\\wwwroot\\images\\homepageImages\\featureSlider\\4c77e20a-9dbf-461e-be33-821c345609e0_filtrekahve.jpeg",
       "PackagePath": "staticwebassets\\images\\homepageImages\\featureSlider\\4c77e20a-9dbf-461e-be33-821c345609e0_filtrekahve.jpeg"
     },

@@ -366,6 +366,27 @@
           }
         }
       }
+    },
+    "/api/Orderings/OrderingsByUserId": {
+      "get": {
+        "tags": [
+          "Orderings"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -456,6 +477,10 @@
           "userId": {
             "type": "string",
             "nullable": true
+          },
+          "addressId": {
+            "type": "integer",
+            "format": "int32"
           },
           "totalPrice": {
             "type": "number",
@@ -560,6 +585,10 @@
         "type": "object",
         "properties": {
           "orderingId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "addressId": {
             "type": "integer",
             "format": "int32"
           },

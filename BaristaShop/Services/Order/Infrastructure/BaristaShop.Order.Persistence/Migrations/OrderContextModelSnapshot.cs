@@ -122,6 +122,9 @@ namespace BaristaShop.Order.Persistence.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("OrderingId"));
 
+                    b.Property<int>("AddressId")
+                        .HasColumnType("integer");
+
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("timestamp with time zone");
 
@@ -133,6 +136,8 @@ namespace BaristaShop.Order.Persistence.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("OrderingId");
+
+                    b.HasIndex("AddressId");
 
                     b.ToTable("Orderings");
                 });
@@ -146,6 +151,17 @@ namespace BaristaShop.Order.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("Ordering");
+                });
+
+            modelBuilder.Entity("BaristaShop.Order.Domain.Entities.Ordering", b =>
+                {
+                    b.HasOne("BaristaShop.Order.Domain.Entities.Address", "Address")
+                        .WithMany()
+                        .HasForeignKey("AddressId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Address");
                 });
 
             modelBuilder.Entity("BaristaShop.Order.Domain.Entities.Ordering", b =>

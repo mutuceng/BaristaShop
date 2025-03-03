@@ -29,6 +29,7 @@ namespace BaristaShop.Order.Application.Features.Mediator.Handlers.OrderingHandl
                 OrderDate = x.OrderDate,
                 TotalPrice = x.TotalPrice,
                 UserId = x.UserId,
+                AddressId = x.AddressId,
 
             }).ToList();
 

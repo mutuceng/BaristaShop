@@ -17,6 +17,8 @@ wwwroot\images\categoryImages\bb7042ce-0996-44e5-a0c7-af3d8e2a5154_GhCF8HCWAAArz
 wwwroot\images\categoryImages\bebf1c60-947d-4607-bf0c-809fc42ab9bd_7da42a2967b2ade81a70f637b2cc9635.jpg
 wwwroot\images\categoryImages\d87b787b-9042-4b52-b32c-507d382272b9_GhCF8HCWAAArzGA.jpeg
 wwwroot\images\categoryImages\e567f79c-8f89-46f4-9d1a-a9648a7009db_7da42a2967b2ade81a70f637b2cc9635.jpg
+wwwroot\images\credit-card\chip.png
+wwwroot\images\credit-card\visa.png
 wwwroot\images\homepageImages\featureSlider\4c77e20a-9dbf-461e-be33-821c345609e0_filtrekahve.jpeg
 wwwroot\images\homepageImages\featureSlider\70959c21-42c0-476f-b927-0c281e800c37_filtrekahve.jpeg
 wwwroot\images\homepageImages\featureSlider\809992b5-df0e-4db2-91d0-b41660512165_espresso.jpg

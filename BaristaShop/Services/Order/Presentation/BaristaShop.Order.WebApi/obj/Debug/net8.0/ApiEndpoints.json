@@ -236,5 +236,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Order.WebApi.Controllers.OrderingsController",
+    "Method": "GetOrderingsByUserId",
+    "RelativePath": "api/Orderings/OrderingsByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

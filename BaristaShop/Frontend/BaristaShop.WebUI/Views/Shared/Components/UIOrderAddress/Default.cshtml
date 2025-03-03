@@ -3,13 +3,14 @@
 <style>
     .address-container {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap; /* Allow cards to wrap to the next line */
         gap: 10px;
         max-width: 400px;
         margin: auto;
     }
 
     .address-card {
+        flex: 1 1 calc(50% - 10px); /* Two cards per row with gap */
         display: flex;
         align-items: center;
         background: #f8f9fa;
@@ -34,36 +35,13 @@
             border-color: #007bff;
             background: #e3f2fd;
         }
-
-    .address-label {
-        font-size: 14px;
-    }
-
-    .button-container {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    #add-new-address-btn {
-        background: #007bff;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-
-        #add-new-address-btn:hover {
-            background: #0056b3;
-        }
 </style>
 
 <div class="address-container">
     @if (Model.Count > 0)
     {
         @foreach (var address in Model)
+            
         {
             <div class="address-card" onclick="selectAddress(this)">
                 <input type="radio" name="SelectedAddressId" value="@address.AddressId">

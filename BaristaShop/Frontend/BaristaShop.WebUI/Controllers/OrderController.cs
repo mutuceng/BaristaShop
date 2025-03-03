@@ -1,4 +1,5 @@
 ﻿using BaristaShop.DtoLayer.Dtos.OrderDtos.AddressDtos;
+using BaristaShop.WebUI.Models;
 using BaristaShop.WebUI.Services.ApiServices.OrderAddressServices;
 using BaristaShop.WebUI.Services.UserServices;
 using Microsoft.AspNetCore.Mvc;
@@ -17,13 +18,23 @@ namespace BaristaShop.WebUI.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public IActionResult Index(decimal totalPrice, decimal? discountRate, decimal tax)
         {
             ViewBag.directory1 = "BaristaShop";
             ViewBag.directory2 = "Siparişler";
             ViewBag.directory3 = "Sipariş İşlemleri";
 
-            return View(); // Yeni adres oluşturmak için boş DTO gönderin
+            var model = new OrderPhaseViewModel();
+
+            model.createAddressDto = new CreateAddressDto();
+            model.orderDetailViewModel = new OrderDetailViewModel
+            {
+                DiscountRate = discountRate,
+                TotalPrice = totalPrice,
+                Tax = 10
+            };
+
+            return View(model); // Yeni adres oluşturmak için boş DTO gönderin
         }
 
         [HttpPost]
@@ -33,10 +44,11 @@ namespace BaristaShop.WebUI.Controllers
 
             var values = await _userService.GetUserInfo();
             createAddressDto.UserId = values.Id;
+            createAddressDto.Description = "aa";
 
             await _orderAddressService.CreateOrderAddressAsync(createAddressDto);
 
-            return RedirectToAction("Index", "Payment");
+            return RedirectToAction("Index", "Order");
         }
     }
 }

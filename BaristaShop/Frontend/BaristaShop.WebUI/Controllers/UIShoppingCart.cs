@@ -22,6 +22,7 @@ namespace BaristaShop.WebUI.Controllers
             _discountService = discountService;
         }
 
+
         public async Task<IActionResult> Index(string code, int couponRate, double totalNewPriceWithDiscount)
         {
             ViewBag.directory1 = "Ana Sayfa";
@@ -32,8 +33,15 @@ namespace BaristaShop.WebUI.Controllers
             ViewBag.discountRate = couponRate;
             ViewBag.totalNewPriceWithDiscount = totalNewPriceWithDiscount;
 
+            bool hasProducts=false;
 
             var values = await _basketService.GetBasketAsync();
+            if (values != null)
+            {
+                hasProducts = true;
+            }
+
+            ViewBag.hasProducts = hasProducts;
             ViewBag.total = values.TotalPrice;
             
             var tax = values.TotalPrice / 100 * 10;

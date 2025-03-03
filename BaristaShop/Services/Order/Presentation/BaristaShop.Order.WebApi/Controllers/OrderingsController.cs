@@ -58,5 +58,13 @@ namespace BaristaShop.Order.WebApi.Controllers
             await _mediator.Send(command);
             return Ok("Ordering successfully updated.");
         }
+
+        [HttpGet("OrderingsByUserId")]
+        public async Task<IActionResult> GetOrderingsByUserId(string id)
+        {
+            var orderings = await _mediator.Send(new GetOrderingsByUserIdQuery(id));
+            return Ok(orderings);
+        }
+        // http://localhost:7082/api/Orderings/OrderingsByUserId?id=string
     }
 }
