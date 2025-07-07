@@ -7,7 +7,7 @@ namespace BaristaShop.WebUI.Services.ApiServices.OrderAddressServices
     {
         // Task<List<ResultAboutDto>> GetAllAboutAsync();
         Task CreateOrderAddressAsync(CreateAddressDto createAddressDto);
-        Task<List<GetAddressByUserId>> GetAddressByUserIdAsync(String id);
+        Task<List<GetAddressByUserId>> GetAddressByUserIdAsync(string id);
 
         //    Task UpdateAboutAsync(UpdateAboutDto updateAboutDto);
         //    Task DeleteAboutAsync(string id);

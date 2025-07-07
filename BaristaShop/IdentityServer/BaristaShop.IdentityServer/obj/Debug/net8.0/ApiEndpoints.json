@@ -32,6 +32,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BaristaShop.IdentityServer.Controller.StatisticsController",
+    "Method": "GetUserCount",
+    "RelativePath": "api/Statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BaristaShop.IdentityServer.Controller.UsersController",
     "Method": "GetUserInfo",
     "RelativePath": "api/Users/GetUserInfo",

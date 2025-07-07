@@ -5,6 +5,7 @@ using BaristaShop.WebUI.Services.ApiServices.CategoryServices;
 using BaristaShop.WebUI.Services.ApiServices.DiscountServices;
 using BaristaShop.WebUI.Services.ApiServices.FeatureSliderServices;
 using BaristaShop.WebUI.Services.ApiServices.OrderAddressServices;
+using BaristaShop.WebUI.Services.ApiServices.OrderOrderingServices;
 using BaristaShop.WebUI.Services.ApiServices.ProductDetailServices;
 using BaristaShop.WebUI.Services.ApiServices.ProductImageServices;
 using BaristaShop.WebUI.Services.ApiServices.ProductItemServices;
@@ -86,6 +87,11 @@ builder.Services.AddHttpClient<IDiscountService, DiscountService>(opt =>
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 builder.Services.AddHttpClient<IOrderAddressService, OrderAddressService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Order.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<IOrderingService, OrderingService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Order.Path}");
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();

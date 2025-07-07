@@ -28,6 +28,7 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
 
         [Route("Index")]
         public async Task<IActionResult> Index()
+        
         {
             ViewBag.v0 = "Kategori İşlemleri";
             ViewBag.v1 = "Kategori Listesi";

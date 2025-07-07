@@ -19,16 +19,16 @@
                             <tr>
                                 <th>#</th>
                                 <th>Kategori Adı</th>
-                                <th>Ürün Sayısı</th>
-                                <th style="width: 10%">İşlem</th>
+                                <th>Görsel</th>
+                                <th style="width: 20%">İşlem</th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
                                 <th>#</th>
                                 <th>Kategori Adı</th>
-                                <th>Ürün Sayısı</th>
-                                <th style="width: 10%">İşlem</th>
+                                <th>Görsel</th>
+                                <th style="width: 20%">İşlem</th>
                             </tr>
                         </tfoot>
 
@@ -41,11 +41,9 @@
                                     <td>@category.CategoryName</td>
                                     <td>
                                         @*~/@category.CategoryImage    *@   
-                                        <img src="" alt="baristashop @category.CategoryName" style="width: 100px; height: auto;" />
+                                            <img src="~/@category.CategoryImage" alt="baristashop @category.CategoryName" style="width: 100px; height: auto;" />
                                     </td>
-                                    <td>
 
-                                    </td>
                                     <td>
                                         <div class="form-button-action">
                                             <a href="/Admin/Category/UpdateCategory/@category.CategoryId" class="btn btn-link btn-primary">

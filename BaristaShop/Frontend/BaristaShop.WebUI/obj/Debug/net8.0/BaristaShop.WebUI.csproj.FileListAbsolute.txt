@@ -250,12 +250,6 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebU
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.BaristaShop.WebUI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.BaristaShop.WebUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.build.BaristaShop.WebUI.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BaristaShop.WebUI.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BaristaShop.WebUI.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\BaristaS.DECD4A98.Up2Date
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\BaristaShop.WebUI.dll
@@ -265,3 +259,8 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebU
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\ref\BaristaShop.WebUI.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\IdentityModel.AspNetCore.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\Frontend\BaristaShop.WebUI\obj\Debug\net8.0\staticwebassets.build.json.cache

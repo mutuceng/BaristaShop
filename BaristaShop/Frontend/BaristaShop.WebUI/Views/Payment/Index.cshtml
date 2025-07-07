@@ -1,9 +1,50 @@
-﻿
+﻿@model OrderingViewModel
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/UILayout/_UILayout.cshtml";
 }
 
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<style>
+        /* Modal arkaplanını transparan yap */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Yarı saydam arkaplan */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            display: none; /* Başlangıçta gizli olacak */
+        }
+
+        .loading-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #007bff;
+            border-top: 4px solid transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: auto;
+        }
+
+        @@keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
 <style>
 * {
     font-family: 'Poppins', sans-serif;
@@ -215,7 +256,7 @@ padding: 0 20px;
         </div>
     </div>
 
-    <form action="" id="payment-form">
+    <form method="post" id="payment-form" action="Ordering">
         <div class="inputBox">
             <span>card number</span>
             <input type="text" id="credit-card" maxlength="19" class="card-number-input" />
@@ -264,13 +305,24 @@ padding: 0 20px;
                 <input type="text" maxlength="4" id="cvv" class="cvv-input">
             </div>
         </div>
-        <input type="submit" value="submit" class="submit-btn">
+
+        <input type="hidden" name="AddressId" value="@Model.AddressId"/>
+        <input type="hidden" name="DiscountRate" value="@Model.DiscountRate" />
+        <button type="submit" value="submit" class="submit-btn"/>
     </form>
 </div>
 
+<div id="loadingOverlay" class="loading-overlay">
+    <div class="loading-box">
+        <div class="spinner"></div>
+        <p>Yükleniyor, lütfen bekleyin...</p>
+    </div>
+</div>
 
 <script>
-    document.getElementById('payment-form').addEventListener('submit', function (e) {
+    document.getElementById("payment-form").addEventListener("submit", function(event) {
+        event.preventDefault(); // Formun hemen gönderilmesini engelle
+
         let valid = true;
         let errorMessage = "";  // İlk hata mesajını tutacak değişken
 
@@ -278,38 +330,46 @@ padding: 0 20px;
         var creditCard = document.getElementById('credit-card').value;
         if (!creditCard || creditCard.length < 16 || creditCard.length > 19) {
             valid = false;
-            errorMessage = "Geçerli bir kart numarası girin.";  // Hata mesajını ayarla
+            errorMessage = "Geçerli bir kart numarası girin.";
         }
 
         // Kart sahibi kontrolü
         var cardHolder = document.getElementById('card-holder').value;
         if (!cardHolder) {
             valid = false;
-            errorMessage = "Kart sahibinin adı boş olamaz.";  // Hata mesajını ayarla
+            errorMessage = "Kart sahibinin adı boş olamaz.";
         }
 
-        // Son kullanma tarihi (ay ve yıl) kontrolü
+        // Son kullanma tarihi kontrolü
         var expirationMonth = document.getElementById('expiration-month').value;
         var expirationYear = document.getElementById('expiration-year').value;
         if (expirationMonth === "month" || expirationYear === "year") {
             valid = false;
-            errorMessage = "Geçerli bir son kullanma tarihi seçin.";  // Hata mesajını ayarla
+            errorMessage = "Geçerli bir son kullanma tarihi seçin.";
         }
 
         // CVV kontrolü
         var cvv = document.getElementById('cvv').value;
         if (!cvv || cvv.length < 3 || cvv.length > 4) {
             valid = false;
-            errorMessage = "Geçerli bir CVV girin.";  // Hata mesajını ayarla
+            errorMessage = "Geçerli bir CVV girin.";
         }
 
-        // Hata mesajı varsa kullanıcıya göster
+        // Eğer doğrulama başarısızsa hata mesajını göster ve işlemi durdur
         if (!valid) {
-            e.preventDefault();
-            alert(errorMessage);  // İlk hata mesajını göster
+            alert(errorMessage);
+            return; // Form gönderme işlemini sonlandır
         }
+
+        // Eğer doğrulama başarılıysa yükleme ekranını göster
+        document.getElementById("loadingOverlay").style.display = "flex";
+
+        setTimeout(() => {
+            event.target.submit(); // 3 saniye sonra formu gönder
+        }, 3000);
     });
 </script>
+
 <script>
 
 document.querySelector('.card-number-input').oninput = () =>{

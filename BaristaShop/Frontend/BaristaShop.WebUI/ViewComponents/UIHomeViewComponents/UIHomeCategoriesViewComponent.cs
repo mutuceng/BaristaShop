@@ -29,7 +29,7 @@ namespace BaristaShop.WebUI.ViewComponents.UIHomeViewComponents
             {
                 CategoryId = category.CategoryId,
                 CategoryName = category.CategoryName,
-                // CategoryImage = category.CategoryImage, // Varsayalım ki kategori resimleri mevcut
+                CategoryImage = category.CategoryImage, // Varsayalım ki kategori resimleri mevcut
                 ProductCount = products.Count(product => product.CategoryId == category.CategoryId)
             }).ToList();
 

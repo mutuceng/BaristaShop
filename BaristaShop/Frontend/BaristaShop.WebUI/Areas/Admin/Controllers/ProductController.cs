@@ -93,6 +93,13 @@ namespace BaristaShop.WebUI.Areas.Admin.Controllers
             return View(model);
         }
 
+        [Route("DeleteProduct/{id}")]
+        public async Task<IActionResult> DeleteProduct(string id)
+        {
+            await _productService.DeleteProductAsync(id);
+            return RedirectToAction("Index", "Product", new { area = "Admin" });
+        }
+
         // Genel bir API çağrısı yapmak için yardımcı yöntem
         private async Task<T?> FetchDataAsync<T>(string url)
         {

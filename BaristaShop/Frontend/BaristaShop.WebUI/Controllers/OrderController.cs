@@ -34,7 +34,7 @@ namespace BaristaShop.WebUI.Controllers
                 Tax = 10
             };
 
-            return View(model); // Yeni adres oluşturmak için boş DTO gönderin
+            return View(model); 
         }
 
         [HttpPost]

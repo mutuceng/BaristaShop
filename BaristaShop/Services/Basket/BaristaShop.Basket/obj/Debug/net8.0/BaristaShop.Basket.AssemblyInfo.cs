@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaristaShop.Basket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1a15aaca909248b015eae051e243f1ed23af724")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ecb859118ef86dfcc4c041ba565bcb9eb6d8e01")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaristaShop.Basket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaristaShop.Basket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

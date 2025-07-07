@@ -74,7 +74,7 @@
             @await Component.InvokeAsync("UIOrderOrderSummary", Model.orderDetailViewModel)
 
             <form method="get" id="paymentForm" action="/Payment/Index">
-                <input type="hidden" id="selectedAddressId" name="addressId">
+                <input type="hidden" id="selectedAddressId" name="AddressId">
                 <input type="hidden" name="DiscountRate" value="orderDetailViewModel.DiscountRate">
                 <button type="submit" class="btn btn-block btn-primary font-weight-bold py-3">Ödeme Adımına Geç</button>
             </form>

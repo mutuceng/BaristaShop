@@ -692,6 +692,56 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BaristaShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetCategoryCount",
+    "RelativePath": "api/Statistics/GetCategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetMaxPriceProductName",
+    "RelativePath": "api/Statistics/GetMaxPriceProductName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetMinPriceProductName",
+    "RelativePath": "api/Statistics/GetMinPriceProductName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetProductAvgPrice",
+    "RelativePath": "api/Statistics/GetProductAvgPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BaristaShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetProductCount",
+    "RelativePath": "api/Statistics/GetProductCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BaristaShop.Catalog.Controllers.VariantOptionsController",
     "Method": "CategoryFeatureValueList",
     "RelativePath": "api/VariantOptions",

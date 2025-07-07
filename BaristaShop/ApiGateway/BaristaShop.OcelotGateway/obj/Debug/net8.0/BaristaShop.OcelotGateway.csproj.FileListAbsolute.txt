@@ -29,12 +29,6 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.Oc
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets\msbuild.BaristaShop.OcelotGateway.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets\msbuild.BaristaShop.OcelotGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.BaristaShop.OcelotGateway.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BaristaShop.OcelotGateway.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BaristaShop.OcelotGateway.props
-C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\BaristaS.1EA0FC52.Up2Date
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\BaristaShop.OcelotGateway.dll
@@ -51,3 +45,8 @@ C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.Oc
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Umutl\Belgeler\GitHub\BaristaShop\BaristaShop\ApiGateway\BaristaShop.OcelotGateway\obj\Debug\net8.0\staticwebassets.build.json.cache
